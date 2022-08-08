@@ -1,0 +1,36 @@
+body {
+ background: pink;
+ font-family: "Hannari";
+ height: 100vh;
+}
+
+.container {
+ width: 70%;
+ margin: auto;
+ text-align: center;
+}
+
+h1 {
+ font-size: 4rem;
+ color: #eee;
+ text-shadow: 3px 0 #252525;
+}
+
+button {
+ font-size: 2rem;
+ color: #ffc0cb;
+ background-color: #f00;
+ margin: 20px;
+ padding: 5px;
+ border-radius: 10px;
+ transition-duration: 0.4s;
+ -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+button:hover {
+ color: #fff;
+}
+
+.kuji {
+ width: 200px;
+}
