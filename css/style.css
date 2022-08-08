@@ -1,5 +1,5 @@
 body {
- background: pink;
+ background: white;
  font-family: "Hannari";
  height: 100vh;
 }
@@ -31,6 +31,26 @@ button:hover {
  color: #fff;
 }
 
+a {
+ font-size: 2rem;
+ color: #ffc0cb;
+ background-color: #f00;
+ margin: 20px;
+ padding: 5px;
+ border-radius: 10px;
+ text-decoration: none;
+ transition-duration: 0.4s;
+ -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+a:hover {
+ color: #fff;
+}
+
 .kuji {
+ width: 200px;
+}
+
+.kujikekka {
  width: 200px;
 }
