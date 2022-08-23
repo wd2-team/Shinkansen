@@ -4,3 +4,8 @@ function drawKuji() {
    // document.querySelectorAll("button")[0].innerHTML = "もう一度引く";
 }
 window.onload = drawKuji;
+
+$(function(){
+
+
+});
