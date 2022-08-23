@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		<div id="topbottom">
-			<img src="images/train-1.png">
+			<img class="slideUp" src="images/train-1.png">
 		</div>
 	</div><!-- #topwrapper -->
 	<footer>

@@ -164,19 +164,34 @@ animation-delay: 3.2s;
   opacity: 0;
 }
 .fadeUp {
-animation-name:fadeUpAnime;
-animation-duration:1s;
-animation-fill-mode:forwards;
-opacity: 0;
+  animation-name:fadeUpAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity: 0;
 }
 @keyframes fadeUpAnime{
   from {
     opacity: 0;
-  transform: translateY(20px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
-  transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.slideUp {
+  animation-name:slideUpAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  animation-delay: 3.5s;
+  transform: translateY(100px);
+}
+@keyframes slideUpAnime{
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
   }
 }
 
