@@ -124,6 +124,19 @@
 		  </div>
 		</div>
 	</div>
+	<div id="c19" class="telop">
+		<p>新型コロナウイルス感染症対策を行い運営されています</p>
+	</div>
+	<div id="siteinfo">
+		<div><a href="#">諫早市公式サイト↘</a></div>
+		<div><a href="#">JR九州公式サイト↘</a></div>
+	</div>
+	<div id="event">
+		<p>諫早市新幹線開通記念イベント</p>
+	</div>
+	<div id="movie">
+		<img src="images/kingashinnen.png">
+	</div>
 	<footer>
 	</footer>
 </div><!-- #wrapper -->

@@ -68,6 +68,7 @@ body {
 }
 a {
 	text-decoration: none;
+  color: #ffffff;
 }
 button {
   background-color: transparent;
@@ -211,7 +212,22 @@ animation-delay: 3.2s;
   49%{ color : #ffffff; background:#B40019; }
   51%{ color : #B40019; background:#ffffff; }
  100%{ color : #B40019; background:#ffffff; }
-
+}
+.telop {
+  width : 100%;
+  overflow : hidden;
+}
+.telop p {
+  margin: 0;
+  display : inline-block;
+  padding-left: 100%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation : telopAnime 20s linear infinite;
+}
+@keyframes telopAnime{
+   0% { transform: translateX(0)    }
+ 100% { transform: translateX(-100%)}
 }
 
 /* .page */
@@ -379,4 +395,53 @@ header {
   height: 100px;
   display: inline-block;
   padding-right: calc((25vw + 6px) / 2 - 16px - 5vw);
+}
+#c19 {
+  position: relative;
+  font-size: 13px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: #B40019;
+}
+#siteinfo {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  letter-spacing: -.4em;
+}
+#siteinfo div {
+  display: inline-block;
+  width: calc(100% / 2);
+  height: 100%;
+  letter-spacing: normal;
+  height: 100%;
+  font-size: 13px;
+  line-height: 44px;
+  color : #ffffff;
+  background:#B40019;
+}
+#siteinfo div:first-child {
+  border-right: 1px #ffffff solid;
+}
+#siteinfo div:nth-child(2) {
+  border-left: 1px #ffffff solid;
+}
+#event {
+  position: relative;
+  width: 100%;
+}
+#event p {
+  width: 100%;
+  color: #B40019;
+  font-size: 15px;
+  margin: 19px auto;
+}
+#movie {
+  position: relative;
+  width: 100%;
+  background-color: #B40019;
+}
+#movie img {
+  width: 100%;
+  height: auto;
 }
