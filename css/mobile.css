@@ -183,7 +183,7 @@ animation-delay: 3.2s;
   animation-name:slideUpAnime;
   animation-duration:1s;
   animation-fill-mode:forwards;
-  animation-delay: 3.5s;
+  animation-delay: 4s;
   transform: translateY(100px);
 }
 @keyframes slideUpAnime{
@@ -230,6 +230,11 @@ animation-delay: 3.2s;
 }
 
 /* top */
+#indexwrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 #topwrapper {
   position: relative;
   width: 100%;
@@ -285,6 +290,7 @@ header {
   height: 109px;
   letter-spacing: -.4em;
   border-bottom: 2px solid #ffffff;
+  z-index: 100;
 }
 #headchouchin1,
 #headchouchin2,
@@ -303,4 +309,74 @@ header {
   width: calc(100% / 3);
   height: auto;
   padding: 7px;
+}
+#headlink {
+  position: relative;
+  width: 100%;
+  letter-spacing: -.4em;
+}
+#headlink label {
+  width: calc(100% / 2);
+  height: 49px;
+  line-height: 49px;
+  display: inline-block;
+  letter-spacing: normal;
+  background-color: #B40019;
+  color: #ffffff;
+}
+#headlink label:first-child {
+  border-right: 1px #ffffff solid;
+}
+#headlink label:nth-child(2) {
+  border-left: 1px #ffffff solid;
+}
+#mainimage {
+  position: relative;
+  width: 100%;
+}
+#mainimage img {
+  width: 100%;
+  height: auto;
+}
+#guide {
+  position: relative;
+  width: 100%;
+  letter-spacing: -.4em;
+}
+#guide label.guidelabel {
+  position: relative;
+  width: calc(100% / 4);
+  height: 205px;
+  font-size: 15px;
+  line-height: 22px;
+  display: inline-block;
+  letter-spacing: normal;
+  border-top: 3px solid #B40019;
+  border-bottom: 3px solid #B40019;
+}
+#guide label.guidelabel p,
+#guide label.guidelabel div {
+  position: relative;
+  writing-mode: vertical-rl;
+  width: 100%;
+  height: 100%;
+}
+#guide label.guidelabel:first-child p,
+#guide label.guidelabel:nth-child(2) p {
+  padding-right: calc((25vw - 22px * 2) / 2);
+}
+#guide label.guidelabel:nth-child(4) p {
+  padding-right: calc((25vw - 22px) / 2);
+}
+#guide label.guidelabel:nth-child(3) span {
+  width: 100%;
+  writing-mode: horizontal-tb;
+  display: inline-block;
+}
+#guide label.guidelabel:nth-child(3) p {
+  width: 60%;
+  border: 3px solid;
+  height: 100px;
+  display: inline-block;
+  padding-right: calc((25vw + 6px) / 2 - 16px - 5vw);
 }

@@ -7,14 +7,15 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="西九州新幹線開通元年">
 	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
+	<!-- <meta http-equiv="refresh" content="5;URL=index.php"> -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
-  	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
+	<meta http-equiv="refresh" content="5;URL=main.php">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <?php elseif( is_tablet()) : ?>
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
@@ -24,51 +25,36 @@
 	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
 </head>
 <body>
-<div id="wrapper">
-	<header>
-		<div id="headchouchin1" class="blinkred">
-			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
+<div id="indexwrapper">
+	<div id="topwrapper">
+		<div id="topimages">
+			<div id="topleft">
+				<img class="delay-time07 fadeUp" src="images/o.png">
+				<img class="delay-time08 fadeUp" src="images/me.png">
+				<img class="delay-time09 fadeUp" src="images/de.png">
+				<img class="delay-time10 fadeUp" src="images/to.png">
+				<img class="delay-time11 fadeUp" src="images/u.png">
+				<img class="delay-time12 fadeUp" src="images/go.png">
+				<img class="delay-time13 fadeUp" src="images/za.png">
+				<img class="delay-time14 fadeUp" src="images/i.png">
+				<img class="delay-time15 fadeUp" src="images/ma.png">
+				<img class="delay-time16 fadeUp" src="images/su.png">
 			</div>
-			<p>9.23</p>
-		</div>
-		<div id="headchouchin2" class="blinkwhite">
-			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
+			<div id="topright">
+				<img class="fadeUp" src="images/tsu.png">
+				<img class="delay-time01 fadeUp" src="images/na.png">
+				<img class="delay-time02 fadeUp" src="images/ga.png">
+				<img class="delay-time03 fadeUp" src="images/ri.png">
+				<img class="delay-time04 fadeUp" src="images/ma.png">
+				<img class="delay-time05 fadeUp" src="images/shi.png">
+				<img class="delay-time06 fadeUp" src="images/te.png">
 			</div>
-			<p>9.24</p>
 		</div>
-		<div id="headchouchin3" class="blinkred">
-			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-			</div>
-			<p>9.25</p>
+		<div id="topbottom">
+			<img class="slideUp" src="images/train-1.png">
 		</div>
-	</header>
-	<div id="headlink">
-		<label for="modal-trigger01">モーダルが開きます</label>
-		<div class="modal">
-		  <input id="modal-trigger01" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <label for="modal-trigger01" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">　/*a-centerがウィンドウを中心に設置*/
-		      <label for="modal-trigger01" class="close">&#10006;</label>
-		      <h2>モーダルのタイトル</h2>
-		      <p>テキストテキストテキストテキストテキスト</p>
-		    </div>
-		  </div>
-		</div>
-	</div>
-	
-	<footer>
-	</footer>
-</div><!-- #wrapper -->
+	</div><!-- #topwrapper -->
+</div><!-- #indexwrapper -->
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
