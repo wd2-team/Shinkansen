@@ -229,6 +229,30 @@ animation-delay: 3.2s;
    0% { transform: translateX(0)    }
  100% { transform: translateX(-100%)}
 }
+.scrollWrap {
+  scroll-snap-type: x mandatory;
+  overflow: auto;
+  display: flex;
+  width: 100%;
+}
+.scrollWrap::-webkit-scrollbar {
+  display: none;
+}
+.scrollWrap .cont {
+  scroll-snap-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.scrollWrap .cont:first-child {
+  padding-left: 5vw;
+}
+.scrollWrap .cont:last-child {
+  padding-right: 5vw;
+}
 
 /* .page */
 .page {
@@ -490,23 +514,71 @@ header {
   position: relative;
   width: 100%;
 }
-#area01 {
+#area01,
+#area02,
+#area03 {
   position: relative;
   width: 100%;
 }
-.scrollWrap {
-  scroll-snap-type: x mandatory;
-  overflow: auto;
-  height: 100vh;
-  display: flex;
+#area01 p,
+#area02 p,
+#area03 p {
+  font-size: 15px;
+  line-height: 45px;
+  margin-top: 27px;
+  color: #B30018;
+}
+#insta {
+  position: relative;
   width: 100%;
 }
-.scrollWrap .cont {
-  scroll-snap-align: start;
-  display: flex;
-  flex-wrap: wrap;
-  flex: none;
-  justify-content: center;
-  align-items: center;
+#insta #instatitle {
+  color: #B40019;
+  background-color: #ffffff;
+  font-size: 15px;
+  height: 118px;
+  padding-top: 44px;
+}
+#insta #instatitle span {
+  font-size: 12px;
+}
+#insta #instacontent {
+  height: 300px;
+}
+footer {
+  position: relative;
   width: 100%;
+  background: linear-gradient(45deg, #ffffff 25%, transparent 25%, transparent 75%, #ffffff 75%),
+              linear-gradient(45deg, #ffffff 25%, transparent 25%, transparent 75%, #ffffff 75%);
+  background-color: #B40019;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  overflow: hidden;
+}
+footer #footerwrapper {
+  width: calc(100vw - 120px);
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+}
+footer #footerwrapper #footerimg01 {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 95px;
+}
+footer #footerwrapper ul li a {
+  color: #B40019;
+  font-size: 13px;
+  display: inline-block;
+  margin: 10px;
+}
+footer #footerwrapper p {
+  color: #B40019;
+  position: relative;
+  bottom: -80px;
+}
+footer #footerwrapper #footerimg02 {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: -10px;
 }

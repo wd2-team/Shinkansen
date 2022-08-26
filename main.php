@@ -149,26 +149,84 @@
 	</div>
 	<div id="area">
 		<div id="area01">
+			<p>市役所前広場エリア</p>
 			<div class="scrollWrap"> 
-			  <section class="cont">
-			    <img src="images/brochure01.jpg">
-			  </section>  
-			  <section class="cont">
-			    <img src="images/brochure01.jpg">
-			  </section>    
-			  <section class="cont">
-			    <img src="images/brochure01.jpg">
-			  </section>
-			  <section class="cont">
-			    <img src="images/brochure01.jpg">
-			  </section>
-			  <section class="cont">
-			    <img src="images/brochure01.jpg">
-			  </section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+			</div>
+		</div>
+		<div id="area02">
+			<p>アエル中央商店街エリア</p>
+			<div class="scrollWrap"> 
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+			</div>
+		</div>
+		<div id="area03">
+			<p>その他開通イベント</p>
+			<div class="scrollWrap"> 
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
+				<section class="cont">
+					<img src="images/brochure01.jpg">
+				</section>
 			</div>
 		</div>
 	</div>
+	<div id="insta">
+		<div id="instatitle">公式インスタグラム<br><span>@kaitsu_gannen_isahaya</span></div>
+		<div id="instacontent"></div>
+	</div>
 	<footer>
+		<div id="footerwrapper">
+			<img id="footerimg01" src="images/kingashinnen.png">
+			<ul>
+				<li><a href="#">トップ画面</a></li>
+				<li><a href="#">おみくじ</a></li>
+				<li><a href="#">利用規約</a></li>
+				<li><a href="#">プライバシーポリシー</a></li>
+				<li><a href="#">諫早市公式サイト</a></li>
+				<li><a href="#">JR九州公式サイト</a></li>
+			</ul>
+			<p>2022©Isahaya-shi</p>
+			<img id="footerimg02" src="images/train-1.png">
+		</div>
 	</footer>
 </div><!-- #wrapper -->
 <script type="text/javascript" src="js/main.js"></script>
