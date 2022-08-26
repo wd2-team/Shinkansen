@@ -134,8 +134,39 @@
 	<div id="event">
 		<p>諫早市新幹線開通記念イベント</p>
 	</div>
-	<div id="movie">
+	<div id="movieinfo">
 		<img src="images/kingashinnen.png">
+	</div>
+	<div id="movie">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div id="brochure">
+		<div id="brochuretitle">総合案内パンフレット</div>
+		<div id="brochurecontent">
+			<img src="images/brochure01.jpg">
+			<a href="images/kouhouisahaya.pdf">ここから全ての案内がご覧になれます↘</a>
+		</div>
+	</div>
+	<div id="area">
+		<div id="area01">
+			<div class="scrollWrap"> 
+			  <section class="cont">
+			    <img src="images/brochure01.jpg">
+			  </section>  
+			  <section class="cont">
+			    <img src="images/brochure01.jpg">
+			  </section>    
+			  <section class="cont">
+			    <img src="images/brochure01.jpg">
+			  </section>
+			  <section class="cont">
+			    <img src="images/brochure01.jpg">
+			  </section>
+			  <section class="cont">
+			    <img src="images/brochure01.jpg">
+			  </section>
+			</div>
+		</div>
 	</div>
 	<footer>
 	</footer>
