@@ -12,6 +12,16 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
+  	<script>
+  (function(d) {
+    var config = {
+      kitId: 'nje0qay',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f%7C%7Ca&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
   	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
@@ -78,10 +88,13 @@
 	<div id="mainimage">
 		<img src="images/kaitsu-gannen.svg">
 	</div>
+	<div id="maindate">
+		<p>9月23日･24日･25日 ／ 諫早市内の各会場で開催</p>
+	</div>
 	<div id="guide">
 		<label for="modal-trigger03" class="guidelabel blinkwhite"><p>イーサ駅構内<br>セレモニーのご案内</p></label>
 		<label for="modal-trigger04" class="guidelabel blinkred"><p>シャトルバスの<br>ご案内</p></label>
-		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>開通元年</span><p>おみくじ</p><span>2022</span></div></label>
+		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><span>ISAHAYA&ensp;ONLY</span><p><img src="images/kuji1.png"></p><span>開通祈願</span></div></label>
 		<label for="modal-trigger06" class="guidelabel blinkred"><p>駐車場のご案内</p></label>
 		<div class="modal">
 		  <input id="modal-trigger03" class="checkbox" type="checkbox">
@@ -132,7 +145,7 @@
 		<div><a href="#">JR九州公式サイト↘</a></div>
 	</div>
 	<div id="event">
-		<p>諫早市新幹線開通記念イベント</p>
+		<p>主催：諫早市新幹線開業記念事業実行委員会</p>
 	</div>
 	<div id="movieinfo">
 		<img src="images/kingashinnen.png">
