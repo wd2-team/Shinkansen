@@ -269,6 +269,43 @@ animation-delay: 3.2s;
   height: 2000px;
 }
 
+/* #countdown */
+#countdownwrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/3x3.svg'), url('../images/3x3.svg');
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 60px;
+}
+#countdownwrapper img {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+#countdownwrapper p {
+  color: #B40019;
+  font-weight: bold;
+}
+#countdownwrapper p:first-child {
+  font-size: 25px;
+}
+#countdownwrapper p:nth-child(2) {
+  font-size: 40px;
+  line-height: 100px;
+}
+#countdownwrapper p:nth-child(2) span {
+  font-size: 100px;
+}
+#countdownwrapper p:nth-child(3) {
+  font-size: 13px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 93px;
+}
+
 /* top */
 #indexwrapper {
   position: relative;
