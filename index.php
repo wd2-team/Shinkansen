@@ -7,7 +7,6 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="西九州新幹線開通元年">
 	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
-	<!-- <meta http-equiv="refresh" content="5;URL=index.php"> -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"

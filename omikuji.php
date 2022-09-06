@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="jp" dir="ltr">
-
+<html class="result" lang="ja">
 <head>
- <meta charset="utf-8">
- <title>おみくじ</title>
- <link rel="stylesheet" href="css/style.css">
- <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="ja">
+	<meta name="description" content="西九州新幹線開通元年　つながりましておめでとうございます">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="西九州新幹線開通元年">
+	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script
+  	src="https://code.jquery.com/jquery-2.2.4.js"
+  	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  	crossorigin="anonymous"></script>
+  	<script>
+  (function(d) {
+    var config = {
+      kitId: 'nje0qay',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f%7C%7Ca&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
+  	<?php if( is_mobile()) : ?>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <?php elseif( is_tablet()) : ?>
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    <?php else: ?>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <?php endif; ?>
+	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
 </head>
-
 <body>
- <div class="container">
-   <h1>おみくじ</h1>
-   <img class="kuji" src="images/start.png">
-   <p><a href="kekka.php">くじを引く</a></p>
- </div>
+<div id="omikujiwrapper" class="page">
+ 	<img src="images/kaitsu-gannen.svg">
+	<p><a href="kekka.php"><img src="images/kuji1.png"></a></p>
+</div>
 
-<script src="main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>

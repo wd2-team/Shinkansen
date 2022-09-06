@@ -274,36 +274,39 @@ animation-delay: 3.2s;
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url('../images/3x3.svg'), url('../images/3x3.svg');
+  background-image: url('../images/2x3.svg'), url('../images/2x3.svg');
   background-position: left top, left bottom;
   background-repeat: repeat-x, repeat-x;
-  background-size: 60px;
+  background-size: calc(100vw / 8.5);
 }
-#countdownwrapper img {
+#countcontent {
   width: 100%;
-  margin-top: 150px;
-  margin-bottom: 90px;
+  position: relative;
 }
-#countdownwrapper p {
+#countdownwrapper #countcontent img {
+  width: 100%;
+  margin-top: 17vh;
+  margin-bottom: 10vh;
+}
+#countdownwrapper #countcontent p {
   color: #B40019;
   font-weight: bold;
 }
-#countdownwrapper p:first-child {
-  font-size: 25px;
+#countdownwrapper #countcontent p:first-child {
+  font-size: calc(25px + (100vh - 850px) * 0.01);
 }
-#countdownwrapper p:nth-child(2) {
-  font-size: 40px;
-  line-height: 100px;
+#countdownwrapper #countcontent p:nth-child(2) {
+  font-size: calc(40px + (100vh - 850px) * 0.1);
+  line-height: calc(100px + (100vh - 850px) * 0.1);
 }
-#countdownwrapper p:nth-child(2) span {
-  font-size: 100px;
+#countdownwrapper #countcontent p:nth-child(2) span {
+  font-size: calc(100px + (100vh - 850px) * 0.1);
+  letter-spacing: -.03em;
 }
-#countdownwrapper p:nth-child(3) {
-  font-size: 13px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 93px;
+#countdownwrapper #countcontent p:nth-child(3) {
+  font-size: calc(13px + (100vh - 850px) * 0.01);
+  position: relative;
+  bottom: calc((750px - 100vh) / 3);
 }
 
 /* top */
@@ -645,4 +648,19 @@ footer #footerwrapper #footerimg02 {
   width: 100%;
   margin-top: 100px;
   margin-bottom: -10px;
+}
+
+/* omikuji */
+#omikujiwrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/3x3.svg'), url('../images/3x3.svg');
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 60px;
+}
+
+.kujikekka {
+ width: 200px;
 }
