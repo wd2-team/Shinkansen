@@ -38,7 +38,7 @@
   <div id="countcontent">
   	<img src="images/kaitsu-gannen.svg">
   	<div id=count class="container">
-  		<p>西九州新幹線開通まで</p>
+  		<p>西九州新幹線開業まで</p>
   		<p>あと<span class="today"></span>日</p>
   		<p>主催：諫早市新幹線開業記念事業実行委員会</p>
   	</div>
