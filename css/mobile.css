@@ -290,7 +290,7 @@ animation-delay: 3.2s;
 }
 #countdownwrapper #countcontent p {
   color: #B40019;
-  font-weight: bold;
+  font-weight: 800;
 }
 #countdownwrapper #countcontent p:first-child {
   font-size: calc(25px + (100vh - 850px) * 0.01);

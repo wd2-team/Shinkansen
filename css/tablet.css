@@ -174,39 +174,80 @@ a:hover {
 /* #countdown */
 #countdownwrapper {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
-  background-image: url('../images/5x2.svg'), url('../images/5x2.svg');
-  background-position: left top, right top;
-  background-repeat: repeat-y, repeat-y;
-  background-size: calc(115 * (100vw / 1080));
+  background-image: url('../images/2x3.svg'), url('../images/2x3.svg');
+  background-position: left top, left bottom;
+  background-repeat: repeat-x, repeat-x;
+  background-size: calc(100vw / 8.5);
 }
 #countcontent {
   width: 100%;
   position: relative;
 }
 #countdownwrapper #countcontent img {
-  width: 50%;
-  margin-top: 9vh;
-  margin-bottom: 7vh;
+  width: 70%;
+  margin-top: 18vh;
+  margin-bottom: 9vh;
 }
 #countdownwrapper #countcontent p {
   color: #B40019;
   font-weight: 800;
 }
 #countdownwrapper #countcontent p:first-child {
-  font-size: calc(19px + (100vw - 1080px) * 0.01);
+  font-size: calc(25px + (100vh - 850px) * 0.01);
 }
 #countdownwrapper #countcontent p:nth-child(2) {
-  font-size: calc(27px + (100vw - 1080px) * 0.01);
-  line-height: calc(120px + (100vw - 1080px) * 0.01);
+  font-size: calc(40px + (100vh - 850px) * 0.1);
+  line-height: calc(100px + (100vh - 850px) * 0.2);
 }
 #countdownwrapper #countcontent p:nth-child(2) span {
-  font-size: calc(72px + (100vw - 1080px) * 0.01);
+  font-size: calc(100px + (100vh - 850px) * 0.1);
   letter-spacing: -.03em;
 }
 #countdownwrapper #countcontent p:nth-child(3) {
-  font-size: calc(15px + (100vw - 1080px) * 0.01);
+  font-size: calc(13px + (100vh - 850px) * 0.01);
   position: relative;
-  bottom: 15px;
+}
+
+@media (orientation: landscape){
+  /* #countdown */
+  #countdownwrapper {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url('../images/5x2.svg'), url('../images/5x2.svg');
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: calc(115 * (100vw / 1080));
+  }
+  #countcontent {
+    width: 100%;
+    position: relative;
+  }
+  #countdownwrapper #countcontent img {
+    width: 50%;
+    margin-top: 9vh;
+    margin-bottom: 7vh;
+  }
+  #countdownwrapper #countcontent p {
+    color: #B40019;
+    font-weight: 800;
+  }
+  #countdownwrapper #countcontent p:first-child {
+    font-size: calc(19px + (100vw - 1080px) * 0.01);
+  }
+  #countdownwrapper #countcontent p:nth-child(2) {
+    font-size: calc(27px + (100vw - 1080px) * 0.01);
+    line-height: calc(120px + (100vw - 1080px) * 0.01);
+  }
+  #countdownwrapper #countcontent p:nth-child(2) span {
+    font-size: calc(72px + (100vw - 1080px) * 0.01);
+    letter-spacing: -.03em;
+  }
+  #countdownwrapper #countcontent p:nth-child(3) {
+    font-size: calc(15px + (100vw - 1080px) * 0.01);
+    position: relative;
+    bottom: 15px;
+  }
 }
