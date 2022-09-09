@@ -302,6 +302,8 @@ animation-delay: 3.2s;
 #countdownwrapper #countcontent p:nth-child(2) span {
   font-size: calc(100px + (100vh - 850px) * 0.1);
   letter-spacing: -.03em;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 #countdownwrapper #countcontent p:nth-child(3) {
   font-size: calc(13px + (100vh - 850px) * 0.01);

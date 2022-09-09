@@ -203,6 +203,8 @@ a:hover {
 #countdownwrapper #countcontent p:nth-child(2) span {
   font-size: calc(72px + (100vw - 1080px) * 0.01);
   letter-spacing: -.03em;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 #countdownwrapper #countcontent p:nth-child(3) {
   font-size: calc(15px + (100vw - 1080px) * 0.01);
