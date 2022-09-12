@@ -23,6 +23,7 @@
   })(document);
 </script>
   	<link rel="stylesheet" type="text/css" href="css/modal.css">
+  	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
@@ -88,7 +89,7 @@
 	<div id="mainimage">
 		<img src="images/kaitsu-gannen.svg">
 	</div>
-	<div id="maindate">
+	<div id="maindate" class="telop2">
 		<p>9月23日･24日･25日 ／ 諫早市内の各会場で開催</p>
 	</div>
 	<div id="guide">
@@ -154,16 +155,16 @@
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="brochure">
-		<div id="brochuretitle">総合案内パンフレット</div>
+		<div id="brochuretitle">開通元年イベント<br>総合案内パンフレット</div>
 		<div id="brochurecontent">
 			<img src="images/brochure01.jpg">
-			<a href="images/kouhouisahaya.pdf">ここから全ての案内がご覧になれます↘</a>
+			<a href="images/kouhouisahaya.pdf">総合案内パンフレットを見る</a>
 		</div>
 	</div>
 	<div id="area">
 		<div id="area01">
-			<p>市役所前広場エリア</p>
-			<div class="scrollWrap"> 
+			<p>関連イベントの個別案内</p>
+			<!-- <div class="scrollWrap"> 
 				<section class="cont">
 					<img src="images/brochure01.jpg">
 				</section>
@@ -179,46 +180,17 @@
 				<section class="cont">
 					<img src="images/brochure01.jpg">
 				</section>
-			</div>
-		</div>
-		<div id="area02">
-			<p>アエル中央商店街エリア</p>
-			<div class="scrollWrap"> 
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-			</div>
-		</div>
-		<div id="area03">
-			<p>その他開通イベント</p>
-			<div class="scrollWrap"> 
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
+			</div> -->
+			<div class="swiper">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			  </div>
+			  <div class="swiper-pagination"></div>
 			</div>
 		</div>
 	</div>
@@ -242,6 +214,7 @@
 		</div>
 	</footer>
 </div><!-- #wrapper -->
+<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

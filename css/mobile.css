@@ -229,7 +229,23 @@ animation-delay: 3.2s;
    0% { transform: translateX(0)    }
  100% { transform: translateX(-100%)}
 }
-.scrollWrap {
+.telop2 {
+  width : 100%;
+  overflow : hidden;
+}
+.telop2 p {
+  margin: 0;
+  display : inline-block;
+  padding-left: 100%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation : telop2Anime 20s linear infinite;
+}
+@keyframes telop2Anime{
+   0% { transform: translateX(-100%)    }
+ 100% { transform: translateX(0)}
+}
+/* .scrollWrap {
   scroll-snap-type: x mandatory;
   overflow: auto;
   display: flex;
@@ -252,7 +268,7 @@ animation-delay: 3.2s;
 }
 .scrollWrap .cont:last-child {
   padding-right: 5vw;
-}
+} */
 
 /* .page */
 .page {
@@ -427,13 +443,13 @@ header p {
 #maindate {
   position: relative;
   width: 100%;
+  border-top: 3px solid #B40019;
 }
 #maindate p {
   font-size: 13px;
   height: 47px;
   line-height: 47px;
   color: #B40019;
-  border-top: 3px solid #B40019;
 }
 #guide {
   position: relative;
@@ -553,20 +569,20 @@ header p {
 #brochure {
   position: relative;
   width: 100%;
+  background-color: #B40019;
 }
 #brochure #brochuretitle {
-  background-color: #B40019;
   color: #ffffff;
   font-size: 15px;
-  height: 59px;
-  line-height: 59px;
+  height: 84px;
+  line-height: 20px;
+  padding-top: 24px;
 }
 #brochure #brochurecontent {
   width: 100%;
   height: 577px;
   position: relative;
-  background-color: #B40019;
-  padding-top: 5vw;
+  /* padding-top: 5vw; */
 }
 #brochure #brochurecontent img {
   width: 90%;
@@ -576,26 +592,33 @@ header p {
 }
 #brochure #brochurecontent a {
   font-size: 15px;
-  display: block;
-  line-height: 55px;
+  display: inline-block;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+  margin-top: 20px;
 }
 #area {
   position: relative;
   width: 100%;
+  color: #ffffff;
+  background-color: #B40019;
 }
-#area01,
-#area02,
-#area03 {
+#area01 {
   position: relative;
   width: 100%;
+  margin-top: 3px;
 }
-#area01 p,
-#area02 p,
-#area03 p {
+#area01 p {
   font-size: 15px;
   line-height: 45px;
-  margin-top: 27px;
-  color: #B30018;
+}
+#area01 .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  padding-left: 18px;
+}
+#area01 .swiper .swiper-pagination {
+  height: 63px;
+  line-height: 63px;
 }
 #insta {
   position: relative;
