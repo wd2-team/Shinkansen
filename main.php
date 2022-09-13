@@ -36,6 +36,7 @@
 </head>
 <body>
 <div id="wrapper">
+	<div id="headerblock">
 	<header>
 		<div id="headchouchin1" class="blinkred">
 			<div class="headchouchin">
@@ -85,6 +86,7 @@
 		    </div>
 		  </div>
 		</div>
+	</div>
 	</div>
 	<div id="mainimage">
 		<img src="images/kaitsu-gannen.svg">

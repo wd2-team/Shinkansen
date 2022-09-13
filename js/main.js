@@ -57,3 +57,42 @@ const mySwiper = new Swiper('.swiper', {
     type: 'fraction',
   },
 });
+
+var beforePos = 0;
+function ScrollAnime() {
+    var elemTop = $('#mainimage').offset().top;
+  var scroll = $(window).scrollTop();
+    if(scroll == beforePos) {
+    }else if(elemTop > scroll || 0 > scroll - beforePos){
+    $('#headerblock').removeClass('UpMove');
+    $('#headerblock').addClass('DownMove');
+    }else {
+        $('#headerblock').removeClass('DownMove');
+    $('#headerblock').addClass('UpMove');
+    }
+    beforePos = scroll;
+}
+
+
+// 画面をスクロールをしたら動かしたい場合の記述
+$(window).scroll(function () {
+  ScrollAnime();//スクロール途中でヘッダーが消え、上にスクロールすると復活する関数を呼ぶ
+});
+
+// ページが読み込まれたらすぐに動かしたい場合の記述
+$(window).on('load', function () {
+  ScrollAnime();//スクロール途中でヘッダーが消え、上にスクロールすると復活する関数を呼ぶ
+});
+
+
+
+
+//リンク先のidまでスムーススクロール
+//※ページ内リンクを行わない場合は不必要なので削除してください
+    var headerH = $("#header").outerHeight(true);//headerの高さを取得    
+    $('#g-navi li a').click(function () {
+  var elmHash = $(this).attr('href'); 
+  var pos = $(elmHash).offset().top-headerH;//header分の高さを引いた高さまでスクロール
+  $('body,html').animate({scrollTop: pos}, 1000);
+  return false;
+});

@@ -24,7 +24,12 @@
 </script>
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
-	<meta http-equiv="refresh" content="5;URL=main.php">
+	<!-- <meta http-equiv="refresh" content="5;URL=main.php"> -->
+	<script>
+		setTimeout(function(){
+			window.location.href = '/main.php';
+		}, 5*1000);
+	</script>
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <?php elseif( is_tablet()) : ?>
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
