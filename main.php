@@ -37,31 +37,31 @@
 <body>
 <div id="wrapper">
 	<div id="headerblock">
-	<header>
-		<div id="headchouchin1" class="blinkred">
+	<header class="blinkchouchin">
+		<!-- <div id="headchouchin1" class="blinkred">
 			<div class="headchouchin">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
 			</div>
 			<p>9.23</p>
 		</div>
 		<div id="headchouchin2" class="blinkwhite">
 			<div class="headchouchin">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
 			</div>
 			<p>9.24</p>
 		</div>
 		<div id="headchouchin3" class="blinkred">
 			<div class="headchouchin">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
-				<img src="images/chouchin.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
+				<img src="images/chouchin_shiro.svg">
 			</div>
 			<p>9.25</p>
-		</div>
+		</div> -->
 	</header>
 	<div id="headlink">
 		<label for="modal-trigger01">西九州新幹線かもめ</label>
@@ -226,7 +226,7 @@
 				<li><a href="#">諫早市公式サイト</a></li>
 				<li><a href="#">西九州新幹線サイト</a></li>
 			</ul>
-			<p><img src="#"></p>
+			<p><img src="images/link_like_logo.svg"></p>
 			<img id="footerimg02" src="images/shikansen_kamome.svg">
 		</div>
 	</footer>
