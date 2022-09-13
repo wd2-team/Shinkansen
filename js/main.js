@@ -48,15 +48,40 @@ $(function(){
    countDown();
 });
 
+// const mySwiper = new Swiper('.swiper', {
+//   loop: true,
+//   slidesPerView: 1.1,
+//   spaceBetween: 8,
+//   pagination: {
+//     el: '.swiper-pagination',
+//     type: 'fraction',
+//   },
+// });
+
 const mySwiper = new Swiper('.swiper', {
   loop: true,
-  slidesPerView: 1.1,
+  slidesPerView: 1,
+  centeredSlides: true,
   spaceBetween: 8,
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction',
   },
 });
+
+// function matchHeight(elements) {
+//  const target = Array.from(document.querySelectorAll(elements));
+//  const heightList = [];
+//  target.forEach(element => {
+//   const height = element.clientHeight;
+//   heightList.push(height);
+//  });
+//  const maxHeight = Math.max.apply(null,heightList);
+//  target.forEach(element => {
+//   element.style.height = maxHeight + 'px'; // 最大高さに揃える
+//  });
+// }
+// matchHeight('.swiperitem');
 
 var beforePos = 0;
 function ScrollAnime() {

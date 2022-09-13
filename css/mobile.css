@@ -61,6 +61,7 @@ body {
 	margin: 0;
  	padding: 0;
 	font-size: 15px;
+  font-weight: bold!important;
 	line-height: 20px;
   letter-spacing: 0.1em;
 	text-align: center;
@@ -645,16 +646,15 @@ header p {
 }
 #brochure #brochuretitle {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
   height: 84px;
-  line-height: 20px;
-  padding-top: 24px;
+  line-height: 84px;
 }
 #brochure #brochurecontent {
   width: 100%;
-  height: 577px;
   position: relative;
   /* padding-top: 5vw; */
+  padding-bottom: 5vw;
 }
 #brochure #brochurecontent img {
   width: 90%;
@@ -684,9 +684,12 @@ header p {
   font-size: 15px;
   line-height: 45px;
 }
+#area01 .swiper .swiper-wrapper .swiper-slide {
+  height: 250px !important;
+}
 #area01 .swiper .swiper-wrapper .swiper-slide img {
-  width: 100%;
-  padding-left: 18px;
+  width: auto;
+  height: 100%;
 }
 #area01 .swiper .swiper-pagination {
   height: 63px;

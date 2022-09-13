@@ -160,7 +160,7 @@
 	<div id="brochure">
 		<div id="brochuretitle">開通元年イベント総合案内</div>
 		<div id="brochurecontent">
-			<img src="images/brochure01.jpg">
+			<img src="images/main.png">
 			<a href="images/kouhouisahaya.pdf">総合案内パンフレットを見る</a>
 		</div>
 	</div>
@@ -169,12 +169,9 @@
 			<p>関連イベントの個別案内</p>
 			<div class="swiper">
 			  <div class="swiper-wrapper">
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
-			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem" src="images/gourmet_1.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem" src="images/gourmet_2.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem" src="images/konchu.png"></div>
 			  </div>
 			  <div class="swiper-pagination"></div>
 			</div>
