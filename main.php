@@ -40,32 +40,32 @@
 	<header>
 		<div id="headchouchin1" class="blinkred">
 			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
 			</div>
 			<p>9.23</p>
 		</div>
 		<div id="headchouchin2" class="blinkwhite">
 			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
 			</div>
 			<p>9.24</p>
 		</div>
 		<div id="headchouchin3" class="blinkred">
 			<div class="headchouchin">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
-				<img src="images/chouchin_kouhaku.png">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
+				<img src="images/chouchin.svg">
 			</div>
 			<p>9.25</p>
 		</div>
 	</header>
 	<div id="headlink">
-		<label for="modal-trigger01">西九州新幹線</label>
-		<label for="modal-trigger02">諫早イーサ駅</label>
+		<label for="modal-trigger01">西九州新幹線かもめ</label>
+		<label for="modal-trigger02">開通元年イベント</label>
 		<div class="modal">
 		  <input id="modal-trigger01" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
@@ -91,14 +91,14 @@
 	<div id="mainimage">
 		<img src="images/kaitsu-gannen.svg">
 	</div>
-	<div id="maindate" class="telop2">
+	<div id="maindate" class="blinkfont">
 		<p>9月23日･24日･25日 ／ 諫早市内の各会場で開催</p>
 	</div>
 	<div id="guide">
-		<label for="modal-trigger03" class="guidelabel blinkwhite"><p>イーサ駅構内<br>セレモニーのご案内</p></label>
-		<label for="modal-trigger04" class="guidelabel blinkred"><p>シャトルバスの<br>ご案内</p></label>
-		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><span>ISAHAYA&ensp;ONLY</span><p><img src="images/kuji1.png"></p><span>開通祈願</span></div></label>
-		<label for="modal-trigger06" class="guidelabel blinkred"><p>駐車場のご案内</p></label>
+		<label for="modal-trigger03" class="guidelabel blinkwhite"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
+		<label for="modal-trigger04" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
+		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></label>
+		<label for="modal-trigger06" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 		<div class="modal">
 		  <input id="modal-trigger03" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
@@ -151,13 +151,14 @@
 		<p>主催：諫早市新幹線開業記念事業実行委員会</p>
 	</div>
 	<div id="movieinfo">
-		<img src="images/kingashinnen.png">
+		<img src="images/kaitsu_nihongo_white.svg">
+		<p>記念ムービー</p>
 	</div>
 	<div id="movie">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="brochure">
-		<div id="brochuretitle">開通元年イベント<br>総合案内パンフレット</div>
+		<div id="brochuretitle">開通元年イベント総合案内</div>
 		<div id="brochurecontent">
 			<img src="images/brochure01.jpg">
 			<a href="images/kouhouisahaya.pdf">総合案内パンフレットを見る</a>
@@ -166,23 +167,6 @@
 	<div id="area">
 		<div id="area01">
 			<p>関連イベントの個別案内</p>
-			<!-- <div class="scrollWrap"> 
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-				<section class="cont">
-					<img src="images/brochure01.jpg">
-				</section>
-			</div> -->
 			<div class="swiper">
 			  <div class="swiper-wrapper">
 			    <div class="swiper-slide"><img src="images/brochure02.png"></div>
@@ -237,17 +221,16 @@
 	</div>
 	<footer>
 		<div id="footerwrapper">
-			<img id="footerimg01" src="images/kingashinnen.png">
+			<img id="footerimg01" src="images/kaitsu_type_b.svg">
 			<ul>
-				<li><a href="#">トップ画面</a></li>
 				<li><a href="#">おみくじ</a></li>
 				<li><a href="#">利用規約</a></li>
 				<li><a href="#">プライバシーポリシー</a></li>
 				<li><a href="#">諫早市公式サイト</a></li>
-				<li><a href="#">JR九州公式サイト</a></li>
+				<li><a href="#">西九州新幹線サイト</a></li>
 			</ul>
-			<p>2022©Isahaya-shi</p>
-			<img id="footerimg02" src="images/train-1.png">
+			<p><img src="#"></p>
+			<img id="footerimg02" src="images/shikansen_kamome.svg">
 		</div>
 	</footer>
 </div><!-- #wrapper -->

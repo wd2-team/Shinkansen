@@ -24,7 +24,6 @@
 </script>
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
-	<!-- <meta http-equiv="refresh" content="5;URL=main.php"> -->
 	<script>
 		setTimeout(function(){
 			window.location.href = '/main.php';
@@ -43,29 +42,29 @@
 	<div id="topwrapper">
 		<div id="topimages">
 			<div id="topleft">
-				<img class="delay-time07 fadeUp" src="images/o.png">
-				<img class="delay-time08 fadeUp" src="images/me.png">
-				<img class="delay-time09 fadeUp" src="images/de.png">
-				<img class="delay-time10 fadeUp" src="images/to.png">
-				<img class="delay-time11 fadeUp" src="images/u.png">
-				<img class="delay-time12 fadeUp" src="images/go.png">
-				<img class="delay-time13 fadeUp" src="images/za.png">
-				<img class="delay-time14 fadeUp" src="images/i.png">
-				<img class="delay-time15 fadeUp" src="images/ma.png">
-				<img class="delay-time16 fadeUp" src="images/su.png">
+				<img class="delay-time07 fadeUp" src="images/tsunagari_moji-08.svg">
+				<img class="delay-time08 fadeUp" src="images/tsunagari_moji-09.svg">
+				<img class="delay-time09 fadeUp" src="images/tsunagari_moji-10.svg">
+				<img class="delay-time10 fadeUp" src="images/tsunagari_moji-11.svg">
+				<img class="delay-time11 fadeUp" src="images/tsunagari_moji-12.svg">
+				<img class="delay-time12 fadeUp" src="images/tsunagari_moji-13.svg">
+				<img class="delay-time13 fadeUp" src="images/tsunagari_moji-14.svg">
+				<img class="delay-time14 fadeUp" src="images/tsunagari_moji-15.svg">
+				<img class="delay-time15 fadeUp" src="images/tsunagari_moji-16.svg">
+				<img class="delay-time16 fadeUp" src="images/tsunagari_moji-17.svg">
 			</div>
 			<div id="topright">
-				<img class="fadeUp" src="images/tsu.png">
-				<img class="delay-time01 fadeUp" src="images/na.png">
-				<img class="delay-time02 fadeUp" src="images/ga.png">
-				<img class="delay-time03 fadeUp" src="images/ri.png">
-				<img class="delay-time04 fadeUp" src="images/ma.png">
-				<img class="delay-time05 fadeUp" src="images/shi.png">
-				<img class="delay-time06 fadeUp" src="images/te.png">
+				<img class="fadeUp" src="images/tsunagari_moji-01.svg">
+				<img class="delay-time01 fadeUp" src="images/tsunagari_moji-02.svg">
+				<img class="delay-time02 fadeUp" src="images/tsunagari_moji-03.svg">
+				<img class="delay-time03 fadeUp" src="images/tsunagari_moji-04.svg">
+				<img class="delay-time04 fadeUp" src="images/tsunagari_moji-05.svg">
+				<img class="delay-time05 fadeUp" src="images/tsunagari_moji-06.svg">
+				<img class="delay-time06 fadeUp" src="images/tsunagari_moji-07.svg">
 			</div>
 		</div>
 		<div id="topbottom">
-			<img class="slideUp" src="images/train-1.png">
+			<img class="slideUp" src="images/shinkansen_kamome_moji.svg">
 		</div>
 	</div><!-- #topwrapper -->
 </div><!-- #indexwrapper -->

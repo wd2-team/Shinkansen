@@ -185,14 +185,14 @@ animation-delay: 3.2s;
   animation-duration:1s;
   animation-fill-mode:forwards;
   animation-delay: 4s;
-  transform: translateY(100px);
+  transform: translateY(250px);
 }
 @keyframes slideUpAnime{
   from {
-    transform: translateY(100px);
+    transform: translateY(250px);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(100px);
   }
 }
 .blinkwhite {
@@ -212,6 +212,17 @@ animation-delay: 3.2s;
   49%{ color : #ffffff; background:#B40019; }
   51%{ color : #B40019; background:#ffffff; }
  100%{ color : #B40019; background:#ffffff; }
+}
+.blinkfont {
+  animation: blinkFontAnime 1.8s infinite alternate;
+}
+@keyframes blinkFontAnime {
+   0%{ color : #B40019;}
+  38%{ color : #B40019;}
+  40%{ color : #ffffff;}
+  60%{ color : #ffffff;}
+  62%{ color : #B40019;}
+ 100%{ color : #B40019;}
 }
 .telop {
   width : 100%;
@@ -426,10 +437,10 @@ header p {
   font-size: 14px;
 }
 #headlink label:first-child {
-  border-right: 1px #ffffff solid;
+  border-right: 1.5px #ffffff solid;
 }
 #headlink label:nth-child(2) {
-  border-left: 1px #ffffff solid;
+  border-left: 1.5px #ffffff solid;
 }
 
 
@@ -485,7 +496,6 @@ header p {
   font-size: 13px;
   height: 47px;
   line-height: 47px;
-  color: #B40019;
 }
 #guide {
   position: relative;
@@ -510,12 +520,32 @@ header p {
   width: 100%;
   height: 100%;
 }
+#guide label.guidelabel:nth-child(3) div {
+  background-image: url('../images/omikuji_waku.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
 #guide label.guidelabel:first-child p,
-#guide label.guidelabel:nth-child(2) p {
+#guide label.guidelabel:nth-child(4) p {
   padding-right: calc((25vw - 22px * 2) / 2);
 }
-#guide label.guidelabel:nth-child(4) p {
+#guide label.guidelabel:nth-child(2) p {
   padding-right: calc((25vw - 22px) / 2);
+}
+#guide label.guidelabel:first-child p span:first-child,
+#guide label.guidelabel:nth-child(4) p span:first-child {
+  position: relative;
+  top: -10px;
+}
+#guide label.guidelabel:first-child p span:nth-child(3),
+#guide label.guidelabel:nth-child(4) p span:nth-child(3) {
+  position: relative;
+  bottom: -50px;
+}
+#guide label.guidelabel:nth-child(3)>div>span:first-child {
+  position: relative;
+  top: -10px;
 }
 #guide label.guidelabel:nth-child(3) span {
   width: 100%;
@@ -523,13 +553,9 @@ header p {
   writing-mode: horizontal-tb;
   display: inline-block;
 }
-#guide label.guidelabel:nth-child(3) span:first-child {
+/* #guide label.guidelabel:nth-child(3) span:first-child {
   height: 15px;
-}
-#guide label.guidelabel:nth-child(3) span:nth-child(2) {
-  font-size: 10px;
-  transform: scale(0.8);
-}
+} */
 #guide label.guidelabel:nth-child(3) p {
   width: 60%;
   /* border: 3px solid; */
@@ -537,9 +563,11 @@ header p {
   display: inline-block;
   /* padding-right: calc((25vw + 6px) / 2 - 16px - 5vw); */
 }
-#guide label.guidelabel:nth-child(3) p img {
+#guide label.guidelabel:nth-child(3) p span {
   width: 100%;
-  height: auto;
+  height: 100%;
+  writing-mode: vertical-rl;
+  display: inline-block;
 }
 #c19 {
   position: relative;
@@ -585,10 +613,18 @@ header p {
   position: relative;
   width: 100%;
   background-color: #B40019;
+  height: 180px;
 }
 #movieinfo img {
-  width: 100%;
+  width: 75%;
   height: auto;
+  margin-top: 27px;
+}
+#movieinfo p {
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+  top: -10px;
 }
 #movie {
   position: relative;
@@ -707,7 +743,7 @@ footer #footerwrapper {
   position: relative;
 }
 footer #footerwrapper #footerimg01 {
-  width: 100%;
+  width: 80%;
   margin-top: 100px;
   margin-bottom: 95px;
 }
@@ -718,7 +754,6 @@ footer #footerwrapper ul li a {
   margin: 10px;
 }
 footer #footerwrapper p {
-  color: #B40019;
   position: relative;
   bottom: -80px;
 }
