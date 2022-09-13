@@ -196,7 +196,42 @@
 	</div>
 	<div id="insta">
 		<div id="instatitle">公式インスタグラム<br><span>@kaitsu_gannen_isahaya</span></div>
-		<div id="instacontent"></div>
+		<div id="instacontent">
+			<?php
+			$instagram = null;
+			$id = 'ビジネスアカウントID'; 
+			$token = 'アクセストークン３';
+			$count = '9';
+			$url = 'https://graph.facebook.com/v9.0/' . $id . '?fields=name,media.limit(' . $count. '){caption,media_url,thumbnail_url,permalink,like_count,comments_count,media_type}&access_token=' . $token;
+			$curl = curl_init();
+			curl_setopt($curl, CURLOPT_URL, $url);
+			curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET');
+			curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+			$response = curl_exec($curl);
+			curl_close($curl);
+			if($response){
+			  $instagram = json_decode($response);
+			  if(isset($instagram->error)){
+			      $instagram = null;
+			  }
+			}
+			?>
+			<ul>
+			<?php
+			foreach($instagram->media->data as $value){
+			if($value->media_type=='VIDEO'){
+			$src=$value->thumbnail_url;
+			$video = '<span class="video"></span>';
+			}
+			else{
+			$src=$value->media_url;
+			$video = "";
+			}
+			echo '<li><a href="'.$value->permalink.'" target="_blank"><img src="'.$src.'" alt="'.$value->caption.'">'.$video.'<span class="c"><span class="like">'.$value->like_count.'</span><span class="comme">'.$value->comments_count.'</span></span></a></li>';
+			}
+			?>
+			</ul>
+		</div>
 	</div>
 	<footer>
 		<div id="footerwrapper">

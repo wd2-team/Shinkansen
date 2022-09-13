@@ -282,7 +282,6 @@ animation-delay: 3.2s;
 #wrapper {
   position: relative;
   width: 100%;
-  height: 2000px;
 }
 
 /* #countdown */
@@ -636,6 +635,23 @@ header p {
 }
 #insta #instacontent {
   height: 300px;
+  position: relative;
+  width: 100%;
+}
+#insta #instacontent ul {
+  position: relative;
+  width: 100%;
+  letter-spacing: -.4em;
+}
+#insta #instacontent ul li {
+  display: inline-block;
+  width: calc(100% / 3);
+  letter-spacing: normal;
+  margin-bottom: 4px;
+}
+#insta #instacontent ul li:nth-child(3n-1),
+#insta #instacontent ul li:nth-child(3n-2) {
+  margin-right: 4px;
 }
 footer {
   position: relative;
