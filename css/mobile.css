@@ -761,8 +761,8 @@ footer #footerwrapper {
 }
 footer #footerwrapper #footerimg01 {
   width: 80%;
-  margin-top: 100px;
-  margin-bottom: 95px;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 footer #footerwrapper ul li a {
   color: #c30d23;
@@ -772,15 +772,15 @@ footer #footerwrapper ul li a {
 }
 footer #footerwrapper p {
   position: relative;
-  bottom: -80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 footer #footerwrapper p img {
-  width: 75%;
+  width: 60%;
 }
 footer #footerwrapper #footerimg02 {
-  width: 100%;
-  margin-top: 100px;
-  margin-bottom: -10px;
+  width: 75%;
+  margin-bottom: -20px;
 }
 
 /* omikuji */
