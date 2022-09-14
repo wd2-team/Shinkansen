@@ -181,8 +181,8 @@
 		<div id="instacontent">
 			<?php
 			$instagram = null;
-			$id = 'ビジネスアカウントID'; 
-			$token = 'アクセストークン３';
+			$id = '17841455068168973'; 
+			$token = 'EAAEsfZBHoMiwBAEFosiMFN29BZCZCzS3RtpIL7nOyvzsJk49uJoZB9gDZCYrnU8VU6Pc5jPuf6tUqh4MpSPFyvhf9LmI2FJLhJD5ZBZBBcn6NxZCu7FqaizgtENPRArLrRe2IFWWHhaQMazDfUJIRnH3cJ6iHzqz5bFPJSlhRYfvPocQDbow3Bgu';
 			$count = '9';
 			$url = 'https://graph.facebook.com/v9.0/' . $id . '?fields=name,media.limit(' . $count. '){caption,media_url,thumbnail_url,permalink,like_count,comments_count,media_type}&access_token=' . $token;
 			$curl = curl_init();
