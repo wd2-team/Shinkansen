@@ -69,9 +69,8 @@
 		<div class="modal">
 		  <input id="modal-trigger01" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
-		    <label for="modal-trigger01" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger01" class="close">&#10006;</label>
+		    <div class="modal-wrap">
+		      <label for="modal-trigger01" class="close"><img src="images/modoru.svg"></label>
 		      <p>テキストテキストテキストテキストテキスト</p>
 		    </div>
 		  </div>
