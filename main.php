@@ -72,7 +72,7 @@
 		    <div class="modal-wrap">
 		      <label for="modal-trigger01" class="close dropshadow"><img src="images/modoru.svg"></label>
 		      <div id="modal01-01">
-		      	<img src="images/start.png">
+		      	<img src="images/isahaya.png">
 		      	<img src="images/kaitsu_type_b.svg">
 		      </div>
 		      <div id="modal01-02">
