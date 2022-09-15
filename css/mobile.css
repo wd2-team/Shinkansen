@@ -302,7 +302,7 @@ animation-delay: 3.2s;
   background-color: #ffffff;
   pointer-events: none;
 }
-.nodal input:checked ~ .modal-overlay {
+.modal input:checked ~ .modal-overlay {
   pointer-events: auto;
 }
 .modal .modal-overlay .modal-wrap {
