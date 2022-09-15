@@ -329,7 +329,8 @@ animation-delay: 3.2s;
 /* #countdown */
 #countdownwrapper {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   background-image: url('../images/2x3.svg'), url('../images/2x3.svg');
   background-position: left top, left bottom;
@@ -338,34 +339,62 @@ animation-delay: 3.2s;
 }
 #countcontent {
   width: 100%;
+  height: 100vh;
+  height: 100dvh;
   position: relative;
 }
 #countdownwrapper #countcontent img {
   width: 100%;
-  margin-top: 17vh;
-  margin-bottom: 10vh;
+  /* margin-top: calc(100vw / 8.5 / 2 * 3 + (100vh - 500px) / 7); */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(50vh - (100vh - 500px) / 30);
+}
+#countdownwrapper #countcontent #count {
+  position: absolute;
+  bottom: calc(100vw / 8.5 / 2 * 3 + 4vh);
+  left: 0;
+  right: 0;
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
   font-weight: 800;
 }
 #countdownwrapper #countcontent p:first-child {
-  font-size: calc(25px + (100vh - 850px) * 0.01);
+  font-size: calc(25px + (100vh - 850px) * 0.03);
 }
 #countdownwrapper #countcontent p:nth-child(2) {
-  font-size: calc(40px + (100vh - 850px) * 0.1);
-  line-height: calc(100px + (100vh - 850px) * 0.1);
+  font-size: calc(30px + (100vh - 850px) * 0.03);
+  line-height: calc(80px + (100vh - 850px) * 0.03);
 }
 #countdownwrapper #countcontent p:nth-child(2) span {
-  font-size: calc(100px + (100vh - 850px) * 0.1);
+  font-size: calc(75px + (100vh - 850px) * 0.03);
   letter-spacing: -.03em;
   margin-right: 20px;
   margin-left: 15px;
 }
-#countdownwrapper #countcontent p:nth-child(3) {
-  font-size: calc(13px + (100vh - 850px) * 0.01);
+#countdownwrapper #countcontent a:nth-child(3) {
+  border-radius: calc(26px + (100vh - 850px) * 0.03);
+  display: inline-block;
+  line-height: calc(26px + (100vh - 850px) * 0.03);
+  height: calc(26px + (100vh - 850px) * 0.03);
+  padding: 0 calc(26px + (100vh - 850px) * 0.03);
+  color: #ffffff;
+  background-color: #c30d23;
+  font-size: calc(14px + (100vh - 850px) * 0.03);
+}
+#countdownwrapper #countcontent a:nth-child(5) {
+  font-size: calc(12px + (100vh - 850px) * 0.03);
+  display: inline-block;
+  color: #c30d23;
+  line-height: calc(19px + (100vh - 850px) * 0.03);
+  height: calc(19px + (100vh - 850px) * 0.03);
+  margin: 1vh 0 4vh 0;
+}
+#countdownwrapper #countcontent p:nth-child(6) {
+  font-size: calc(13px + (100vh - 850px) * 0.03);
   position: relative;
-  bottom: calc((750px - 100vh) / 3);
 }
 
 /* top */
