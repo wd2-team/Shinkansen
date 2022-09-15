@@ -112,6 +112,15 @@ button {
 .nondisplaysp {
   display: none;
 }
+.dropshadow {
+  -webkit-filter:drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  -moz-filter:drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  -ms-filter:drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  filter:drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+img {
+  width: 100%;
+}
 
 /* アニメーション */
 .delay-time01{
@@ -266,34 +275,11 @@ animation-delay: 3.2s;
    0% { transform: translateX(-100%)    }
  100% { transform: translateX(0)}
 }
-/* .scrollWrap {
-  scroll-snap-type: x mandatory;
-  overflow: auto;
-  display: flex;
-  width: 100%;
-}
-.scrollWrap::-webkit-scrollbar {
-  display: none;
-}
-.scrollWrap .cont {
-  scroll-snap-align: start;
-  display: flex;
-  flex-wrap: wrap;
-  flex: none;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-}
-.scrollWrap .cont:first-child {
-  padding-left: 5vw;
-}
-.scrollWrap .cont:last-child {
-  padding-right: 5vw;
-} */
 
 /* .modal */
 .modal {
   position: relative;
+  letter-spacing: normal;
 }
 .modal .modal-overlay {
   height: 100vh;
@@ -308,7 +294,6 @@ animation-delay: 3.2s;
 .modal .modal-overlay .modal-wrap {
   background-color: #ffffff;
   box-shadow: 0 0 0 0;
-  height: 2000px;
   position: relative;
   width: 100%;
 }
@@ -338,6 +323,7 @@ animation-delay: 3.2s;
 #wrapper {
   position: relative;
   width: 100%;
+  pointer-events: auto;
 }
 
 /* #countdown */
@@ -435,37 +421,6 @@ animation-delay: 3.2s;
 }
 
 /* index */
-/* header { */
-  /* position: -webkit-sticky;
-  position: sticky; */
-/*   top: 0;
-  width: 100%;
-  height: 109px;
-  letter-spacing: -.4em;
-  border-bottom: 2px solid #ffffff;
-  z-index: 100;
-}
-#headchouchin1,
-#headchouchin2,
-#headchouchin3 {
-  display: inline-block;
-  width: calc(100% / 3);
-  letter-spacing: normal;
-  height: 100%;
-}
-.headchouchin {
-  width: 100%;
-  letter-spacing: -.4em;
-  margin-top: 20px;
-}
-.headchouchin img {
-  width: calc(100% / 3);
-  height: auto;
-  padding: 7px;
-}
-header p {
-  display: none;
-} */
 header {
   position: relative;
   width: 100%;
@@ -529,6 +484,68 @@ header {
   transform: translateY(0);
   }
 }
+#modal01 #modal01-01 {
+  position: relative;
+  width: 100%;
+  top: -60px;
+}
+#modal01 #modal01-01 img:first-child {
+  width: 100%;
+}
+#modal01 #modal01-01 img:nth-child(2) {
+  width: 70%;
+  position: relative;
+  top: -50px;
+}
+#modal01 #modal01-02 {
+  position: relative;
+  width: 100%;
+}
+#modal01 #modal01-02 p.modal01title01 {
+  font-size: 36px;
+  color: #C30D23;
+  margin-bottom: 28px;
+}
+#modal01 #modal01-02 p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+#modal01 #modal01-02 img {
+  width: 100%;
+}
+#modal01 #modal01-03 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#modal01 #modal01-03 img#modal01-03back {
+  position: absolute;
+  z-index: -1;
+  width: 200%;
+  top: 82px;
+  left: 52px;
+}
+#modal01 #modal01-03 p.modal01title02 {
+  font-size: 23px;
+  line-height: 31px;
+  color: #C30D23;
+  margin-bottom: 28px;
+}
+#modal01 #modal01-03 p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+#modal01 #modal01-03 #modal01-03img img {
+  width: 75%;
+}
+#modal01 #modal01-03 #modal01-03img span {
+  display: block;
+}
+
 #mainimage {
   position: relative;
   width: 100%;
@@ -597,6 +614,10 @@ header {
 #guide label.guidelabel:nth-child(3)>div>span:first-child {
   position: relative;
   top: -10px;
+}
+#guide label.guidelabel:nth-child(3)>div>span:first-child,
+#guide label.guidelabel:nth-child(3)>div>span:nth-child(3) {
+  font-size: 13px;
 }
 #guide label.guidelabel:nth-child(3) span {
   width: 100%;

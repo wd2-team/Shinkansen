@@ -66,12 +66,36 @@
 	<div id="headlink">
 		<label for="modal-trigger01">西九州新幹線かもめ</label>
 		<label for="modal-trigger02">開通元年イベント</label>
-		<div class="modal">
+		<div id="modal01" class="modal">
 		  <input id="modal-trigger01" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
 		    <div class="modal-wrap">
-		      <label for="modal-trigger01" class="close"><img src="images/modoru.svg"></label>
-		      <p>テキストテキストテキストテキストテキスト</p>
+		      <label for="modal-trigger01" class="close dropshadow"><img src="images/modoru.svg"></label>
+		      <div id="modal01-01">
+		      	<img src="images/start.png">
+		      	<img src="images/kaitsu_type_b.svg">
+		      </div>
+		      <div id="modal01-02">
+		      	<p class="modal01title01">西九州新幹線かもめ</p>
+		      	<p>西九州新幹線「かもめ」<br>車両は「N700S」という最新型で、<br>デザインは白を基調とし、最上級車両をイメージする<br>ゴールドの文字やロゴを使用。<br>JR九州のシンボルカラーの赤を配置することで、<br>九州から各地へ風を吹かせるという思いが込められています。</p>
+		      	<img src="images/kamome.svg">
+		      	<img src="images/start.png">
+		      </div>
+		      <div id="modal01-03">
+		      	<img id="modal01-03back" src="images/tizu.svg">
+		      	<p class="modal01title02">諫早市に2022年9月23日<br>いよいよ西九州新幹線がくる</p>
+		      	<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
+		      	<p class="modal01title02">長崎~博多間の<br>所要時間が約30分短縮</p>
+		      	<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
+		      	<img src="images/norikae.svg">
+		      	<p class="modal01title02">新幹線かもめが見れる<br>諫早のおすすめスポットを紹介</p>
+		      	<p>諫早市内で新幹線かもめを近くで見れる<br>下記の３つのおすすめスポット。<br>新幹線の迫力を目の前で楽しみましょう。<br>※周辺道路での停車・駐車はご遠慮ください</p>
+		      	<div id="modal01-03img">
+		      		<img src="images/start.png"><span>宇都町交差点付近</span>
+		      		<img src="images/start.png"><span>諫早税務署付近高架橋</span>
+		      		<img src="images/start.png"><span>スターバックス諫早駅店</span>
+		      	</div>
+		      </div>
 		    </div>
 		  </div>
 		</div>
@@ -168,9 +192,9 @@
 			<p>関連イベントの個別案内</p>
 			<div class="swiper">
 			  <div class="swiper-wrapper">
-			    <div class="swiper-slide"><img class="swiperitem" src="images/gourmet_1.png"></div>
-			    <div class="swiper-slide"><img class="swiperitem" src="images/gourmet_2.png"></div>
-			    <div class="swiper-slide"><img class="swiperitem" src="images/konchu.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/gourmet_1.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/gourmet_2.png"></div>
+			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/konchu.png"></div>
 			  </div>
 			  <div class="swiper-pagination"></div>
 			</div>

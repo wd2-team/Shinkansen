@@ -35,10 +35,6 @@ $(function(){
      if (!countDate < 1) {
        $('#count .today').text(countDate + 1);
      }
-     // if (!(countDate < 1 && countHours < 1)) {
-     //   $('#count .hours').text(countHours + '時間');
-     // }
-     // $('#count .minutes').text(countMinutes + '分');
    };
    time();
    const countDown = () => {
@@ -48,15 +44,7 @@ $(function(){
    countDown();
 });
 
-// const mySwiper = new Swiper('.swiper', {
-//   loop: true,
-//   slidesPerView: 1.1,
-//   spaceBetween: 8,
-//   pagination: {
-//     el: '.swiper-pagination',
-//     type: 'fraction',
-//   },
-// });
+$('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
 
 const mySwiper = new Swiper('.swiper', {
   loop: true,
@@ -68,20 +56,6 @@ const mySwiper = new Swiper('.swiper', {
     type: 'fraction',
   },
 });
-
-// function matchHeight(elements) {
-//  const target = Array.from(document.querySelectorAll(elements));
-//  const heightList = [];
-//  target.forEach(element => {
-//   const height = element.clientHeight;
-//   heightList.push(height);
-//  });
-//  const maxHeight = Math.max.apply(null,heightList);
-//  target.forEach(element => {
-//   element.style.height = maxHeight + 'px'; // 最大高さに揃える
-//  });
-// }
-// matchHeight('.swiperitem');
 
 var beforePos = 0;
 function ScrollAnime() {
