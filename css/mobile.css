@@ -515,6 +515,15 @@ header {
 #modal01 #modal01-02 img {
   width: 100%;
 }
+#modal01 #modal01-02 #modal01-02img {
+  letter-spacing: -.4em;
+  width: 100%;
+}
+#modal01 #modal01-02 #modal01-02img img {
+  letter-spacing: normal;
+  width: 50%;
+  display: inline-block;
+}
 #modal01 #modal01-03 {
   position: relative;
   width: 100%;
