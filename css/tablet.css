@@ -61,6 +61,7 @@ body {
 	margin: 0;
  	padding: 0;
 	font-size: 15px;
+  font-weight: 800;
 	line-height: 20px;
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -68,7 +69,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #FFB100;
+	color: #c30d23;
 }
 button {
   background-color: transparent;
@@ -127,7 +128,7 @@ button {
 }
 
 /* omikuji */
-body {
+/* body {
  background: white;
  height: 100vh;
 }
@@ -144,7 +145,6 @@ button {
  padding: 5px;
  border-radius: 10px;
  transition-duration: 0.4s;
- -webkit-transition-duration: 0.4s; /* Safari */
 }
 button:hover {
  color: #fff;
@@ -158,7 +158,6 @@ a {
  border-radius: 10px;
  text-decoration: none;
  transition-duration: 0.4s;
- -webkit-transition-duration: 0.4s; /* Safari */
 }
 a:hover {
  color: #fff;
@@ -168,12 +167,13 @@ a:hover {
 }
 .kujikekka {
  width: 200px;
-}
+} */
 
 /* #countdown */
 #countdownwrapper {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   background-image: url('../images/2x3.svg'), url('../images/2x3.svg');
   background-position: left top, left bottom;
@@ -182,12 +182,20 @@ a:hover {
 }
 #countcontent {
   width: 100%;
+  height: 100vh;
+  height: 100dvh;
   position: relative;
 }
 #countdownwrapper #countcontent img {
   width: 70%;
   margin-top: 18vh;
   margin-bottom: 9vh;
+}
+#countdownwrapper #countcontent #count {
+  position: absolute;
+  bottom: calc(100vw / 8.5 / 2 * 3);
+  left: 0;
+  right: 0;
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
@@ -197,8 +205,8 @@ a:hover {
   font-size: calc(25px + (100vh - 850px) * 0.01);
 }
 #countdownwrapper #countcontent p:nth-child(2) {
-  font-size: calc(40px + (100vh - 850px) * 0.1);
-  line-height: calc(100px + (100vh - 850px) * 0.2);
+  font-size: calc(30px + (100vh - 850px) * 0.1);
+  line-height: calc(80px + (100vh - 850px) * 0.2);
 }
 #countdownwrapper #countcontent p:nth-child(2) span {
   font-size: calc(100px + (100vh - 850px) * 0.1);
@@ -206,9 +214,27 @@ a:hover {
   margin-right: 20px;
   margin-left: 15px;
 }
-#countdownwrapper #countcontent p:nth-child(3) {
-  font-size: calc(13px + (100vh - 850px) * 0.01);
+#countdownwrapper #countcontent a:nth-child(3) {
+  border-radius: calc(33px + (100vh - 850px) * 0.03);
+  display: inline-block;
+  line-height: calc(33px + (100vh - 850px) * 0.03);
+  height: calc(33px + (100vh - 850px) * 0.03);
+  padding: 0 calc(33px + (100vh - 850px) * 0.03);
+  color: #ffffff;
+  background-color: #c30d23;
+  font-size: calc(21px + (100vh - 850px) * 0.01);
+}
+#countdownwrapper #countcontent a:nth-child(5) {
+  font-size: calc(19px + (100vh - 850px) * 0.01);
+  display: inline-block;
+  line-height: calc(26px + (100vh - 850px) * 0.01);
+  height: calc(26px + (100vh - 850px) * 0.01);
+  margin: calc(5px + (100vh - 850px) * 0.01) 0 calc(15px + (100vh - 850px) * 0.01) 0;
+}
+#countdownwrapper #countcontent p:nth-child(6) {
+  font-size: calc(20px + (100vh - 850px) * 0.01);
   position: relative;
+  margin-bottom: calc(10px + (100vh - 850px) * 0.01);
 }
 
 @media (orientation: landscape){
@@ -216,6 +242,7 @@ a:hover {
   #countdownwrapper {
     width: 100%;
     min-height: 100vh;
+    min-height: 100dvh;
     position: relative;
     background-image: url('../images/5x2.svg'), url('../images/5x2.svg');
     background-position: left top, right top;
@@ -224,12 +251,20 @@ a:hover {
   }
   #countcontent {
     width: 100%;
+    height: 100vh;
+    height: 100dvh;
     position: relative;
   }
   #countdownwrapper #countcontent img {
     width: 50%;
     margin-top: 9vh;
     margin-bottom: 7vh;
+  }
+  #countdownwrapper #countcontent #count {
+    position: absolute;
+    bottom: 5vh;
+    left: 0;
+    right: 0;
   }
   #countdownwrapper #countcontent p {
     color: #c30d23;
@@ -248,9 +283,26 @@ a:hover {
     margin-right: 20px;
     margin-left: 15px;
   }
-  #countdownwrapper #countcontent p:nth-child(3) {
+  #countdownwrapper #countcontent a:nth-child(3) {
+    border-radius: calc(28px + (100vw - 1080px) * 0.03);
+    display: inline-block;
+    line-height: calc(28px + (100vw - 1080px) * 0.03);
+    height: calc(28px + (100vw - 1080px) * 0.03);
+    padding: 0 calc(28px + (100vw - 1080px) * 0.03);
+    color: #ffffff;
+    background-color: #c30d23;
+    font-size: calc(16px + (100vw - 1080px) * 0.01);
+  }
+  #countdownwrapper #countcontent a:nth-child(5) {
+    font-size: calc(14px + (100vw - 1080px) * 0.01);
+    display: inline-block;
+    line-height: calc(21px + (100vw - 1080px) * 0.01);
+    height: calc(21px + (100vw - 1080px) * 0.01);
+    margin: calc(5px + (100vw - 1080px) * 0.01) 0 calc(15px + (100vw - 1080px) * 0.01) 0;
+  }
+  #countdownwrapper #countcontent p:nth-child(6) {
     font-size: calc(15px + (100vw - 1080px) * 0.01);
     position: relative;
-    bottom: 15px;
+    margin-bottom: calc(7px + (100vw - 1080px) * 0.01);
   }
 }
