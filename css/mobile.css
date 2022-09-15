@@ -344,12 +344,13 @@ animation-delay: 3.2s;
   position: relative;
 }
 #countdownwrapper #countcontent img {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   /* margin-top: calc(100vw / 8.5 / 2 * 3 + (100vh - 500px) / 7); */
   position: absolute;
   left: 0;
   right: 0;
-  bottom: calc(50vh - (100vh - 500px) / 30);
+  bottom: calc(50vh - (100vh - 500px) / 15);
 }
 #countdownwrapper #countcontent #count {
   position: absolute;

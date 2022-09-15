@@ -188,7 +188,7 @@ a:hover {
 }
 #countdownwrapper #countcontent img {
   width: 70%;
-  margin-top: 18vh;
+  margin-top: 16vh;
   margin-bottom: 9vh;
 }
 #countdownwrapper #countcontent #count {
@@ -205,34 +205,34 @@ a:hover {
   font-size: calc(25px + (100vh - 850px) * 0.01);
 }
 #countdownwrapper #countcontent p:nth-child(2) {
-  font-size: calc(30px + (100vh - 850px) * 0.1);
-  line-height: calc(80px + (100vh - 850px) * 0.2);
+  font-size: calc(25px + (100vh - 850px) * 0.1);
+  line-height: calc(70px + (100vh - 850px) * 0.2);
 }
 #countdownwrapper #countcontent p:nth-child(2) span {
-  font-size: calc(100px + (100vh - 850px) * 0.1);
+  font-size: calc(80px + (100vh - 850px) * 0.1);
   letter-spacing: -.03em;
   margin-right: 20px;
   margin-left: 15px;
 }
 #countdownwrapper #countcontent a:nth-child(3) {
-  border-radius: calc(33px + (100vh - 850px) * 0.03);
+  border-radius: calc(31px + (100vh - 850px) * 0.03);
   display: inline-block;
-  line-height: calc(33px + (100vh - 850px) * 0.03);
-  height: calc(33px + (100vh - 850px) * 0.03);
-  padding: 0 calc(33px + (100vh - 850px) * 0.03);
+  line-height: calc(31px + (100vh - 850px) * 0.03);
+  height: calc(31px + (100vh - 850px) * 0.03);
+  padding: 0 calc(31px + (100vh - 850px) * 0.03);
   color: #ffffff;
   background-color: #c30d23;
-  font-size: calc(21px + (100vh - 850px) * 0.01);
+  font-size: calc(19px + (100vh - 850px) * 0.01);
 }
 #countdownwrapper #countcontent a:nth-child(5) {
-  font-size: calc(19px + (100vh - 850px) * 0.01);
+  font-size: calc(17px + (100vh - 850px) * 0.01);
   display: inline-block;
-  line-height: calc(26px + (100vh - 850px) * 0.01);
-  height: calc(26px + (100vh - 850px) * 0.01);
+  line-height: calc(24px + (100vh - 850px) * 0.01);
+  height: calc(24px + (100vh - 850px) * 0.01);
   margin: calc(5px + (100vh - 850px) * 0.01) 0 calc(15px + (100vh - 850px) * 0.01) 0;
 }
 #countdownwrapper #countcontent p:nth-child(6) {
-  font-size: calc(20px + (100vh - 850px) * 0.01);
+  font-size: calc(18px + (100vh - 850px) * 0.01);
   position: relative;
   margin-bottom: calc(10px + (100vh - 850px) * 0.01);
 }
