@@ -167,8 +167,8 @@
 		<p>新型コロナウイルス感染症対策を行い運営されています</p>
 	</div>
 	<div id="siteinfo">
-		<div><a href="#">諫早市公式サイト↘</a></div>
-		<div><a href="#">JR九州公式サイト↘</a></div>
+		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↘</a></div>
+		<div><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">JR九州公式サイト↘</a></div>
 	</div>
 	<div id="event">
 		<p>主催：諫早市新幹線開業記念事業実行委員会</p>
@@ -189,7 +189,7 @@
 	</div>
 	<div id="area">
 		<div id="area01">
-			<p>関連イベントの個別案内</p>
+			<p>関連イベントのご案内</p>
 			<div class="swiper">
 			  <div class="swiper-wrapper">
 			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/gourmet_1.png"></div>
@@ -201,7 +201,7 @@
 		</div>
 	</div>
 	<div id="insta">
-		<div id="instatitle">公式インスタグラム<br><span>@kaitsu_gannen_isahaya</span></div>
+		<div id="instatitle">インスタグラム<br><span>@kaitsu_gannen_isahaya</span></div>
 		<div id="instacontent">
 			<?php
 			$instagram = null;
@@ -246,8 +246,8 @@
 				<li><a href="#">おみくじ</a></li>
 				<li><a href="#">利用規約</a></li>
 				<li><a href="#">プライバシーポリシー</a></li>
-				<li><a href="#">諫早市公式サイト</a></li>
-				<li><a href="#">西九州新幹線サイト</a></li>
+				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>
+				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
 			</ul>
 			<p><img src="images/link_like_logo.svg"></p>
 			<img id="footerimg02" src="images/shikansen_kamome.svg">
