@@ -33,11 +33,16 @@
 	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
 </head>
 <body>
- <div id="kekkawrapper" class="page">
-   <img class="kujikekka" src="">
-   <p><button onclick="drawKuji()">もう一度引く</button></p>
- </div>
-
+<div id="kekkawrapper" class="page">
+  <img src="images/start.png">
+  <p>開通祈願<span>おみくじ</span></p>
+  <div id="kekkacontent">
+    <div id="kekkabox">
+      <img class="kujikekka" src="">
+      <p><button onclick="drawKuji()">もう一度引く</button></p>
+    </div>
+  </div>
+</div>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

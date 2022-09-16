@@ -162,8 +162,8 @@
 		  </div>
 		</div>
 	</div>
-	<div id="c19" class="telop">
-		<p>新型コロナウイルス感染症対策を行い運営されています</p>
+	<div id="c19" class="loop_wrap">
+		<p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p>
 	</div>
 	<div id="siteinfo">
 		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↘</a></div>

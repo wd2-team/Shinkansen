@@ -262,21 +262,37 @@ animation-delay: 3.2s;
    0% { transform: translateX(0)    }
  100% { transform: translateX(-100%)}
 }
-.telop2 {
-  width : 100%;
-  overflow : hidden;
+.loop_wrap {
+  display: flex;
+  width: 100vw;
+  overflow: hidden;
 }
-.telop2 p {
-  margin: 0;
-  display : inline-block;
-  padding-left: 100%;
-  white-space : nowrap;
-  line-height : 1em;
-  animation : telop2Anime 20s linear infinite;
+.loop_wrap p {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding-left: 60px;
 }
-@keyframes telop2Anime{
-   0% { transform: translateX(-100%)    }
- 100% { transform: translateX(0)}
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+.loop_wrap p:nth-child(odd) {
+  animation: loop 50s -25s linear infinite;
+}
+.loop_wrap p:nth-child(even) {
+  animation: loop2 50s linear infinite;
 }
 
 /* .modal */
@@ -991,14 +1007,27 @@ footer #footerwrapper #footerimg02 {
 /* omikuji */
 #omikujiwrapper {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
-  background-image: url('../images/3x3.svg'), url('../images/3x3.svg');
+  background-image: url('../images/2x3.svg'), url('../images/2x3.svg');
   background-position: left top, left bottom;
   background-repeat: repeat-x, repeat-x;
-  background-size: 60px;
+  background-size: calc(100vw / 8.5);
 }
-
+#omikujiwrapper img {
+  width: 100%;
+  margin-top: calc(100vw / 8.5 / 2 * 3 + 10vw);
+}
+#kekkawrapper {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+}
+.kuji {
+ width: 200px;
+}
 .kujikekka {
  width: 200px;
 }

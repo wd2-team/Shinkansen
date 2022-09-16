@@ -143,46 +143,26 @@ button {
 }
 
 /* omikuji */
-/* body {
- background: white;
- height: 100vh;
+#omikujiwrapper {
+  width: 100%;
+  min-width: 1080px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+  background-image: url('../images/5x2.svg'), url('../images/5x2.svg');
+  background-position: left top, right top;
+  background-repeat: repeat-y, repeat-y;
+  background-size: calc(115 * (100vw / 1080));
 }
-h1 {
- font-size: 4rem;
- color: #eee;
- text-shadow: 3px 0 #252525;
-}
-button {
- font-size: 2rem;
- color: #ffc0cb;
- background-color: #f00;
- margin: 20px;
- padding: 5px;
- border-radius: 10px;
- transition-duration: 0.4s;
-}
-button:hover {
- color: #fff;
-}
-a {
- font-size: 2rem;
- color: #ffc0cb;
- background-color: #f00;
- margin: 20px;
- padding: 5px;
- border-radius: 10px;
- text-decoration: none;
- transition-duration: 0.4s;
-}
-a:hover {
- color: #fff;
+#omikujiwrapper img {
+  width: 37%;
 }
 .kuji {
  width: 200px;
 }
 .kujikekka {
  width: 200px;
-} */
+}
 
 /* #countdown */
 #countdownwrapper {
