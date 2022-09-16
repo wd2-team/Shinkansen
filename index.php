@@ -68,6 +68,7 @@
 		</div>
 	</div><!-- #topwrapper -->
 </div><!-- #indexwrapper -->
+<div id="sprecommended"></div>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

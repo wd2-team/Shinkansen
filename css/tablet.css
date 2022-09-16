@@ -112,6 +112,15 @@ button {
 .nondisplaysp {
   display: block;
 }
+#sprecommended {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 999999;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+}
 
 /* .page */
 .page {
@@ -125,6 +134,12 @@ button {
 #wrapper {
   position: relative;
   overflow: hidden;
+  display: none;
+}
+
+/* #indexwrapper */
+#indexwrapper {
+  display: none;
 }
 
 /* omikuji */

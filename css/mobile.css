@@ -121,6 +121,9 @@ button {
 img {
   width: 100%;
 }
+#sprecommended {
+  display: none;
+}
 
 /* アニメーション */
 .delay-time01{
