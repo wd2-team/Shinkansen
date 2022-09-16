@@ -37,32 +37,7 @@
 <body>
 <div id="wrapper">
 	<div id="headerblock">
-	<header class="blinkchouchin">
-		<!-- <div id="headchouchin1" class="blinkred">
-			<div class="headchouchin">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-			</div>
-			<p>9.23</p>
-		</div>
-		<div id="headchouchin2" class="blinkwhite">
-			<div class="headchouchin">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-			</div>
-			<p>9.24</p>
-		</div>
-		<div id="headchouchin3" class="blinkred">
-			<div class="headchouchin">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-				<img src="images/chouchin_shiro.svg">
-			</div>
-			<p>9.25</p>
-		</div> -->
-	</header>
+	<header class="blinkchouchin"></header>
 	<div id="headlink">
 		<label for="modal-trigger01">西九州新幹線かもめ</label>
 		<label for="modal-trigger02">開通元年イベント</label>
@@ -181,7 +156,7 @@
 		<p>記念ムービー</p>
 	</div>
 	<div id="movie">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="brochure">
 		<div id="brochuretitle">開通元年イベント総合案内</div>

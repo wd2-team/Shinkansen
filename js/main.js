@@ -42,9 +42,42 @@ $(function(){
      setTimeout(countDown, 60000);
    };
    countDown();
+
+   var $body = $('body');
+   var scrollTop;
+   function bodyFixedOn() {
+     scrollTop = $(window).scrollTop();
+     $body.css({
+       position: 'fixed',
+       top: -scrollTop
+     });
+   }
+   function bodyFixedOff() {
+     $body.css({
+       position: '',
+       top: ''
+     });
+     $(window).scrollTop(scrollTop);
+   }
+   $('input').click(function() {
+       $('input:checked').each(function() {
+           bodyFixedOn();
+       })
+       
+   })
+   $('.close').on('click', function() {
+     bodyFixedOff();
+   });
+   $('.modal-overlay').on('click', function() {
+     bodyFixedOff();
+   });
 });
 
-$('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
+// $('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
+
+
+  
+
 
 const mySwiper = new Swiper('.swiper', {
   loop: true,

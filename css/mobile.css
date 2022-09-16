@@ -53,7 +53,7 @@ border-spacing: 0;
 }
 html,
 body {
-	font-family: "凸版文久見出しゴシック StdN EB", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+	font-family: "平成角ゴシック", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 	background-color: #ffffff;
 	color: #000000;
 	width: 100vw;
@@ -628,10 +628,18 @@ header {
   height: 100%;
 }
 #guide label.guidelabel:nth-child(3) div {
-  background-image: url('../images/omikuji_waku.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50%;
+}
+#guide label.guidelabel:nth-child(3).blinkwhite div {
+  animation: blinkAnimeWaku 1.8s infinite alternate;
+}
+@keyframes blinkAnimeWaku {
+   0%{ background-image: url('../images/omikuji_waku.svg'); }
+  49%{ background-image: url('../images/omikuji_waku.svg'); }
+  51%{ background-image: url('../images/omikuji_waku_white.svg'); }
+ 100%{ background-image: url('../images/omikuji_waku_white.svg'); }
 }
 #guide label.guidelabel:first-child p,
 #guide label.guidelabel:nth-child(4) p {
