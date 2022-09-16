@@ -1025,6 +1025,51 @@ footer #footerwrapper #footerimg02 {
   min-height: 100dvh;
   position: relative;
 }
+#kekkawrapper #kekkacontent {
+  width: 100%;
+  position: relative;
+}
+#kekkawrapper #kekkacontent {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+#kekkawrapper #kekkacontent #kekkabox01 {
+  border: 3px solid #c30d23;
+  border-bottom: 1px solid #c30d23;
+}
+#kekkawrapper #kekkacontent #kekkabox01 #kekkabox01-01 {
+  border: 3px solid #c30d23;
+  margin: 3px;
+}
+#kekkawrapper #kekkacontent #kekkabox01 #kekkabox01-02 {
+  border: 3px solid #c30d23;
+  margin: 3px;
+}
+#kekkawrapper #kekkacontent #kekkabox02 {
+  border: 3px solid #c30d23;
+  border-top: 2px solid #c30d23;
+  border-bottom: 1px solid #c30d23;
+}
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-01 {
+  border: 3px solid #c30d23;
+  margin: 3px;
+}
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02 {
+  border: 3px solid #c30d23;
+  margin: 3px;
+}
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02>div {
+  border: 3px solid #c30d23;
+  margin: 3px;
+}
+#kekkawrapper #kekkacontent #kekkabox03 {
+  border: 3px solid #c30d23;
+  border-top: 2px solid #c30d23;
+}
+#kekkawrapper #kekkacontent a {
+  color: #c30d23;
+}
 .kuji {
  width: 200px;
 }

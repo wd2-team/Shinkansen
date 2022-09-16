@@ -37,7 +37,7 @@
 <body>
 <div id="omikujiwrapper" class="page">
  	<img src="images/kaitsu-gannen.svg">
-	<p><a href="kekka.php"><img src="images/kuji1.png"></a></p>
+	<p><a href="kekka.php"><img src="images/start.png"></a></p>
 </div>
 
 <script type="text/javascript" src="js/main.js"></script>

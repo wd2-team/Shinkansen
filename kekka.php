@@ -37,10 +37,29 @@
   <img src="images/start.png">
   <p>開通祈願<span>おみくじ</span></p>
   <div id="kekkacontent">
-    <div id="kekkabox">
-      <img class="kujikekka" src="">
-      <p><button onclick="drawKuji()">もう一度引く</button></p>
+    <div id="kekkabox01">
+      <div id="kekkabox01-01">
+        <img class="kujikekka" src="">
+      </div>
+      <div id="kekkabox01-02">
+        万事順調。諫早にはお米を食べて育つ<br>美味しい「諫美豚」がいるよ
+      </div>
     </div>
+    <div id="kekkabox02">
+      <div id="kekkabox02-01">ラッキースポット</div>
+      <div id="kekkabox02-02">
+        <div>
+          <p>ハートのイチョウ</p>
+          <p>飯盛ふれあい会館には<br>ハートの形をした銀杏の木があり<br>秋には黄色のハートが見れるよ</p>
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+      </div>
+    </div>
+    <div id="kekkabox03">
+      <p><button onclick="drawKuji()">もう一度挑戦する</button></p>
+    </div>
+    <a href="#">気運を高める<br>開通元年イベントはこちら↘</a>
+    <img src="images/shinkansen_kamome_moji.svg">
   </div>
 </div>
 <script type="text/javascript" src="js/main.js"></script>
