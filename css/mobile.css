@@ -296,6 +296,7 @@ animation-delay: 3.2s;
   box-shadow: 0 0 0 0;
   position: relative;
   width: 100%;
+  min-height: 100%;
 }
 .modal .modal-overlay .modal-wrap label.close {
   position: sticky;
@@ -687,6 +688,84 @@ header {
   height: 100%;
   writing-mode: vertical-rl;
   display: inline-block;
+}
+#modal03 .modal-overlay .modal-wrap {
+  background-image: url('../images/ichimatsu_red.png');
+  background-repeat: repeat;
+  background-size: 200px;
+}
+#modal03 #modal03-01 {
+  position: relative;
+  width: 100%;
+  top: -60px;
+}
+#modal03 #modal03-01 p {
+  color: #ffffff;
+  text-align: left;
+}
+#modal03 #modal03-01 p:first-child {
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 70px;
+  padding-bottom: 11px;
+}
+#modal03 #modal03-01 p:nth-child(2) {
+  font-size: 26px;
+  color: #FFEC00;
+  padding-left: 30px;
+}
+#modal03 #modal03-01 img:nth-child(3) {
+  margin: 50px 0 40px 0;
+}
+#modal03 #modal03-01 img:nth-child(4) {
+  margin-bottom: 40px;
+}
+#modal03 #modal03-01 table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#modal03 #modal03-01 table tr {
+  height: 27px;
+  line-height: 27px;
+}
+#modal03 #modal03-01 table th,
+#modal03 #modal03-01 table td {
+  border: solid 1px #ffffff;
+}
+#modal03 #modal03-01 table th:first-child,
+#modal03 #modal03-01 table th:nth-child(2) {
+  border-right: solid 1px #C30D23;
+}
+#modal03 #modal03-01 table th {
+  background-color: #ffffff;
+  color: #C30D23;
+}
+#modal03 #modal03-01 table td {
+  color: #ffffff;
+}
+#modal03 #modal03-01 table td:first-child {
+  padding-left: 18px;
+  text-align: left;
+}
+#modal03 #modal03-01 p:nth-child(6) {
+  padding-left: 5%;
+  margin: 10px 0 50px 0;
+}
+#modal03 #modal03-01 p:nth-child(7) {
+  padding-left: 5%;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 44px;
+}
+#modal03 #modal03-01 p:nth-child(8) {
+  padding-left: 5%;
+  font-size: 11px;
+  line-height: 20px;
+  padding-bottom: 113px;
+  margin-left:1em;
+  text-indent:-1em;
 }
 #c19 {
   position: relative;

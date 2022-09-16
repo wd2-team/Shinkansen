@@ -100,14 +100,35 @@
 		<label for="modal-trigger04" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
 		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></label>
 		<label for="modal-trigger06" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
-		<div class="modal">
+		<div id="modal03" class="modal">
 		  <input id="modal-trigger03" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
-		    <label for="modal-trigger03" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger03" class="close">&#10006;</label>
-		      <p>テキストテキストテキストテキストテキスト</p>
-		    </div>
+		  	<div class="modal-wrap">
+			    <label for="modal-trigger03" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			    <div id="modal03-01">
+			    	<p>当日は公共交通を利用しよう！</p>
+			    	<p>無料シャトルバスのご案内</p>
+			    	<img src="images/start.png">
+			    	<img src="images/start.png">
+			    	<table>
+						<tr>
+							<th>運行日</th><th>運行時間</th><th>台&emsp;&emsp;&emsp;数</th>
+						</tr>
+						<tr>
+							<td>９/２３(金・祝)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
+						</tr>
+						<tr>
+							<td>９/２４(土)</td><td>14:00〜17:00</td><td>小型バス２台で巡回</td>
+						</tr>
+						<tr>
+							<td>９/２５(日)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
+						</tr>
+					</table>
+					<p>各停留所を約１５分おきに発車します。</p>
+					<p>当日のイベントの移動のみにご利用いただけます。<br>ただし、新型コロナウイルス感染症対策の方針から<br>人数制限をする場合がございますので、その際は<br>ご協力ください。また、イベント目的以外の<br>乗車はご遠慮ください。</p>
+					<p>※当日は、会場地周辺は混雑が予想されますので、公共交通<br>機関でお越しください。なお、お車でお越しの場合は、<br>周辺の有料駐車場をご利用ください。</p>
+			    </div>
+			</div>
 		  </div>
 		</div>
 		<div class="modal">

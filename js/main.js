@@ -72,10 +72,6 @@ $(function(){
 
 // $('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
 
-
-  
-
-
 const mySwiper = new Swiper('.swiper', {
   loop: true,
   slidesPerView: 1,
