@@ -90,9 +90,9 @@
 	</div>
 	<div id="guide">
 		<label for="modal-trigger03" class="guidelabel blinkwhite"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
-		<label for="modal-trigger04" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
+		<label for="modal-trigger01" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
 		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></label>
-		<label for="modal-trigger06" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
+		<label for="modal-trigger02" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 		<div id="modal03" class="modal">
 		  <input id="modal-trigger03" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
@@ -125,31 +125,11 @@
 		  </div>
 		</div>
 		<div class="modal">
-		  <input id="modal-trigger04" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <label for="modal-trigger04" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger04" class="close">&#10006;</label>
-		      <p>テキストテキストテキストテキストテキスト</p>
-		    </div>
-		  </div>
-		</div>
-		<div class="modal">
 		  <input id="modal-trigger05" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
 		    <label for="modal-trigger05" class="o-close">&#10006;</label>
 		    <div class="modal-wrap a-center">
 		      <label for="modal-trigger05" class="close">&#10006;</label>
-		      <p>テキストテキストテキストテキストテキスト</p>
-		    </div>
-		  </div>
-		</div>
-		<div class="modal">
-		  <input id="modal-trigger06" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <label for="modal-trigger06" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger06" class="close">&#10006;</label>
 		      <p>テキストテキストテキストテキストテキスト</p>
 		    </div>
 		  </div>
@@ -235,7 +215,7 @@
 		<div id="footerwrapper">
 			<img id="footerimg01" src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
 			<ul>
-				<li><a href="#">おみくじ</a></li>
+				<li><a href="omikuji.php">おみくじ</a></li>
 				<li><a href="#">利用規約</a></li>
 				<li><a href="#">プライバシーポリシー</a></li>
 				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>

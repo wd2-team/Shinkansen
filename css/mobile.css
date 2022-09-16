@@ -816,6 +816,9 @@ header {
 #siteinfo div:nth-child(2) {
   border-left: 2px #ffffff solid;
 }
+#siteinfo div a {
+  display: block;
+}
 #event {
   position: relative;
   width: 100%;
