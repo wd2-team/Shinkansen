@@ -194,8 +194,7 @@ a:hover {
   margin-bottom: 5vh;
 }
 #countdownwrapper #countcontent #count {
-  position: absolute;
-  bottom: 5vh;
+  position: relative;
   left: 0;
   right: 0;
 }
