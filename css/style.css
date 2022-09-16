@@ -53,7 +53,7 @@ border-spacing: 0;
 }
 html,
 body {
-	font-family: "平成角ゴシック", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+	font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 	background-color: #ffffff;
 	color: #000000;
 	width: 100vw;
@@ -61,7 +61,7 @@ body {
 	margin: 0;
  	padding: 0;
 	font-size: 15px;
-  font-weight: 800;
+  font-weight: bold;
 	line-height: 20px;
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -196,7 +196,7 @@ button {
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
-  font-weight: 800;
+  font-weight: bold;
 }
 #countdownwrapper #countcontent p:first-child {
   font-size: calc(19px + (100vw - 1080px) * 0.01);

@@ -12,16 +12,9 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
-  	<script>
-  (function(d) {
-    var config = {
-      kitId: 'nje0qay',
-      scriptTimeout: 3000,
-      async: true
-    },
-    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f%7C%7Ca&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-  })(document);
-</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>

@@ -53,7 +53,7 @@ border-spacing: 0;
 }
 html,
 body {
-	font-family: "平成角ゴシック", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+	font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 	background-color: #ffffff;
 	color: #000000;
 	width: 100vw;
@@ -380,7 +380,7 @@ animation-delay: 3.2s;
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
-  font-weight: 800;
+  font-weight: bold;
 }
 #countdownwrapper #countcontent p:first-child {
   font-size: calc(25px + (100vh - 850px) * 0.03);
@@ -1024,6 +1024,14 @@ footer #footerwrapper #footerimg02 {
   min-height: 100vh;
   min-height: 100dvh;
   position: relative;
+  color: #c30d23;
+}
+#kekkawrapper> p {
+  font-size: 20px;
+  line-height: 35px;
+}
+#kekkawrapper> p span {
+  font-size: 32px;
 }
 #kekkawrapper #kekkacontent {
   width: 100%;
@@ -1045,6 +1053,9 @@ footer #footerwrapper #footerimg02 {
 #kekkawrapper #kekkacontent #kekkabox01 #kekkabox01-02 {
   border: 3px solid #c30d23;
   margin: 3px;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 25px 0;
 }
 #kekkawrapper #kekkacontent #kekkabox02 {
   border: 3px solid #c30d23;
@@ -1054,6 +1065,9 @@ footer #footerwrapper #footerimg02 {
 #kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-01 {
   border: 3px solid #c30d23;
   margin: 3px;
+  font-size: 18px;
+  letter-spacing: .4em;
+  line-height: 50px;
 }
 #kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02 {
   border: 3px solid #c30d23;
@@ -1063,12 +1077,43 @@ footer #footerwrapper #footerimg02 {
   border: 3px solid #c30d23;
   margin: 3px;
 }
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02>div p:first-child {
+  font-size: 15px;
+  line-height: 22px;
+  padding: 30px 0;
+}
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02>div p:nth-child(2) {
+  font-size: 13px;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02>div i {
+
+}
 #kekkawrapper #kekkacontent #kekkabox03 {
   border: 3px solid #c30d23;
   border-top: 2px solid #c30d23;
+  font-size: 30px;
+  line-height: 45px;
+}
+#kekkawrapper #kekkacontent #kekkabox03 p button {
+  font-size: 20px;
+  letter-spacing: .4em;
+  line-height: 50px;
+  color: #c30d23;
+  font-weight: bold;
 }
 #kekkawrapper #kekkacontent a {
   color: #c30d23;
+}
+#kekkawrapper #kekkacontent #kekkabox03 + a {
+  margin: 30px 0;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+}
+#kekkawrapper #kekkacontent #kekkabox03 + a + img {
+  width: 75%;
 }
 .kuji {
  width: 200px;
