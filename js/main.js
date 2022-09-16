@@ -85,15 +85,15 @@ const mySwiper = new Swiper('.swiper', {
 
 var beforePos = 0;
 function ScrollAnime() {
-    var elemTop = $('#mainimage').offset().top;
+  var elemTop = $('#mainimage').offset().top + 100;
   var scroll = $(window).scrollTop();
     if(scroll == beforePos) {
-    }else if(elemTop > scroll || 0 > scroll - beforePos){
-    $('#headerblock').removeClass('UpMove');
-    $('#headerblock').addClass('DownMove');
-    }else {
-        $('#headerblock').removeClass('DownMove');
-    $('#headerblock').addClass('UpMove');
+    } else if(elemTop > scroll || 0 > scroll - beforePos){
+      $('#headerblock').removeClass('UpMove');
+      $('#headerblock').addClass('DownMove');
+    } else {
+      $('#headerblock').removeClass('DownMove');
+      $('#headerblock').addClass('UpMove');
     }
     beforePos = scroll;
 }

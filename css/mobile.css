@@ -473,7 +473,7 @@ animation-delay: 3.2s;
 /* index */
 header {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: calc(70px + (100vw - 320px) / 4.5);
   border-bottom: 3px solid #ffffff;
   background-repeat: no-repeat;
@@ -631,7 +631,7 @@ header {
 }
 #guide label.guidelabel {
   position: relative;
-  width: calc(100% / 4);
+  width: calc(100vw / 4);
   height: 205px;
   font-size: 15px;
   line-height: 22px;
@@ -644,7 +644,7 @@ header {
 #guide label.guidelabel div {
   position: relative;
   writing-mode: vertical-rl;
-  width: 100%;
+  width: 25vw;
   height: 100%;
 }
 #guide label.guidelabel:nth-child(3) div {
