@@ -68,9 +68,6 @@ $(function(){
    $('.close').on('click', function() {
      bodyFixedOff();
    });
-   $('.modal-overlay').on('click', function() {
-     bodyFixedOff();
-   });
 });
 
 // $('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
