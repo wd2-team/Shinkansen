@@ -189,6 +189,25 @@
 		<div class="modal-wrap">
 			<label for="modal-trigger02" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
 			<div id="modal02-01">
+				<p>イベントのご案内</p>
+			</div>
+			<div id="modal02-02">
+				<img src="images/event_info-01.webp">
+			</div>
+			<div id="modal02-03">
+				<a href="#">各イベントのタイムテーブルはこちらから</a>
+			</div>
+			<div id="modal02-04">
+				<img src="images/event_info-04.webp">
+				<a href="#">各イベントのタイムテーブルはこちらから</a>
+			</div>
+			<div id="modal02-05">
+				<img src="images/event_info-03.webp">
+				<a href="#">各イベントのタイムテーブルはこちらから</a>
+			</div>
+			<div id="modal02-06">
+				<img src="images/event_info-02.webp">
+				<a href="#">各イベントのタイムテーブルはこちらから</a>
 			</div>
 		</div>
 	</div>
