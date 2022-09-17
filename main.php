@@ -150,7 +150,7 @@
 			<div id="modal01-02">
 				<p class="modal01title01">西九州新幹線かもめ</p>
 				<p>西九州新幹線「かもめ」<br>車両は「N700S」という最新型で、<br>デザインは白を基調とし、最上級車両をイメージする<br>ゴールドの文字やロゴを使用。<br>JR九州のシンボルカラーの赤を配置することで、<br>九州から各地へ風を吹かせるという思いが込められています。</p>
-				<img src="images/kamome.svg" alt="新幹線画像">
+				<img src="images/kamome.webp" alt="新幹線画像">
 				<div id="modal01-02img">
 					<img src="images/seat.jpg" alt="座席写真１">
 					<img src="images/seat2.jpg" alt="座席写真２">
