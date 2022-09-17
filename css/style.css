@@ -61,7 +61,7 @@ body {
 	margin: 0;
  	padding: 0;
 	font-size: 15px;
-  font-weight: bold;
+  font-weight: 900;
 	line-height: 20px;
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -196,7 +196,7 @@ button {
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
-  font-weight: bold;
+  font-weight: 900;
 }
 #countdownwrapper #countcontent p:first-child {
   font-size: calc(19px + (100vw - 1080px) * 0.01);

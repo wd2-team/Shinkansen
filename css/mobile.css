@@ -61,7 +61,7 @@ body {
 	margin: 0;
  	padding: 0;
 	font-size: 15px;
-  font-weight: bold!important;
+  font-weight: 900!important;
 	line-height: 20px;
   letter-spacing: 0.1em;
 	text-align: center;
@@ -560,6 +560,40 @@ animation-delay: 3.2s;
   margin-left:1em;
   text-indent:-1em;
 }
+#modal04 #modal04-01 {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  color: #C30D23;
+  font-size: 18px;
+}
+#modal04 #modal04-02 {
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  background-color: #C30D23;
+}
+#modal04 #modal04-02 p:first-child {
+  padding-top: 74px;
+}
+#modal04 #modal04-02 p:nth-last-child(2) {
+  margin-bottom: 30px;
+}
+#modal04 #modal04-02 p.modal04-02content:last-child {
+  padding-bottom: 92px;
+  margin-bottom: 0;
+}
+#modal04 #modal04-02 p.modal04-02content {
+  font-size: 11px;
+  line-height: 21px;
+  margin-bottom: 70px;
+}
+#modal04 #modal04-02 p.modal04-02title {
+  font-size: 12px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
 
 /* .page */
 .page {
@@ -610,7 +644,7 @@ animation-delay: 3.2s;
 }
 #countdownwrapper #countcontent p {
   color: #c30d23;
-  font-weight: bold;
+  font-weight: 900;
 }
 #countdownwrapper #countcontent p:first-child {
   font-size: calc(25px + (100vh - 850px) * 0.03);
@@ -789,7 +823,8 @@ header {
   width: 100%;
   letter-spacing: -.4em;
 }
-#guide label.guidelabel {
+#guide label.guidelabel,
+#guide a.guidelabel {
   position: relative;
   width: calc(100vw / 4);
   height: 205px;
@@ -801,18 +836,20 @@ header {
   border-bottom: 3px solid #c30d23;
 }
 #guide label.guidelabel p,
-#guide label.guidelabel div {
+#guide label.guidelabel div,
+#guide a.guidelabel p,
+#guide a.guidelabel div {
   position: relative;
   writing-mode: vertical-rl;
   width: 25vw;
   height: 100%;
 }
-#guide label.guidelabel:nth-child(3) div {
+#guide a.guidelabel div {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50%;
 }
-#guide label.guidelabel:nth-child(3).blinkwhite div {
+#guide a.guidelabel.blinkwhite div {
   animation: blinkAnimeWaku 1.8s infinite alternate;
 }
 @keyframes blinkAnimeWaku {
@@ -838,15 +875,15 @@ header {
   position: relative;
   bottom: -50px;
 }
-#guide label.guidelabel:nth-child(3)>div>span:first-child {
+#guide a.guidelabel>div>span:first-child {
   position: relative;
   top: -10px;
 }
-#guide label.guidelabel:nth-child(3)>div>span:first-child,
-#guide label.guidelabel:nth-child(3)>div>span:nth-child(3) {
+#guide a.guidelabel>div>span:first-child,
+#guide a.guidelabel>div>span:nth-child(3) {
   font-size: 13px;
 }
-#guide label.guidelabel:nth-child(3) span {
+#guide a.guidelabel span {
   width: 100%;
   height: 10px;
   writing-mode: horizontal-tb;
@@ -855,14 +892,14 @@ header {
 /* #guide label.guidelabel:nth-child(3) span:first-child {
   height: 15px;
 } */
-#guide label.guidelabel:nth-child(3) p {
+#guide a.guidelabel p {
   width: 60%;
   /* border: 3px solid; */
   height: 134px;
   display: inline-block;
   /* padding-right: calc((25vw + 6px) / 2 - 16px - 5vw); */
 }
-#guide label.guidelabel:nth-child(3) p span {
+#guide a.guidelabel p span {
   width: 100%;
   height: 100%;
   writing-mode: vertical-rl;
@@ -1076,6 +1113,12 @@ footer #footerwrapper ul li a {
   display: inline-block;
   margin: 10px;
 }
+footer #footerwrapper ul li label {
+  color: #c30d23;
+  font-size: 13px;
+  display: inline-block;
+  margin: 10px;
+}
 footer #footerwrapper p {
   position: relative;
   margin-top: 80px;
@@ -1186,7 +1229,7 @@ footer #footerwrapper #footerimg02 {
   letter-spacing: .4em;
   line-height: 50px;
   color: #c30d23;
-  font-weight: bold;
+  font-weight: 900;
 }
 #kekkawrapper #kekkacontent a {
   color: #c30d23;

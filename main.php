@@ -14,7 +14,7 @@
   	crossorigin="anonymous"></script>
   	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="css/modal.css">
   	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
@@ -54,7 +54,7 @@
 	<div id="guide">
 		<label for="modal-trigger03" class="guidelabel blinkwhite"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
 		<label for="modal-trigger01" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
-		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></label>
+		<a href="omikuji.php" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></a>
 		<label for="modal-trigger02" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">
@@ -138,7 +138,7 @@
 			<img id="footerimg01" src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
 			<ul>
 				<li><a href="omikuji.php">おみくじ</a></li>
-				<li><a href="#">プライバシーポリシー</a></li>
+				<li><label for="modal-trigger04">プライバシーポリシー</label></li>
 				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>
 				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
 			</ul>
@@ -243,12 +243,66 @@
 		</div>
 	</div>
 </div>
-<div id="modal05" class="modal">
-	<input id="modal-trigger05" class="checkbox" type="checkbox">
+<div id="modal04" class="modal">
+	<input id="modal-trigger04" class="checkbox" type="checkbox">
 	<div class="modal-overlay">
 		<div class="modal-wrap">
-			<label for="modal-trigger05" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
-			<div id="modal05-01">
+			<label for="modal-trigger04" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			<div id="modal04-01">
+				プライバシーポリシー
+			</div>
+			<div id="modal04-02">
+				<p class="modal04-02content">
+					諫早市新幹線開業記念事業実行委員会（以下、「当委員会」）は、<br>高度情報通信社会において個人情報を適切に管理し<br>保護することが社会的責務であると認識し、<br>以下の指針に基づいて適切な管理及び運営に努めます。
+				</p>
+				<p class="modal04-02title">
+					法令の遵守について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、確実な個人情報保護の実現のため、<br>個人情報の保護に関する法律等の関連法令を遵守いたします。
+				</p>
+				<p class="modal04-02title">
+					個人情報の取得について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、個人情報を収集する場合は、<br>利用目的を明確にした上で、その目的達成に必要な範囲内で、<br>適法かつ公正な方法により行います。
+				</p>
+				<p class="modal04-02title">
+					個人情報の利用目的について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、お客様・お取引関係者等の個人情報について、<br>1）お客様に営業情報を提供するため、<br>2）当協会の事業目的に係わる業務を履行するため、<br>3）お客様に提供した当該業務のアフターケア・<br>実績管理を行うために利用します。
+				</p>
+				<p class="modal04-02title">
+					個人情報の管理について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、個人情報の正確性を保ち、これを安全に管理します。<br>当委員会は、個人情報への不正侵入、個人情報の紛失、破壊、<br>改ざん及び漏洩などを防止するため、<br>適正な情報セキュリティ対策を講じます。
+				</p>
+				<p class="modal04-02title">
+					個人情報の第三者提供について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、法令に定める場合を除き、<br>個人情報を、事前に本人の同意を得ることなく、<br>第三者に提供しません。
+				</p>
+				<p class="modal04-02title">
+					個人情報の開示・訂正・利用停止・削除について
+				</p>
+				<p class="modal04-02content">
+					当委員会は、ご提供いただきました個人情報について、<br>ご本人より自己情報の開示・訂正・利用停止・削除等の<br>ご依頼があった場合は、ご本人を確認した上で<br>合理的な範囲で速やかに対応させていただきます。
+				</p>
+				<p class="modal04-02title">
+					問い合わせ窓口について
+				</p>
+				<p class="modal04-02content">
+					当委員会の個人情報の取り扱いにつきまして、<br>ご意見、ご質問、ご要望等がございましたら、<br>下記までご連絡下さるようお願いいたします。
+				</p>
+				<p class="modal04-02content">
+					主催：諫早市新幹線開業記念事業実行委員会
+				</p>
+				<p class="modal04-02content">
+					諫早市役所　経済交流部　商工観光課<br>〒854-8601　長崎県諫早市東小路町7-1（本庁・本館6階）<br>TEL：0957-22-1500　FAX：0957-22-2462 
+				</p>
 			</div>
 		</div>
 	</div>
