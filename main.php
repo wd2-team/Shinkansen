@@ -39,7 +39,7 @@
 <body>
 <div id="wrapper">
 	<div id="headerblock">
-	<header class="blinkchouchin"></header>
+	<header></header>
 	<div id="headlink">
 		<label for="modal-trigger01">西九州新幹線かもめ</label>
 		<label for="modal-trigger02">開通元年イベント</label>
@@ -52,10 +52,10 @@
 		<p>9月23日･24日･25日 ／ 諫早市内の各会場で開催</p>
 	</div>
 	<div id="guide">
-		<label for="modal-trigger03" class="guidelabel blinkwhite"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
-		<label for="modal-trigger01" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
-		<a href="omikuji.php" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></a>
-		<label for="modal-trigger02" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
+		<label for="modal-trigger03" class="guidelabel"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
+		<label for="modal-trigger01" class="guidelabel"><p>西九州新幹線かもめ</p></label>
+		<a href="omikuji.php" class="guidelabel"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></a>
+		<label for="modal-trigger02" class="guidelabel"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">
 		<p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p>
