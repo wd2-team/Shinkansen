@@ -709,7 +709,7 @@ header {
   display: inline-block;
 }
 #modal03 .modal-overlay .modal-wrap {
-  background-image: url('../images/ichimatsu_red.png');
+  background-image: url('../images/ichimatsu_red.svg');
   background-repeat: repeat;
   background-size: 200px;
 }
