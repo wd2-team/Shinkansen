@@ -195,19 +195,19 @@
 				<img src="images/event_info-01.webp">
 			</div>
 			<div id="modal02-03">
-				<a href="images/kaitsu_gannen_isahaya_event.pdf">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-04">
 				<img src="images/event_info-04.webp">
-				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=2">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf#page=2">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-05">
 				<img src="images/event_info-03.webp">
-				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=3">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf#page=3">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-06">
 				<img src="images/event_info-02.webp">
-				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=4">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf#page=4">各イベントのタイムテーブルはこちらから</a>
 			</div>
 		</div>
 	</div>
