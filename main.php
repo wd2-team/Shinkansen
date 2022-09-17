@@ -34,52 +34,6 @@
 	<div id="headlink">
 		<label for="modal-trigger01">西九州新幹線かもめ</label>
 		<label for="modal-trigger02">開通元年イベント</label>
-		<div id="modal01" class="modal">
-		  <input id="modal-trigger01" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <div class="modal-wrap">
-		      <label for="modal-trigger01" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
-		      <div id="modal01-01">
-		      	<img src="images/isahaya.png" alt="諫早駅の写真">
-		      	<img src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
-		      </div>
-		      <div id="modal01-02">
-		      	<p class="modal01title01">西九州新幹線かもめ</p>
-		      	<p>西九州新幹線「かもめ」<br>車両は「N700S」という最新型で、<br>デザインは白を基調とし、最上級車両をイメージする<br>ゴールドの文字やロゴを使用。<br>JR九州のシンボルカラーの赤を配置することで、<br>九州から各地へ風を吹かせるという思いが込められています。</p>
-		      	<img src="images/kamome.svg" alt="新幹線画像">
-		      	<div id="modal01-02img">
-			      	<img src="images/seat.jpg" alt="座席写真１">
-					<img src="images/seat2.jpg" alt="座席写真２">
-				</div>
-		      </div>
-		      <div id="modal01-03">
-		      	<img id="modal01-03back" src="images/tizu.svg">
-		      	<p class="modal01title02">諫早市に2022年9月23日<br>いよいよ西九州新幹線がくる</p>
-		      	<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
-		      	<p class="modal01title02">長崎~博多間の<br>所要時間が約30分短縮</p>
-		      	<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
-		      	<img src="images/norikae.svg" alt="短縮時間参考画像">
-		      	<p class="modal01title02">新幹線かもめが見れる<br>諫早のおすすめスポットを紹介</p>
-		      	<p>諫早市内で新幹線かもめを近くで見れる<br>下記の３つのおすすめスポット。<br>新幹線の迫力を目の前で楽しみましょう。<br>※周辺道路での停車・駐車はご遠慮ください</p>
-		      	<div id="modal01-03img">
-		      		<img src="images/start.png" alt="画像の説明"><span>宇都町交差点付近</span>
-		      		<img src="images/start.png" alt="画像の説明"><span>諫早税務署付近高架橋</span>
-		      		<img src="images/start.png" alt="画像の説明"><span>スターバックス諫早駅店</span>
-		      	</div>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<div class="modal">
-		  <input id="modal-trigger02" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <div class="modal-wrap">
-		      <label for="modal-trigger02" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
-		      <div id="modal02-01">
-		      </div>
-		    </div>
-		  </div>
-		</div>
 	</div>
 	</div>
 	<div id="mainimage">
@@ -93,47 +47,6 @@
 		<label for="modal-trigger01" class="guidelabel blinkred"><p>西九州新幹線かもめ</p></label>
 		<label for="modal-trigger05" class="guidelabel blinkwhite"><div><span>諫早市限定</span><p><span>おみくじ</span></p><span>開通祈願</span></div></label>
 		<label for="modal-trigger02" class="guidelabel blinkred"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
-		<div id="modal03" class="modal">
-		  <input id="modal-trigger03" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		  	<div class="modal-wrap">
-			    <label for="modal-trigger03" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
-			    <div id="modal03-01">
-			    	<p>当日は公共交通を利用しよう！</p>
-			    	<p>無料シャトルバスのご案内</p>
-			    	<img src="images/start.png">
-			    	<img src="images/start.png">
-			    	<table>
-						<tr>
-							<th>運行日</th><th>運行時間</th><th>台&emsp;&emsp;&emsp;数</th>
-						</tr>
-						<tr>
-							<td>９/２３(金・祝)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
-						</tr>
-						<tr>
-							<td>９/２４(土)</td><td>14:00〜17:00</td><td>小型バス２台で巡回</td>
-						</tr>
-						<tr>
-							<td>９/２５(日)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
-						</tr>
-					</table>
-					<p>各停留所を約１５分おきに発車します。</p>
-					<p>当日のイベントの移動のみにご利用いただけます。<br>ただし、新型コロナウイルス感染症対策の方針から<br>人数制限をする場合がございますので、その際は<br>ご協力ください。また、イベント目的以外の<br>乗車はご遠慮ください。</p>
-					<p>※当日は、会場地周辺は混雑が予想されますので、公共交通<br>機関でお越しください。なお、お車でお越しの場合は、<br>周辺の有料駐車場をご利用ください。</p>
-			    </div>
-			</div>
-		  </div>
-		</div>
-		<div class="modal">
-		  <input id="modal-trigger05" class="checkbox" type="checkbox">
-		  <div class="modal-overlay">
-		    <label for="modal-trigger05" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger05" class="close">&#10006;</label>
-		      <p>テキストテキストテキストテキストテキスト</p>
-		    </div>
-		  </div>
-		</div>
 	</div>
 	<div id="c19" class="loop_wrap">
 		<p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p>
@@ -226,6 +139,93 @@
 		</div>
 	</footer>
 </div><!-- #wrapper -->
+<div id="modal01" class="modal">
+	<input id="modal-trigger01" class="checkbox" type="checkbox">
+	<div class="modal-overlay">
+		<div class="modal-wrap">
+			<label for="modal-trigger01" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			<div id="modal01-01">
+				<img src="images/isahaya.png" alt="諫早駅の写真">
+				<img src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
+			</div>
+			<div id="modal01-02">
+				<p class="modal01title01">西九州新幹線かもめ</p>
+				<p>西九州新幹線「かもめ」<br>車両は「N700S」という最新型で、<br>デザインは白を基調とし、最上級車両をイメージする<br>ゴールドの文字やロゴを使用。<br>JR九州のシンボルカラーの赤を配置することで、<br>九州から各地へ風を吹かせるという思いが込められています。</p>
+				<img src="images/kamome.svg" alt="新幹線画像">
+				<div id="modal01-02img">
+					<img src="images/seat.jpg" alt="座席写真１">
+					<img src="images/seat2.jpg" alt="座席写真２">
+				</div>
+			</div>
+			<div id="modal01-03">
+				<img id="modal01-03back" src="images/tizu.svg">
+				<p class="modal01title02">諫早市に2022年9月23日<br>いよいよ西九州新幹線がくる</p>
+				<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
+				<p class="modal01title02">長崎~博多間の<br>所要時間が約30分短縮</p>
+				<p>西九州新幹線とは、武雄温泉ー長崎区間の路線名称です。<br>2022年9月23日の開業を契機に、長崎県・佐賀県各地の<br>皆様の生活利便性の向上や、魅力ある観光ルートの新しい<br>構築や活性化が期待されています。</p>
+				<img src="images/norikae.svg" alt="短縮時間参考画像">
+				<p class="modal01title02">新幹線かもめが見れる<br>諫早のおすすめスポットを紹介</p>
+				<p>諫早市内で新幹線かもめを近くで見れる<br>下記の３つのおすすめスポット。<br>新幹線の迫力を目の前で楽しみましょう。<br>※周辺道路での停車・駐車はご遠慮ください</p>
+				<div id="modal01-03img">
+					<img src="images/start.png" alt="画像の説明"><span>宇都町交差点付近</span>
+					<img src="images/start.png" alt="画像の説明"><span>諫早税務署付近高架橋</span>
+					<img src="images/start.png" alt="画像の説明"><span>スターバックス諫早駅店</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="modal02" class="modal">
+	<input id="modal-trigger02" class="checkbox" type="checkbox">
+	<div class="modal-overlay">
+		<div class="modal-wrap">
+			<label for="modal-trigger02" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			<div id="modal02-01">
+			</div>
+		</div>
+	</div>
+</div>
+<div id="modal03" class="modal">
+	<input id="modal-trigger03" class="checkbox" type="checkbox">
+	<div class="modal-overlay">
+		<div class="modal-wrap">
+			<label for="modal-trigger03" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			<div id="modal03-01">
+				<p>当日は公共交通を利用しよう！</p>
+				<p>無料シャトルバスのご案内</p>
+				<img src="images/start.png">
+				<img src="images/start.png">
+				<table>
+					<tr>
+						<th>運行日</th><th>運行時間</th><th>台&emsp;&emsp;&emsp;数</th>
+					</tr>
+					<tr>
+						<td>９/２３(金・祝)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
+					</tr>
+					<tr>
+						<td>９/２４(土)</td><td>14:00〜17:00</td><td>小型バス２台で巡回</td>
+					</tr>
+					<tr>
+						<td>９/２５(日)</td><td>11:00〜17:00</td><td>大型バス３台で巡回</td>
+					</tr>
+				</table>
+				<p>各停留所を約１５分おきに発車します。</p>
+				<p>当日のイベントの移動のみにご利用いただけます。<br>ただし、新型コロナウイルス感染症対策の方針から<br>人数制限をする場合がございますので、その際は<br>ご協力ください。また、イベント目的以外の<br>乗車はご遠慮ください。</p>
+				<p>※当日は、会場地周辺は混雑が予想されますので、公共交通<br>機関でお越しください。なお、お車でお越しの場合は、<br>周辺の有料駐車場をご利用ください。</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="modal05" class="modal">
+	<input id="modal-trigger05" class="checkbox" type="checkbox">
+	<div class="modal-overlay">
+		<div class="modal-wrap">
+			<label for="modal-trigger05" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+			<div id="modal05-01">
+			</div>
+		</div>
+	</div>
+</div>
 <div id="sprecommended"></div>
 <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
