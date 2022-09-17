@@ -86,9 +86,9 @@
 			<p>関連イベントのご案内</p>
 			<div class="swiper">
 			  <div class="swiper-wrapper">
-			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/gourmet_1.webp" alt="グルメフェス広告１"></div>
-			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/gourmet_2.webp" alt="グルメフェス広告２"></div>
-			    <div class="swiper-slide"><img class="swiperitem dropshadow" src="images/konchu.webp" alt="昆虫ランドポスター"></div>
+			    <div class="swiper-slide"><a href="images/gourmet_1.webp"><img class="swiperitem dropshadow" src="images/gourmet_1.webp" alt="グルメフェス広告１"></a></div>
+			    <div class="swiper-slide"><a href="images/gourmet_2.webp"><img class="swiperitem dropshadow" src="images/gourmet_2.webp" alt="グルメフェス広告２"></a></div>
+			    <div class="swiper-slide"><a href="images/konchu.webp"><img class="swiperitem dropshadow" src="images/konchu.webp" alt="昆虫ランドポスター"></a></div>
 			  </div>
 			  <div class="swiper-pagination"></div>
 			</div>
