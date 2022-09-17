@@ -73,10 +73,10 @@
 		<div class="modal">
 		  <input id="modal-trigger02" class="checkbox" type="checkbox">
 		  <div class="modal-overlay">
-		    <label for="modal-trigger02" class="o-close">&#10006;</label>
-		    <div class="modal-wrap a-center">
-		      <label for="modal-trigger02" class="close">&#10006;</label>
-		      <p>テキストテキストテキストテキストテキスト</p>
+		    <div class="modal-wrap">
+		      <label for="modal-trigger02" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
+		      <div id="modal02-01">
+		      </div>
 		    </div>
 		  </div>
 		</div>
