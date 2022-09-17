@@ -46,7 +46,7 @@
 		      <div id="modal01-02">
 		      	<p class="modal01title01">西九州新幹線かもめ</p>
 		      	<p>西九州新幹線「かもめ」<br>車両は「N700S」という最新型で、<br>デザインは白を基調とし、最上級車両をイメージする<br>ゴールドの文字やロゴを使用。<br>JR九州のシンボルカラーの赤を配置することで、<br>九州から各地へ風を吹かせるという思いが込められています。</p>
-		      	<img src="images/kamome.svg" alt="新幹線画像">
+		      	<img src="images/kamome.webp" alt="新幹線画像">
 		      	<div id="modal01-02img">
 			      	<img src="images/seat.jpg" alt="座席写真１">
 					<img src="images/seat2.jpg" alt="座席写真２">
@@ -62,9 +62,9 @@
 		      	<p class="modal01title02">新幹線かもめが見れる<br>諫早のおすすめスポットを紹介</p>
 		      	<p>諫早市内で新幹線かもめを近くで見れる<br>下記の３つのおすすめスポット。<br>新幹線の迫力を目の前で楽しみましょう。<br>※周辺道路での停車・駐車はご遠慮ください</p>
 		      	<div id="modal01-03img">
-		      		<img src="images/start.png" alt="画像の説明"><span>宇都町交差点付近</span>
-		      		<img src="images/start.png" alt="画像の説明"><span>諫早税務署付近高架橋</span>
-		      		<img src="images/start.png" alt="画像の説明"><span>スターバックス諫早駅店</span>
+		      		<img src="images/spot_photo_02.webp" alt="宇都町交差点付近"><span>宇都町交差点付近</span>
+		      		<img src="images/spot_photo_01.webp" alt="諫早税務署付近高架橋<"><span>諫早税務署付近高架橋</span>
+		      		<img src="images/spot_photo_03.webp" alt="スターバックス諫早駅店"><span>スターバックス諫早駅店</span>
 		      	</div>
 		      </div>
 		    </div>
@@ -216,7 +216,7 @@
 			<img id="footerimg01" src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
 			<ul>
 				<li><a href="omikuji.php">おみくじ</a></li>
-				<li><a href="#">利用規約</a></li>
+				<!-- <li><a href="#">利用規約</a></li> -->
 				<li><a href="#">プライバシーポリシー</a></li>
 				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>
 				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
