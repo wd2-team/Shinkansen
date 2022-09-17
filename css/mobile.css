@@ -836,6 +836,9 @@ header {
   border-top: 3px solid #c30d23;
   border-bottom: 3px solid #c30d23;
 }
+#guide a.guidelabel {
+  pointer-events: none;
+}
 #guide label.guidelabel:nth-child(odd),
 #guide a.guidelabel:nth-child(odd) {
   background-color: #ffffff;
