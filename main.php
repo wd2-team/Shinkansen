@@ -101,8 +101,8 @@
 			    <div id="modal03-01">
 			    	<p>当日は公共交通を利用しよう！</p>
 			    	<p>無料シャトルバスのご案内</p>
-			    	<img src="images/start.png">
-			    	<img src="images/start.png">
+			    	<img src="images/basu.svg">
+			    	<img src="images/jyunkai.svg">
 			    	<table>
 						<tr>
 							<th>運行日</th><th>運行時間</th><th>台&emsp;&emsp;&emsp;数</th>
