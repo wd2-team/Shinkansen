@@ -129,7 +129,6 @@
 			<img id="footerimg01" src="images/kaitsu_type_b.svg" alt="開通元年ロゴ">
 			<ul>
 				<li><a href="omikuji.php">おみくじ</a></li>
-				<li><a href="#">利用規約</a></li>
 				<li><a href="#">プライバシーポリシー</a></li>
 				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>
 				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
