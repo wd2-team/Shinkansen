@@ -143,7 +143,7 @@
 				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
 			</ul>
 			<p><img src="images/link_like_logo.svg" alt="諫早とLINK"></p>
-			<img id="footerimg02" src="images/shikansen_kamome.svg" alt="新幹線シルエット">
+			<img id="footerimg02" src="images/shinkansen_kamome_moji.svg" alt="新幹線シルエット">
 		</div>
 	</footer>
 </div><!-- #wrapper -->
@@ -195,19 +195,19 @@
 				<img src="images/event_info-01.webp">
 			</div>
 			<div id="modal02-03">
-				<a href="#">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_event.pdf">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-04">
 				<img src="images/event_info-04.webp">
-				<a href="#">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=2">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-05">
 				<img src="images/event_info-03.webp">
-				<a href="#">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=3">各イベントのタイムテーブルはこちらから</a>
 			</div>
 			<div id="modal02-06">
 				<img src="images/event_info-02.webp">
-				<a href="#">各イベントのタイムテーブルはこちらから</a>
+				<a href="images/kaitsu_gannen_isahaya_event.pdf#page=4">各イベントのタイムテーブルはこちらから</a>
 			</div>
 		</div>
 	</div>
