@@ -25,6 +25,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <?php endif; ?>
 	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EDLBVBGQ6D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EDLBVBGQ6D');
+</script>
 </head>
 <body>
 <div id="countdownwrapper" class="page">
