@@ -331,6 +331,236 @@ animation-delay: 3.2s;
   height: 60px;
 }
 
+#modal01 #modal01-01 {
+  position: relative;
+  width: 100%;
+  top: -60px;
+}
+#modal01 #modal01-01 img:first-child {
+  width: 100%;
+}
+#modal01 #modal01-01 img:nth-child(2) {
+  width: 70%;
+  position: relative;
+  top: -50px;
+}
+#modal01 #modal01-02 {
+  position: relative;
+  width: 100%;
+}
+#modal01 #modal01-02 p.modal01title01 {
+  font-size: 36px;
+  color: #C30D23;
+  margin-bottom: 28px;
+}
+#modal01 #modal01-02 p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+#modal01 #modal01-02 img {
+  width: 100%;
+}
+#modal01 #modal01-02 #modal01-02img {
+  letter-spacing: -.4em;
+  width: 100%;
+}
+#modal01 #modal01-02 #modal01-02img img {
+  letter-spacing: normal;
+  width: 50%;
+  display: inline-block;
+}
+#modal01 #modal01-03 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#modal01 #modal01-03 img#modal01-03back {
+  position: absolute;
+  z-index: -1;
+  width: 200%;
+  top: 82px;
+  left: 52px;
+}
+#modal01 #modal01-03 p.modal01title02 {
+  font-size: 23px;
+  line-height: 31px;
+  color: #C30D23;
+  margin-bottom: 28px;
+}
+#modal01 #modal01-03 p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+#modal01 #modal01-03 #modal01-03img img {
+  width: 75%;
+}
+#modal01 #modal01-03 #modal01-03img span {
+  display: block;
+}
+#modal02 #modal02-01 {
+  position: relative;
+  width: 100%;
+  height: 102px;
+  margin-top: -60px;
+}
+#modal02 #modal02-01 p {
+  height: 100%;
+  background-color: #C30D23;
+  color: #ffffff;
+  line-height: 132px;
+  font-size: 18px;
+}
+#modal02 #modal02-01 img,
+#modal02 #modal02-04 img,
+#modal02 #modal02-05 img,
+#modal02 #modal02-06 img {
+  width: 100%;
+}
+#modal02 a {
+  font-size: 15px;
+  line-height: 33px;
+  display: block;
+  width: 96vw;
+  margin: 0 auto;
+  height: 33px;
+  border-radius: 3vw;
+}
+#modal02 #modal02-02 {
+  position: relative;
+  width: 100%;
+  height: calc(166 / 125 * 100vw);
+}
+#modal02 #modal02-03 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 18px;
+}
+#modal02 #modal02-03 a {
+  color: #ffffff;
+  background-color: #C30D23;
+}
+#modal02 #modal02-04 {
+  position: relative;
+  width: 100%;
+  height: calc(197 / 125 * 100vw);
+}
+#modal02 #modal02-04 a {
+  color: #3BA77A;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 29px;
+  left: 0;
+  right: 0;
+}
+#modal02 #modal02-05 {
+  position: relative;
+  width: 100%;
+  height: calc(197 / 125 * 100vw);
+}
+#modal02 #modal02-05 a {
+  color: #2F96CC;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 27px;
+  left: 0;
+  right: 0;
+}
+#modal02 #modal02-06 {
+  position: relative;
+  width: 100%;
+  height: calc(207 / 125 * 100vw);
+}
+#modal02 #modal02-06 a {
+  color: #E03B5D;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+#modal03 .modal-overlay .modal-wrap {
+  background-image: url('../images/ichimatsu_red.png');
+  background-repeat: repeat;
+  background-size: 200px;
+}
+#modal03 #modal03-01 {
+  position: relative;
+  width: 100%;
+  top: -60px;
+}
+#modal03 #modal03-01 p {
+  color: #ffffff;
+  text-align: left;
+}
+#modal03 #modal03-01 p:first-child {
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 70px;
+  padding-bottom: 11px;
+}
+#modal03 #modal03-01 p:nth-child(2) {
+  font-size: 26px;
+  color: #FFEC00;
+  padding-left: 30px;
+}
+#modal03 #modal03-01 img:nth-child(3) {
+  margin: 50px 0 40px 0;
+}
+#modal03 #modal03-01 img:nth-child(4) {
+  margin-bottom: 40px;
+}
+#modal03 #modal03-01 table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#modal03 #modal03-01 table tr {
+  height: 27px;
+  line-height: 27px;
+}
+#modal03 #modal03-01 table th,
+#modal03 #modal03-01 table td {
+  border: solid 1px #ffffff;
+}
+#modal03 #modal03-01 table th:first-child,
+#modal03 #modal03-01 table th:nth-child(2) {
+  border-right: solid 1px #C30D23;
+}
+#modal03 #modal03-01 table th {
+  background-color: #ffffff;
+  color: #C30D23;
+}
+#modal03 #modal03-01 table td {
+  color: #ffffff;
+}
+#modal03 #modal03-01 table td:first-child {
+  padding-left: 18px;
+  text-align: left;
+}
+#modal03 #modal03-01 p:nth-child(6) {
+  padding-left: 5%;
+  margin: 10px 0 50px 0;
+}
+#modal03 #modal03-01 p:nth-child(7) {
+  padding-left: 5%;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 44px;
+}
+#modal03 #modal03-01 p:nth-child(8) {
+  padding-left: 5%;
+  font-size: 11px;
+  line-height: 20px;
+  padding-bottom: 113px;
+  margin-left:1em;
+  text-indent:-1em;
+}
+
 /* .page */
 .page {
   position: relative;
@@ -474,7 +704,8 @@ animation-delay: 3.2s;
 header {
   position: relative;
   width: 100vw;
-  height: calc(70px + (100vw - 320px) / 4.5);
+  /* height: calc(70px + (100vw - 320px) / 4.5); */
+  height: calc(81 / 384 * 100vw);
   border-bottom: 3px solid #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
@@ -534,77 +765,6 @@ header {
   transform: translateY(0);
   }
 }
-#modal01 #modal01-01 {
-  position: relative;
-  width: 100%;
-  top: -60px;
-}
-#modal01 #modal01-01 img:first-child {
-  width: 100%;
-}
-#modal01 #modal01-01 img:nth-child(2) {
-  width: 70%;
-  position: relative;
-  top: -50px;
-}
-#modal01 #modal01-02 {
-  position: relative;
-  width: 100%;
-}
-#modal01 #modal01-02 p.modal01title01 {
-  font-size: 36px;
-  color: #C30D23;
-  margin-bottom: 28px;
-}
-#modal01 #modal01-02 p {
-  font-size: 12px;
-  line-height: 20px;
-  text-align: left;
-  padding-left: 20px;
-}
-#modal01 #modal01-02 img {
-  width: 100%;
-}
-#modal01 #modal01-02 #modal01-02img {
-  letter-spacing: -.4em;
-  width: 100%;
-}
-#modal01 #modal01-02 #modal01-02img img {
-  letter-spacing: normal;
-  width: 50%;
-  display: inline-block;
-}
-#modal01 #modal01-03 {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-#modal01 #modal01-03 img#modal01-03back {
-  position: absolute;
-  z-index: -1;
-  width: 200%;
-  top: 82px;
-  left: 52px;
-}
-#modal01 #modal01-03 p.modal01title02 {
-  font-size: 23px;
-  line-height: 31px;
-  color: #C30D23;
-  margin-bottom: 28px;
-}
-#modal01 #modal01-03 p {
-  font-size: 12px;
-  line-height: 20px;
-  text-align: left;
-  padding-left: 20px;
-}
-#modal01 #modal01-03 #modal01-03img img {
-  width: 75%;
-}
-#modal01 #modal01-03 #modal01-03img span {
-  display: block;
-}
-
 #mainimage {
   position: relative;
   width: 100%;
@@ -707,84 +867,6 @@ header {
   height: 100%;
   writing-mode: vertical-rl;
   display: inline-block;
-}
-#modal03 .modal-overlay .modal-wrap {
-  background-image: url('../images/ichimatsu_red.png');
-  background-repeat: repeat;
-  background-size: 200px;
-}
-#modal03 #modal03-01 {
-  position: relative;
-  width: 100%;
-  top: -60px;
-}
-#modal03 #modal03-01 p {
-  color: #ffffff;
-  text-align: left;
-}
-#modal03 #modal03-01 p:first-child {
-  font-size: 18px;
-  padding-left: 30px;
-  padding-top: 70px;
-  padding-bottom: 11px;
-}
-#modal03 #modal03-01 p:nth-child(2) {
-  font-size: 26px;
-  color: #FFEC00;
-  padding-left: 30px;
-}
-#modal03 #modal03-01 img:nth-child(3) {
-  margin: 50px 0 40px 0;
-}
-#modal03 #modal03-01 img:nth-child(4) {
-  margin-bottom: 40px;
-}
-#modal03 #modal03-01 table {
-  border-collapse: collapse;
-  width: 90%;
-  margin: 0 auto;
-  font-size: 12px;
-}
-#modal03 #modal03-01 table tr {
-  height: 27px;
-  line-height: 27px;
-}
-#modal03 #modal03-01 table th,
-#modal03 #modal03-01 table td {
-  border: solid 1px #ffffff;
-}
-#modal03 #modal03-01 table th:first-child,
-#modal03 #modal03-01 table th:nth-child(2) {
-  border-right: solid 1px #C30D23;
-}
-#modal03 #modal03-01 table th {
-  background-color: #ffffff;
-  color: #C30D23;
-}
-#modal03 #modal03-01 table td {
-  color: #ffffff;
-}
-#modal03 #modal03-01 table td:first-child {
-  padding-left: 18px;
-  text-align: left;
-}
-#modal03 #modal03-01 p:nth-child(6) {
-  padding-left: 5%;
-  margin: 10px 0 50px 0;
-}
-#modal03 #modal03-01 p:nth-child(7) {
-  padding-left: 5%;
-  font-size: 14px;
-  line-height: 22px;
-  margin-bottom: 44px;
-}
-#modal03 #modal03-01 p:nth-child(8) {
-  padding-left: 5%;
-  font-size: 11px;
-  line-height: 20px;
-  padding-bottom: 113px;
-  margin-left:1em;
-  text-indent:-1em;
 }
 #c19 {
   position: relative;
