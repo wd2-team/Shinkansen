@@ -12,6 +12,26 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
+  	<script>
+  (function(d) {
+    var config = {
+      kitId: 'qbw3zuc',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f%7C%7Ca&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<!-- <script>
+  (function(d) {
+    var config = {
+      kitId: 'guc3bwj',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f%7C%7Ca&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script> -->
   	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
@@ -54,15 +74,15 @@
 	<div id="guide">
 		<label for="modal-trigger03" class="guidelabel"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
 		<label for="modal-trigger01" class="guidelabel"><p>西九州新幹線かもめ</p></label>
-		<a href="#" class="guidelabel"><div><span>諫早市限定</span><p><span id="soonomikuji">まもなく</span></p><span>開通祈願</span></div></a>
+		<a href="#" class="guidelabel"><div><span>諫早市限定</span><p><span id="soonomikuji" class="omikujifont">まもなく</span></p><span>開通祈願</span></div></a>
 		<label for="modal-trigger02" class="guidelabel"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">
 		<p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p>
 	</div>
 	<div id="siteinfo">
-		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↘</a></div>
-		<div><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">JR九州公式サイト↘</a></div>
+		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↗</a></div>
+		<div><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">JR九州公式サイト↗</a></div>
 	</div>
 	<div id="event">
 		<p>主催：諫早市新幹線開業記念事業実行委員会</p>
@@ -72,13 +92,16 @@
 		<p>記念ムービー</p>
 	</div>
 	<div id="movie">
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div id="iframeoverlay">
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 	</div>
 	<div id="brochure">
 		<div id="brochuretitle">開通元年イベント総合案内</div>
 		<div id="brochurecontent">
 			<img src="images/main.webp" alt="パンフレット表紙">
 			<a href="images/kaitsu_gannen_isahaya_event.pdf">総合案内パンフレットを見る</a>
+			<p>各イベントのタイムテーブルはこちらから</p>
 		</div>
 	</div>
 	<div id="area">
@@ -139,8 +162,8 @@
 			<ul>
 				<li><a href="omikuji.php">おみくじ</a></li>
 				<li><label for="modal-trigger04">プライバシーポリシー</label></li>
-				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト</a></li>
-				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト</a></li>
+				<li><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↗</a></li>
+				<li><a href="https://www.jrkyushu.co.jp/train/nishikyushu/">西九州新幹線サイト↗</a></li>
 			</ul>
 			<p><img src="images/link_like_logo.svg" alt="諫早とLINK"></p>
 			<img id="footerimg02" src="images/shinkansen_kamome_moji.svg" alt="新幹線シルエット">
