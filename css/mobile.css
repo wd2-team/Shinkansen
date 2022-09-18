@@ -532,9 +532,11 @@ animation-delay: 3.2s;
 }
 #modal03 #modal03-01 img:nth-child(3) {
   margin: 50px 0 40px 0;
+  width: 80%;
 }
 #modal03 #modal03-01 img:nth-child(4) {
   margin-bottom: 40px;
+  width: 75%;
 }
 #modal03 #modal03-01 table {
   border-collapse: collapse;
@@ -557,9 +559,12 @@ animation-delay: 3.2s;
 #modal03 #modal03-01 table th {
   background-color: #ffffff;
   color: #C30D23;
+  font-size: 14px;
 }
 #modal03 #modal03-01 table td {
   color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.08em;
 }
 #modal03 #modal03-01 table td:first-child {
   padding-left: 18px;
@@ -567,13 +572,16 @@ animation-delay: 3.2s;
 }
 #modal03 #modal03-01 p:nth-child(6) {
   padding-left: 5%;
-  margin: 10px 0 50px 0;
+  margin: 7px 0 50px 0;
+  font-size: 13px;
+  letter-spacing: 0.08em;
 }
 #modal03 #modal03-01 p:nth-child(7) {
   padding-left: 5%;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 44px;
+  letter-spacing: 1em;
 }
 #modal03 #modal03-01 p:nth-child(8) {
   padding-left: 5%;
@@ -582,6 +590,7 @@ animation-delay: 3.2s;
   padding-bottom: 113px;
   margin-left:1em;
   text-indent:-1em;
+  letter-spacing: 0.1em;
 }
 #modal04 #modal04-01 {
   position: relative;
