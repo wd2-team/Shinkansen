@@ -1255,19 +1255,29 @@ footer #footerwrapper #footerimg02 {
   position: relative;
   color: #c30d23;
 }
+#kekkawrapper>img {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
 #kekkawrapper> p {
   font-size: 20px;
   line-height: 35px;
+  padding-top: 65px;
 }
 #kekkawrapper> p span {
   font-size: 32px;
 }
-#kekkawrapper #kekkacontent {
+#kekkawrapper #kekkaback {
   width: 100%;
   position: relative;
+  background-image: url('../images/shinkansen_yokomoji01.svg'), url('../images/shinkansen_yokomoji02.svg');
+  background-position: left 3vw top, right 3vw top;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 4vw;
 }
 #kekkawrapper #kekkacontent {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
