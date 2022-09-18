@@ -681,7 +681,7 @@ animation-delay: 3.2s;
   position: relative;
 }
 
-/* top */
+/* index */
 #indexwrapper {
   position: relative;
   width: 100%;
@@ -691,6 +691,7 @@ animation-delay: 3.2s;
   position: relative;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
 }
 #topimages {
   position: absolute;
@@ -733,7 +734,7 @@ animation-delay: 3.2s;
   height: auto;
 }
 
-/* index */
+/* main */
 header {
   position: relative;
   width: 100vw;
