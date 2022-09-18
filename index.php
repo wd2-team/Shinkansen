@@ -17,11 +17,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
-	<script>
+	<!-- <script>
 		setTimeout(function(){
 			window.location.replace('/main.php');
 		}, 5*1000);
-	</script>
+	</script> -->
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <?php elseif( is_tablet()) : ?>
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
