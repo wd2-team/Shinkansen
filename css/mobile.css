@@ -365,11 +365,17 @@ animation-delay: 3.2s;
 #modal01 #modal01-02 #modal01-02img {
   letter-spacing: -.4em;
   width: 100%;
+  margin-top: 70px;
 }
 #modal01 #modal01-02 #modal01-02img img {
   letter-spacing: normal;
   width: 50%;
   display: inline-block;
+}
+#modal01 #modal01-02 #modal01-02img p {
+  font-size: 10px;
+  margin-top: 13px;
+  margin-bottom: 24px;
 }
 #modal01 #modal01-03 {
   position: relative;
@@ -379,9 +385,9 @@ animation-delay: 3.2s;
 #modal01 #modal01-03 img#modal01-03back {
   position: absolute;
   z-index: -1;
-  width: 200%;
-  top: 82px;
-  left: 52px;
+  width: 220%;
+  top: 85px;
+  left: -20%;
 }
 #modal01 #modal01-03 p.modal01title02 {
   font-size: 23px;
@@ -395,11 +401,29 @@ animation-delay: 3.2s;
   text-align: left;
   padding-left: 20px;
 }
+#modal01 #modal01-03>p:nth-child(3) {
+  margin-bottom: 352px;
+}
+#modal01 #modal01-03>img:nth-child(6) {
+  margin-top: 34px;
+  margin-bottom: 56px;
+}
+#modal01 #modal01-03 #modal01-03img {
+  margin-top: 38px;
+  margin-bottom: 52px;
+}
 #modal01 #modal01-03 #modal01-03img img {
   width: 75%;
 }
 #modal01 #modal01-03 #modal01-03img span {
   display: block;
+  margin-top: 12px;
+  margin-bottom: 9px;
+}
+#modal01 #modal01-03 #modal01-03img p {
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 22px;
 }
 #modal02 #modal02-01 {
   position: relative;
@@ -1127,6 +1151,9 @@ footer #footerwrapper ul li a {
   font-size: 13px;
   display: inline-block;
   margin: 10px;
+}
+footer #footerwrapper ul li:first-child a {
+  pointer-events: none;
 }
 footer #footerwrapper ul li label {
   color: #c30d23;
