@@ -435,14 +435,14 @@ animation-delay: 3.2s;
 #modal02 #modal02-01 {
   position: relative;
   width: 100%;
-  height: 102px;
+  height: 70px;
   margin-top: -60px;
 }
 #modal02 #modal02-01 p {
   height: 100%;
   background-color: #C30D23;
   color: #ffffff;
-  line-height: 132px;
+  line-height: 71px;
   font-size: 18px;
 }
 #modal02 #modal02-01 img,
@@ -529,7 +529,7 @@ animation-delay: 3.2s;
 #modal03 #modal03-01 p:first-child {
   font-size: 18px;
   padding-left: 30px;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 11px;
 }
 #modal03 #modal03-01 p:nth-child(2) {
