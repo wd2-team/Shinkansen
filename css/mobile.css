@@ -346,12 +346,16 @@ animation-delay: 3.2s;
 }
 #modal01 #modal01-01 img:nth-child(2) {
   width: 70%;
-  position: relative;
-  top: -50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: calc(70 * 100vw / 375);
 }
 #modal01 #modal01-02 {
   position: relative;
   width: 100%;
+  margin-top: 110px;
 }
 #modal01 #modal01-02 p.modal01title01 {
   font-size: 36px;
@@ -608,10 +612,14 @@ animation-delay: 3.2s;
   text-indent:-1em;
   letter-spacing: 0.1em;
 }
+#modal04 .modal-overlay .modal-wrap {
+  margin-top: -60px;
+}
 #modal04 #modal04-01 {
   position: relative;
   width: 100%;
-  height: 40px;
+  height: 70px;
+  line-height: 71px;
   background-color: #ffffff;
   color: #C30D23;
   font-size: 18px;
