@@ -19,7 +19,7 @@
   	<?php if( is_mobile()) : ?>
 	<script>
 		setTimeout(function(){
-			window.location.href = '/main.php';
+			window.location.replace('/main.php');
 		}, 5*1000);
 	</script>
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
