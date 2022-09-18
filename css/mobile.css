@@ -550,7 +550,7 @@ animation-delay: 3.2s;
   margin-bottom: 40px;
   width: 75%;
 }
-#modal03 #modal03-01 table {
+/* #modal03 #modal03-01 table {
   border-collapse: collapse;
   width: 90%;
   margin: 0 auto;
@@ -581,21 +581,25 @@ animation-delay: 3.2s;
 #modal03 #modal03-01 table td:first-child {
   padding-left: 18px;
   text-align: left;
+} */
+#modal03 #modal03-01 img:nth-child(5) {
+  width: 90%;
+  margin-bottom: 50px;
 }
-#modal03 #modal03-01 p:nth-child(6) {
+/* #modal03 #modal03-01 p:nth-child(6) {
   padding-left: 5%;
   margin: 7px 0 50px 0;
   font-size: 13px;
   letter-spacing: 0.08em;
-}
-#modal03 #modal03-01 p:nth-child(7) {
+} */
+#modal03 #modal03-01 p:nth-child(6) {
   padding-left: 5%;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 44px;
   letter-spacing: 0.1em;
 }
-#modal03 #modal03-01 p:nth-child(8) {
+#modal03 #modal03-01 p:nth-child(7) {
   padding-left: 5%;
   font-size: 11px;
   line-height: 20px;
