@@ -119,7 +119,7 @@
 		</div>
 	</div>
 	<div id="insta">
-		<div id="instatitle">インスタグラム<br><span>@kaitsu_gannen_isahaya</span></div>
+		<div id="instatitle">インスタグラム<br><a href="https://www.instagram.com/kaitsu_gannen_isahaya/"><span>@kaitsu_gannen_isahaya</span></a></div>
 		<div id="instacontent">
 			<?php
 			$instagram = null;
