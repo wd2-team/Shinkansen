@@ -73,6 +73,7 @@
         <div id="kekkabox02-02" class="omikujifont">
           <p>ハートのイチョウ</p>
           <p>飯盛ふれあい会館には<br>ハートの形をした銀杏の木があり<br>秋には黄色のハートが見れるよ</p>
+          <img src="images/mappin.png">
         </div>
       </div>
       <div id="kekkabox03" class="omikujifont">
@@ -83,6 +84,7 @@
         <a href="#"><span>開通元年イベント</span><br>特設サイトはこちら</a>
         <p>9月23日･24日･25日<br>諫早市内の各会場で開催</p>
         <a href="#">おみくじアイディア募集中</a>
+        <p>※こちらからの返信はございません</p>
         <p>主催：諫早市新幹線開業記念事業実行委員会</p>
         <img src="images/shinkansen_kamome_moji.svg">
       </div>
