@@ -40,7 +40,11 @@
 <body>
 <div id="omikujiwrapper" class="page">
  	<img src="images/kaitsu-gannen.svg">
-	<p><a href="kekka.php"><img src="images/start.png"></a></p>
+	<p>
+    <img src="images/omikuji_mobile_top.svg">
+    <a href="kekka.php"><img src="images/omikuji_mobile_top_push_off.svg"></a>
+    <a href="kekka.php"><img src="images/omikuji_mobile_top_push_off.svg"></a>
+  </p>
 </div>
 <div id="sprecommendedwrapper">
   <div id="sprecommendedcontent">

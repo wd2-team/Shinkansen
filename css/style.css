@@ -121,6 +121,7 @@ button {
   min-width: 1080px;
   height: 100vh;
   height: 100dvh;
+  background-color: #ffffff;
   background-image: url('../images/5x2.svg'), url('../images/5x2.svg');
   background-position: left top, right top;
   background-repeat: repeat-y, repeat-y;

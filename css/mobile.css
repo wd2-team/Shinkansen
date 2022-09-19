@@ -1263,9 +1263,15 @@ footer #footerwrapper #footerimg02 {
   background-repeat: repeat-x, repeat-x;
   background-size: calc(100vw / 8.5);
 }
-#omikujiwrapper img {
+#omikujiwrapper>img {
   width: 100%;
   margin-top: calc(100vw / 8.5 / 2 * 3 + 10vw);
+}
+#omikujiwrapper p a {
+  position: absolute;
+}
+#omikujiwrapper p a img {
+  width: 30%;
 }
 #kekkawrapper {
   width: 100%;
