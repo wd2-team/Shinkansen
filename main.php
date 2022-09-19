@@ -102,7 +102,7 @@
 		<div id="brochurecontent">
 			<a href="images/kaitsu_gannen_isahaya_event.pdf"><img src="images/main.webp" alt="パンフレット表紙"></a>
 			<a href="images/kaitsu_gannen_isahaya_event.pdf">総合案内パンフレットを見る</a>
-			<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf">各イベントのタイムテーブルはこちらから</a>
+			<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf">◀ 各イベントのタイムテーブルはこちらから ▶</a>
 		</div>
 	</div>
 	<div id="area">
