@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 515.9 453.5" style="enable-background:new 0 0 515.9 453.5;" xml:space="preserve">
+	 viewBox="0 0 515.9 453.3" style="enable-background:new 0 0 515.9 453.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#830009;}
-	.st2{fill:#C30D23;}
-	.st3{opacity:0.25;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st2{clip-path:url(#SVGID_00000125593525178428087960000007743510325690707095_);fill:#C30D23;}
+	
+		.st3{opacity:0.25;clip-path:url(#SVGID_00000125593525178428087960000007743510325690707095_);fill:url(#SVGID_00000042014694536747139670000018140715941915876026_);enable-background:new    ;}
 </style>
-<pattern  y="907.1" width="45.5" height="45.5" patternUnits="userSpaceOnUse" id="b" viewBox="0 -45.5 45.5 45.5" style="overflow:visible;">
+<pattern  y="453.3" width="45.5" height="45.5" patternUnits="userSpaceOnUse" id="SVGID_0000012340701666279299485" viewBox="0 -45.5 45.5 45.5" style="overflow:visible;">
 	<g>
 		<rect y="-45.5" class="st0" width="45.5" height="45.5"/>
 		<g>
 			<rect y="-45.5" class="st0" width="45.5" height="45.5"/>
-			<rect x="22.7" y="-22.7" class="st1" width="22.7" height="22.7"/>
-			<rect y="-45.5" class="st1" width="22.7" height="22.7"/>
+			<g>
+				<rect y="-45.5" class="st0" width="45.5" height="45.5"/>
+				<g>
+					<rect y="-45.5" class="st0" width="45.5" height="45.5"/>
+					<rect x="22.7" y="-22.7" class="st1" width="22.7" height="22.7"/>
+					<rect y="-45.5" class="st1" width="22.7" height="22.7"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </pattern>
-<rect class="st2" width="515.9" height="453.5"/>
-<pattern  id="SVGID_1_" xlink:href="#b" patternTransform="matrix(1 0 0 -1 -111.8 -17148.3398)">
-</pattern>
-<rect class="st3" width="515.9" height="453.5"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="515.9" height="453.5"/>
+	</defs>
+	<clipPath id="SVGID_00000026843889854339193340000016246840604069970358_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<rect y="0" style="clip-path:url(#SVGID_00000026843889854339193340000016246840604069970358_);fill:#C30D23;" width="515.9" height="453.5"/>
+	
+		<pattern  id="SVGID_00000067943626167473175110000012438466512004404374_" xlink:href="#SVGID_0000012340701666279299485" patternTransform="matrix(1 0 0 -1 -33.8 -33620.5625)">
+	</pattern>
+	
+		<rect y="0" style="opacity:0.25;clip-path:url(#SVGID_00000026843889854339193340000016246840604069970358_);fill:url(#SVGID_00000067943626167473175110000012438466512004404374_);enable-background:new    ;" width="515.9" height="453.5"/>
+</g>
 </svg>
