@@ -375,7 +375,7 @@ animation-delay: 3.2s;
 #modal01 #modal01-02>img {
   width: 94%;
   margin-top: 35px;
-  margin-left: 25px;
+  margin-left: 6%;
   margin-bottom: -15px;
 }
 
@@ -450,6 +450,9 @@ animation-delay: 3.2s;
   margin-bottom: 22px;
   letter-spacing: 0.07em;
 }
+#modal02 .modal-overlay .modal-wrap {
+  overflow: hidden;
+}
 #modal02 #modal02-01 {
   position: relative;
   width: 100%;
@@ -474,7 +477,7 @@ animation-delay: 3.2s;
   font-size: 15px;
   line-height: 33px;
   display: block;
-  width: 96vw;
+  width: 95vw;
   margin: 0 auto;
   height: 33px;
   border-radius: 3vw;
@@ -766,7 +769,7 @@ animation-delay: 3.2s;
   position: absolute;
   width: 100%;
   letter-spacing: -.4em;
-  top: 50%;
+  top: calc(50% - 20px);
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -818,12 +821,14 @@ header {
   background-position: center center;
   background-size: 100%;
   background-image: url('../images/noren_chouchin_01.svg');
+  background-color: #C30D23;
 }
 #headlink {
   position: relative;
   width: 100vw;
   letter-spacing: -.4em;
   border-bottom: 3px solid #ffffff;
+  background-color: #C30D23;
 }
 #headlink>label {
   width: 50vw;
@@ -1110,7 +1115,7 @@ header {
   margin: 0 auto;
 }
 #brochure #brochurecontent a:nth-child(2) {
-  font-size: 13px;
+  font-size: 14px;
   display: inline-block;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 2px;
@@ -1160,6 +1165,10 @@ header {
   font-size: 15px;
   height: 118px;
   padding-top: 44px;
+}
+#insta #instatitle a {
+  display: inline-block;
+  color: #c30d23;
 }
 #insta #instatitle span {
   font-size: 12px;
