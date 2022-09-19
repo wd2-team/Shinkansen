@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/modal.css">
   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+  <link rel="icon" href="images/icon.png">
   <?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   <?php if( is_mobile()) : ?>
   <link rel="stylesheet" type="text/css" href="css/mobile.css">

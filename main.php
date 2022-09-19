@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
     <?php else: ?>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="images/icon.png">
     <?php endif; ?>
 	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
 	<!-- Google tag (gtag.js) -->
@@ -79,7 +80,7 @@
 		<label for="modal-trigger02" class="guidelabel"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">
-		<p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p>
+		<p>新型コロナウイルス感染症対策にご協力をお願いします</p><p>新型コロナウイルス感染症対策にご協力をお願いします</p><p>新型コロナウイルス感染症対策にご協力をお願いします</p><p>新型コロナウイルス感染症対策にご協力をお願いします</p>
 	</div>
 	<div id="siteinfo">
 		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↗</a></div>
