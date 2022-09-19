@@ -430,6 +430,7 @@ animation-delay: 3.2s;
 #modal01 #modal01-03>img:nth-child(6) {
   margin-top: 34px;
   margin-bottom: 56px;
+  width: 90%;
 }
 #modal01 #modal01-03 #modal01-03img {
   margin-top: 38px;
@@ -449,9 +450,6 @@ animation-delay: 3.2s;
   padding-left: 0;
   margin-bottom: 22px;
   letter-spacing: 0.07em;
-}
-#modal02 .modal-overlay .modal-wrap {
-  overflow: hidden;
 }
 #modal02 #modal02-01 {
   position: relative;
