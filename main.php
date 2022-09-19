@@ -115,6 +115,8 @@
 			    <div class="swiper-slide"><a href="images/konchu.webp"><img class="swiperitem dropshadow" src="images/konchu.webp" alt="昆虫ランドポスター"></a></div>
 			  </div>
 			  <div class="swiper-pagination"></div>
+			  <div id="area01triangleleft">◀</div>
+			  <div id="area01triangleright">▶</div>
 			</div>
 		</div>
 	</div>

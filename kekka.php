@@ -94,7 +94,7 @@
         </div>
       </div>
       <div id="kekkabox03" class="omikujifont">
-        <p><button onclick="drawKuji()">もう一度挑戦する</button></p>
+        <a href="kekka.php">もう一度挑戦する</a>
       </div>
       <div id="kekkabox04">
         <img src="images/kaitsu_type_b.svg">

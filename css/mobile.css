@@ -1154,6 +1154,18 @@ header {
   height: 63px;
   line-height: 63px;
 }
+#area01 #area01triangleleft {
+  position: absolute;
+  display: inline-block;
+  left: 33%;
+  bottom: calc(63px / 2 - 10px);
+}
+#area01 #area01triangleright {
+  position: absolute;
+  display: inline-block;
+  right: 33%;
+  bottom: calc(63px / 2 - 10px);
+}
 #insta {
   position: relative;
   width: 100%;
@@ -1294,7 +1306,16 @@ footer #footerwrapper #footerimg02 {
   background-position: center;
   background-size: 80%;
 }
+#omikujiwrapper #omikujicontent p a:link {
+  background-image: url('../images/omikuji_mobile_top_push_off.svg');
+}
+#omikujiwrapper #omikujicontent p a:visited {
+  background-image: url('../images/omikuji_mobile_top_push_off.svg');
+}
 #omikujiwrapper #omikujicontent p a:hover {
+  background-image: url('../images/omikuji_mobile_top_push_off.svg');
+}
+#omikujiwrapper #omikujicontent p a:active {
   background-image: url('../images/omikuji_mobile_top_push_on.svg');
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonleft {
@@ -1348,6 +1369,9 @@ footer #footerwrapper #footerimg02 {
   width: 80%;
   margin: 0 auto;
   position: relative;
+}
+#kekkawrapper #kekkacontent a {
+  color: #c30d23;
 }
 #kekkawrapper #kekkacontent #kekkabox01 {
   border: 3px solid #c30d23;
@@ -1432,17 +1456,14 @@ footer #footerwrapper #footerimg02 {
   font-size: 30px;
   line-height: 45px;
 }
-#kekkawrapper #kekkacontent #kekkabox03 p button {
+#kekkawrapper #kekkacontent #kekkabox03 a {
   font-size: 20px;
   letter-spacing: .4em;
   line-height: 50px;
   color: #c30d23;
   font-weight: 900;
 }
-#kekkawrapper #kekkacontent a {
-  color: #c30d23;
-}
-#kekkawrapper #kekkacontent #kekkabox03 + a {
+/* #kekkawrapper #kekkacontent #kekkabox03 + a {
   margin: 30px 0;
   display: inline-block;
   font-size: 18px;
@@ -1450,7 +1471,7 @@ footer #footerwrapper #footerimg02 {
 }
 #kekkawrapper #kekkacontent #kekkabox03 + a + img {
   width: 75%;
-}
+} */
 #kekkawrapper #kekkacontent #kekkabox04 {
   overflow: hidden;
 }
