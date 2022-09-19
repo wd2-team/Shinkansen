@@ -52,6 +52,21 @@
   <p>諫&emsp;早&emsp;市&emsp;限&emsp;定<br><span class="omikujifont">お&emsp;み&emsp;く&emsp;じ</span></p>
   <div id="kekkaback">
     <div id="kekkacontent">
+      <?php
+      function get_luck_data() {
+        $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=D71An70cQR7IdEEwyVUdM7AprFbQOxbk37_DIl9GQJfXvY28Ek2_SO6dE08cbEkOfN47m4VzTlN0FcqOup7Nlqdn-9gvHIBzm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnIXzT647ONc3aWmr4tbRmd2sLLk5gn7T-Uzd3xfo-HZd2UFjJ02hUWncQtNUlYwVhmeHF1aVl2Vt_i4YEl6wa6N3sE1xyZpz6dz9Jw9Md8uu&lib=MGCGSwU88mgjR4EiuwwnVWK_uYdcHmPPI';
+        if ( file_get_contents( $url ) ) {
+          $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
+          $json_decode = json_decode($data, true);
+          return $json_decode;
+        }
+      }
+      $lucks  = get_luck_data();
+      $randluck = rand(0,8);
+      $lucktitle = $lucks[$randluck]["title"];
+      $luckcontents = $lucks[$randluck]["content"];
+      $luckcontent = explode("。",$luckcontents);
+      ?>
       <div id="kekkabox01">
         <div id="kekkabox01-01">
           <div id="kekkabox01-01top">
@@ -60,12 +75,14 @@
             <img id="kekkabox01-01unagimigi" src="images/unagi_migi.svg">
           </div>
           <div id="kekkabox01-01content" class="omikujifont">
-            トントン拍子に<br>物事がすすむ
+            <?php echo $lucktitle; ?>
           </div>
-          <!-- <img class="kujikekka" src=""> -->
         </div>
         <div id="kekkabox01-02" class="omikujifont">
-          万事順調。諫早にはお米を食べて育つ<br>美味しい「諫美豚」がいるよ
+          <?php foreach ($luckcontent as $luckcon){
+            echo $luckcon;
+            echo '<br>';
+          } ?>
         </div>
       </div>
       <div id="kekkabox02">
