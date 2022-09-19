@@ -339,7 +339,17 @@
 		</div>
 	</div>
 </div>
-<div id="sprecommended"></div>
+<div id="sprecommendedwrapper">
+	<div id="sprecommendedcontent">
+	  	<img src="images/kaitsu-gannen.svg">
+	  	<div id="sprecommended" class="container">
+	      	<img src="images/site_qr.svg">
+	      	<p><span>開通元年イベント特設サイト</span><br>特設サイトはスマートフォンでのみご覧になれます</p>
+	      	<img src="images/site_qr.svg">
+	  	</div>
+	  	<p>主催：諫早市新幹線開業記念事業実行委員会</p>
+	</div>
+</div>
 <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
