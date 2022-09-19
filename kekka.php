@@ -62,11 +62,58 @@
           return $json_decode;
         }
       }
+      function get_item_data() {
+        $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=5ISYrODQUHB60gPs-ZkMWNgUEe-r6MygDcTdoNtlT92q-jSH3JaiVR9XrGZ_sMnb4tnEggmJ-z5d2ml3Nl7vuEcGyAm49CNXm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAUP0sBXi52xIy_p6v-6Lz4pj5WAk1clfHKWY_g6Usl8B3I9LSX7b9wbimy255tdC47ZUUuF93hWMwwv3CkrwcS7KsGIIxohiw&lib=MURsQyvxp9xRfkImfm-2mbhy_24_rZK5a';
+        if ( file_get_contents( $url ) ) {
+          $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
+          $json_decode = json_decode($data, true);
+          return $json_decode;
+        }
+      }
+      function get_spot_data() {
+        $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=cDVjNLGlSB51MLhFkDr1N38k-1rToEJP400Vd-WR8MOD9WEp_8gTEJSKaQET1h3nNu8BMNDD315d2ml3Nl7vuKXZzMK4L4R1m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnGrd7XCOjJun8jMlrgZtXTEN5zJblhTiqjkYYVAok-k5cfhfMQLJ_aonOidiBM2f90Es2jQ7FfD6RXV4URG5OlcRBhJtVIztNA&lib=MRM0HZ0153TD_AdZUnIivUxy_24_rZK5a';
+        if ( file_get_contents( $url ) ) {
+          $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
+          $json_decode = json_decode($data, true);
+          return $json_decode;
+        }
+      }
+      function get_food_data() {
+        $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=8M8cDXXeyVP4Ev8AOmT8RxxflHoutkTnir7BbxXwmRSEwqugmkC8Y3uNVpHwpBKypPcX9WcgaytU9pBUDUNktPGuySMm_Wh-m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMsOL5C9BpDRY-M5mpxKexHDmfg0sH4SCHEn1jSmdH6i7YzXD3W0EuowoYmGzIeMlUghh3CC7hlAyedGI1bBBFuroEXrdCm8Pw&lib=MHT1O2dQR523fwwczY4y04By_24_rZK5a';
+        if ( file_get_contents( $url ) ) {
+          $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
+          $json_decode = json_decode($data, true);
+          return $json_decode;
+        }
+      }
       $lucks  = get_luck_data();
+      $items  = get_item_data();
+      $spots  = get_spot_data();
+      $foods  = get_food_data();
       $randluck = rand(0,8);
       $lucktitle = $lucks[$randluck]["title"];
       $luckcontents = $lucks[$randluck]["content"];
       $luckcontent = explode("。",$luckcontents);
+      $randall = rand(0,2);
+      if ($randall == 0) {
+        $bottomh = 'ラッキーアイテム';
+        $randitem = rand(0,1);
+        $bottomtitle = $items[$randitem]["title"];
+        $itemcontents = $items[$randitem]["content"];
+        $bottomcontent = explode("。",$itemcontents);
+      } else if ($randall == 1) {
+        $bottomh = 'ラッキースポット';
+        $randspot = rand(0,1);
+        $bottomtitle = $spots[$randspot]["title"];
+        $spotcontents = $spots[$randspot]["content"];
+        $bottomcontent = explode("。",$spotcontents);
+      } else {
+        $bottomh = 'ラッキーフード';
+        $randfood = rand(0,1);
+        $bottomtitle = $foods[$randfood]["title"];
+        $foodcontents = $foods[$randfood]["content"];
+        $bottomcontent = explode("。",$foodcontents);
+      }
       ?>
       <div id="kekkabox01">
         <div id="kekkabox01-01">
@@ -87,10 +134,15 @@
         </div>
       </div>
       <div id="kekkabox02">
-        <div id="kekkabox02-01" class="omikujifont">ラッキースポット</div>
+        <div id="kekkabox02-01" class="omikujifont"><?php echo $bottomh; ?></div>
         <div id="kekkabox02-02" class="omikujifont">
-          <p>ハートのイチョウ</p>
-          <p>飯盛ふれあい会館には<br>ハートの形をした銀杏の木があり<br>秋には黄色のハートが見れるよ</p>
+          <p><?php echo $bottomtitle; ?></p>
+          <p>
+            <?php foreach ($bottomcontent as $bottomcon){
+              echo $bottomcon;
+              echo '<br>';
+            } ?>
+          </p>
           <img src="images/mappin.png">
         </div>
       </div>
