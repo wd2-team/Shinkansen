@@ -79,7 +79,7 @@
 		<label for="modal-trigger02" class="guidelabel"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">
-		<p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p><p>新型コロナウイルス感染症対策を行い運営されています</p>
+		<p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p><p>新型コロナウイルス感染症に対する取り組みと、ご協力をお願いします</p>
 	</div>
 	<div id="siteinfo">
 		<div><a href="https://www.city.isahaya.nagasaki.jp/post38/73612.html">諫早市公式サイト↗</a></div>
@@ -93,16 +93,16 @@
 		<p>記念ムービー</p>
 	</div>
 	<div id="movie">
-		<div id="iframeoverlay">
-			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMhpWsXnTwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+		<!-- <div id="iframeoverlay">
+			<iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div> -->
 	</div>
 	<div id="brochure">
 		<div id="brochuretitle">開通元年イベント総合案内</div>
 		<div id="brochurecontent">
-			<img src="images/main.webp" alt="パンフレット表紙">
+			<a href="images/kaitsu_gannen_isahaya_event.pdf"><img src="images/main.webp" alt="パンフレット表紙"></a>
 			<a href="images/kaitsu_gannen_isahaya_event.pdf">総合案内パンフレットを見る</a>
-			<p>各イベントのタイムテーブルはこちらから</p>
+			<a href="images/kaitsu_gannen_isahaya_time_Schedule.pdf">各イベントのタイムテーブルはこちらから</a>
 		</div>
 	</div>
 	<div id="area">
@@ -220,7 +220,7 @@
 		<div class="modal-wrap">
 			<label for="modal-trigger02" class="close dropshadow"><img src="images/modoru.svg" alt="戻るボタン"></label>
 			<div id="modal02-01">
-				<p>イベントのご案内</p>
+				<p>開通元年イベントのご案内</p>
 			</div>
 			<div id="modal02-02">
 				<img src="images/event_info-01.webp">
