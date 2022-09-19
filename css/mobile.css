@@ -1265,13 +1265,36 @@ footer #footerwrapper #footerimg02 {
 }
 #omikujiwrapper>img {
   width: 100%;
-  margin-top: calc(100vw / 8.5 / 2 * 3 + 10vw);
+  margin-top: calc(100vw / 8.5 / 2 * 3);
 }
 #omikujiwrapper p a {
   position: absolute;
+  width: 29%;
+  height: 29vw;
+  top: calc(100vw / 8.5 / 2 * 3 + 100vw * 50 / 71 + 100vw / 375 * 217);
+  background-image: url('../images/omikuji_mobile_top_push_off.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
 }
-#omikujiwrapper p a img {
-  width: 30%;
+#omikujiwrapper p a:hover {
+  background-image: url('../images/omikuji_mobile_top_push_on.svg');
+}
+#omikujiwrapper p a#omikujibuttonleft {
+  left: 0;
+}
+#omikujiwrapper p a#omikujibuttonright {
+  right: 0;
+}
+#omikujiwrapper>a {
+  font-size: 16px;
+  display: inline-block;
+  color: #c30d23;
+  margin-top: 10px;
+}
+#omikujiwrapper p:last-child {
+  font-size: 10px;
+  color: #c30d23;
 }
 #kekkawrapper {
   width: 100%;
