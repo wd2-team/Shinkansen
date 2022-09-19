@@ -1270,40 +1270,52 @@ footer #footerwrapper #footerimg02 {
   background-position: left top, left bottom;
   background-repeat: repeat-x, repeat-x;
   background-size: calc(100vw / 8.5);
+  padding-bottom: calc(100vw / 8.5 * 3 / 2);
 }
-#omikujiwrapper>img {
+#omikujiwrapper #omikujicontent>img {
+  width: 90%;
+  margin-top: calc(100vw / 8.5 / 2 * 3 + 10vw);
+  margin-bottom: calc(5vw);
+}
+#omikujiwrapper #omikujicontent img {
+  width: 90%;
+}
+#omikujiwrapper #omikujicontent p {
+  position: relative;
   width: 100%;
-  margin-top: calc(100vw / 8.5 / 2 * 3);
 }
-#omikujiwrapper p a {
+#omikujiwrapper #omikujicontent p a {
   position: absolute;
   width: 29%;
   height: 29vw;
-  top: calc(100vw / 8.5 / 2 * 3 + 100vw * 50 / 71 + 100vw / 375 * 217);
+  top: calc(90vw / 375 * 207);
   background-image: url('../images/omikuji_mobile_top_push_off.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
 }
-#omikujiwrapper p a:hover {
+#omikujiwrapper #omikujicontent p a:hover {
   background-image: url('../images/omikuji_mobile_top_push_on.svg');
 }
-#omikujiwrapper p a#omikujibuttonleft {
-  left: 0;
+#omikujiwrapper #omikujicontent p a#omikujibuttonleft {
+  left: 2.5vw;
 }
-#omikujiwrapper p a#omikujibuttonright {
-  right: 0;
+#omikujiwrapper #omikujicontent p a#omikujibuttonright {
+  right: 2.5vw;
 }
-#omikujiwrapper>a {
+#omikujiwrapper #omikujicontent>a {
   font-size: 16px;
   display: inline-block;
   color: #c30d23;
   margin-top: 10px;
 }
-#omikujiwrapper p:last-child {
+#omikujiwrapper #omikujicontent p:last-child {
   font-size: 10px;
   color: #c30d23;
+  line-height: 24px;
+  padding-bottom: 10px;
 }
+
 #kekkawrapper {
   width: 100%;
   min-height: 100vh;

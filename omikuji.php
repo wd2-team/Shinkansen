@@ -38,15 +38,17 @@
 </script>
 </head>
 <body>
-<div id="omikujiwrapper" class="page">
- 	<img src="images/kaitsu-gannen.svg">
-	<p>
-    <img src="images/omikuji_mobile_top.svg">
-    <a id="omikujibuttonleft" href="kekka.php"></a>
-    <a id="omikujibuttonright" href="kekka.php"></a>
-  </p>
-  <a href="index.php">開通元年イベント特設サイトはこちら</a>
-  <p>主催：諫早市新幹線開業記念事業実行委員会</p>
+<div id="omikujiwrapper">
+  <div id="omikujicontent">
+   	<img src="images/kaitsu-gannen.svg">
+  	<p>
+      <img src="images/omikuji_mobile_top.svg">
+      <a id="omikujibuttonleft" href="kekka.php"></a>
+      <a id="omikujibuttonright" href="kekka.php"></a>
+    </p>
+    <a href="index.php">開通元年イベント特設サイトはこちら</a>
+    <p>主催：諫早市新幹線開業記念事業実行委員会</p>
+  </div>
 </div>
 <div id="sprecommendedwrapper">
   <div id="sprecommendedcontent">
