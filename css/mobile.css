@@ -1014,6 +1014,7 @@ header {
   height: 44px;
   position: relative;
   letter-spacing: -.4em;
+  background-color: #c30d23;
 }
 #siteinfo div {
   display: inline-block;
