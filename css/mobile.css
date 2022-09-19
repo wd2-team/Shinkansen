@@ -788,10 +788,10 @@ animation-delay: 3.2s;
 #topbottom {
   position: absolute;
   width: 100%;
-  bottom: -10px;
+  bottom: 18px;
 }
 #topbottom img {
-  width: 300px;
+  width: 270px;
   height: auto;
 }
 
@@ -985,10 +985,12 @@ header {
 }
 #c19 {
   position: relative;
-  font-size: 12px;
   padding-top: 19px;
   padding-bottom: 19px;
   color: #c30d23;
+}
+#c19 p {
+  font-size: 12px;
 }
 #siteinfo {
   width: 100%;
@@ -1056,9 +1058,13 @@ header {
   right: 0;
   left: 0;
   background-color: #c30d23;
-  outline: 2px solid #c30d23 !important;
-  outline-offset: -1px;
+  /* outline: 2px solid #c30d23 !important;
+  outline-offset: -1px; */
   pointer-events: none;
+  background-image: url('../images/movie_junbichu.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 #movie iframe {
   position: absolute;

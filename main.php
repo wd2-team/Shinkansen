@@ -93,9 +93,9 @@
 		<p>記念ムービー</p>
 	</div>
 	<div id="movie">
-		<!-- <div id="iframeoverlay">
-			<iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div> -->
+		<div id="iframeoverlay">
+			<!-- <iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+		</div>
 	</div>
 	<div id="brochure">
 		<div id="brochuretitle">開通元年イベント総合案内</div>
