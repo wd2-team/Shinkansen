@@ -1270,40 +1270,52 @@ footer #footerwrapper #footerimg02 {
   background-position: left top, left bottom;
   background-repeat: repeat-x, repeat-x;
   background-size: calc(100vw / 8.5);
+  padding-bottom: calc(100vw / 8.5 * 3 / 2);
 }
-#omikujiwrapper>img {
+#omikujiwrapper #omikujicontent>img {
+  width: 90%;
+  margin-top: calc(100vw / 8.5 / 2 * 3 + 10vw);
+  margin-bottom: calc(5vw);
+}
+#omikujiwrapper #omikujicontent img {
+  width: 90%;
+}
+#omikujiwrapper #omikujicontent p {
+  position: relative;
   width: 100%;
-  margin-top: calc(100vw / 8.5 / 2 * 3);
 }
-#omikujiwrapper p a {
+#omikujiwrapper #omikujicontent p a {
   position: absolute;
   width: 29%;
   height: 29vw;
-  top: calc(100vw / 8.5 / 2 * 3 + 100vw * 50 / 71 + 100vw / 375 * 217);
+  top: calc(90vw / 375 * 207);
   background-image: url('../images/omikuji_mobile_top_push_off.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
 }
-#omikujiwrapper p a:hover {
+#omikujiwrapper #omikujicontent p a:hover {
   background-image: url('../images/omikuji_mobile_top_push_on.svg');
 }
-#omikujiwrapper p a#omikujibuttonleft {
-  left: 0;
+#omikujiwrapper #omikujicontent p a#omikujibuttonleft {
+  left: 2.5vw;
 }
-#omikujiwrapper p a#omikujibuttonright {
-  right: 0;
+#omikujiwrapper #omikujicontent p a#omikujibuttonright {
+  right: 2.5vw;
 }
-#omikujiwrapper>a {
+#omikujiwrapper #omikujicontent>a {
   font-size: 16px;
   display: inline-block;
   color: #c30d23;
   margin-top: 10px;
 }
-#omikujiwrapper p:last-child {
+#omikujiwrapper #omikujicontent p:last-child {
   font-size: 10px;
   color: #c30d23;
+  line-height: 24px;
+  padding-bottom: 10px;
 }
+
 #kekkawrapper {
   width: 100%;
   min-height: 100vh;
@@ -1346,6 +1358,7 @@ footer #footerwrapper #footerimg02 {
   margin: 3px;
   margin-bottom: 0;
   border-bottom: 1px solid #c30d23;
+  padding-bottom: 100px;
 }
 #kekkawrapper #kekkacontent #kekkabox01 #kekkabox01-01 #kekkabox01-01top {
   height: 100px;
@@ -1370,7 +1383,6 @@ footer #footerwrapper #footerimg02 {
   margin: 0 auto;
   font-size: 32px;
   line-height: 40px;
-  padding-bottom: 40px;
 }
 #kekkawrapper #kekkacontent #kekkabox01 #kekkabox01-02 {
   border: 3px solid #c30d23;
@@ -1411,6 +1423,9 @@ footer #footerwrapper #footerimg02 {
   line-height: 20px;
   padding-bottom: 30px;
 }
+#kekkawrapper #kekkacontent #kekkabox02 #kekkabox02-02 img {
+  width: 26px;
+}
 #kekkawrapper #kekkacontent #kekkabox03 {
   border: 3px solid #c30d23;
   border-top: 2px solid #c30d23;
@@ -1446,17 +1461,36 @@ footer #footerwrapper #footerimg02 {
 #kekkawrapper #kekkacontent #kekkabox04 a:nth-child(2) {
   display: inline-block;
   border-bottom: 3px solid #c30d23;
+  font-size: 25px;
+  line-height: 30px;
+}
+#kekkawrapper #kekkacontent #kekkabox04 a:nth-child(2) span {
+  font-size: 20px;
 }
 #kekkawrapper #kekkacontent #kekkabox04 p:nth-child(3) {
-
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 35px;
+  margin-bottom: 56px;
 }
 #kekkawrapper #kekkacontent #kekkabox04 a:nth-child(4) {
-
+  width: 70vw;
+  height: 60px;
+  font-size: 13px;
+  line-height: 60px;
+  display: inline-block;
+  border: 3px solid #c30d23;
 }
 #kekkawrapper #kekkacontent #kekkabox04 p:nth-child(5) {
-
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 33px;
 }
-#kekkawrapper #kekkacontent #kekkabox04 img:nth-child(6) {
+#kekkawrapper #kekkacontent #kekkabox04 p:nth-child(6) {
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+#kekkawrapper #kekkacontent #kekkabox04 img:nth-child(7) {
   position: relative;
   bottom: -30px;
 }
