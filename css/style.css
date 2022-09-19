@@ -125,6 +125,7 @@ button {
   background-position: left top, right top;
   background-repeat: repeat-y, repeat-y;
   background-size: calc(115 * (100vw / 1080));
+  overflow: auto;
 }
 #sprecommendedcontent {
   width: 100%;
