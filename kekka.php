@@ -195,9 +195,9 @@
       </div>
       <div id="kekkabox04">
         <img src="images/kaitsu_type_b.svg">
-        <a href="#"><span>開通元年イベント</span><br>特設サイトはこちら</a>
+        <a href="index.php"><span>開通元年イベント</span><br>特設サイトはこちら</a>
         <p>9月23日･24日･25日<br>諫早市内の各会場で開催</p>
-        <a href="#">おみくじアイディア募集中</a>
+        <a href="mailto:kaitsugannen@gmail.com?subject=%E3%81%8A%E3%81%BF%E3%81%8F%E3%81%98%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A3%E3%82%A2">おみくじアイディア募集中</a>
         <p>※こちらからの返信はございません</p>
         <p>主催：諫早市新幹線開業記念事業実行委員会</p>
         <img src="images/shinkansen_kamome_moji.svg">
