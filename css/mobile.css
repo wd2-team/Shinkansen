@@ -1528,6 +1528,7 @@ footer #footerwrapper #footerimg02 {
 #kekkawrapper #kekkacontent #kekkabox04 img:nth-child(7) {
   position: relative;
   bottom: -30px;
+  width: 80%;
 }
 .kuji {
  width: 200px;
