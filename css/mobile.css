@@ -1371,6 +1371,7 @@ footer #footerwrapper #footerimg02 {
   width: 80%;
   margin: 0 auto;
   position: relative;
+  /* opacity: 0; */
 }
 #kekkawrapper #kekkacontent a {
   color: #c30d23;

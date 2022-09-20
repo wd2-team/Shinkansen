@@ -76,6 +76,11 @@ $(function(){
     i++;
   }
   setInterval(showSoonomikuji, 1800);
+
+  // setTimeout(function(){
+  //   $("#kekkacontent").css("display", "block");
+  //   $("#kekkacontent").stop().animate({opacity:'1'},1000);
+  // },1500);
 });
 
 // $('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');

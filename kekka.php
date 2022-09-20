@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html class="result" lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="content-language" content="ja">
-	<meta name="description" content="西九州新幹線開通元年　つながりましておめでとうございます">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="西九州新幹線開通元年">
-	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta charset="UTF-8">
+  <meta http-equiv="content-language" content="ja">
+  <meta name="description" content="西九州新幹線開通元年　つながりましておめでとうございます">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="西九州新幹線開通元年">
+  <meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <meta property="og:image" content="images/ogp.png">
   <link rel="icon" href="images/icon.png">
-	<script
-  	src="https://code.jquery.com/jquery-2.2.4.js"
-  	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  	crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
     <script>
   (function(d) {
     var config = {
