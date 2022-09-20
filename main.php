@@ -9,6 +9,7 @@
 	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<meta property="og:image" content="images/ogp.png">
+	<link rel="icon" href="images/icon.png">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -35,7 +36,6 @@
     <link rel="stylesheet" type="text/css" href="css/tablet.css">
     <?php else: ?>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="icon" href="images/icon.png">
     <?php endif; ?>
 	<title>西九州新幹線開通元年　つながりましておめでとうございます</title>
 	<!-- Google tag (gtag.js) -->

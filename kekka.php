@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="result" lang="ja">
+<html class="result" lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="content-language" content="ja">
@@ -8,6 +8,8 @@
 	<meta property="og:title" content="西九州新幹線開通元年">
 	<meta property="og:description" content="西九州新幹線開通元年　つながりましておめでとうございます">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta property="og:image" content="images/ogp.png">
+  <link rel="icon" href="images/icon.png">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -26,7 +28,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-<link rel="icon" href="images/icon.png">
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
 	<?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   	<?php if( is_mobile()) : ?>
