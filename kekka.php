@@ -51,7 +51,7 @@
 <body>
 <div id="kekkawrapper" class="page">
   <img src="images/omikuji_kumo.svg">
-  <p>諫&emsp;早&emsp;市&emsp;限&emsp;定<br><span class="omikujifont">お&emsp;み&emsp;く&emsp;じ</span></p>
+  <p>諫&ensp;早&ensp;市&ensp;限&ensp;定<br><span class="omikujifont">お&emsp;み&emsp;く&emsp;じ</span></p>
   <div id="kekkaback">
     <div id="kekkacontent">
       <?php
@@ -100,7 +100,7 @@
       $randluck = rand(0,$cntlucks);
       $lucktitle = $lucks[$randluck]["TITLE"];
       $luckcontents = $lucks[$randluck]["CONTENT"];
-      $luckcontent = explode("。",$luckcontents);
+      $luckcontent = explode("br",$luckcontents);
 
       $itemjson = file_get_contents("json/item.json");
       $itemjson = mb_convert_encoding($itemjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
@@ -110,7 +110,7 @@
       $randitem = rand(0,$cntitems);
       $itemtitle = $items[$randitem]["TITLE"];
       $itemcontents = $items[$randitem]["CONTENT"];
-      $itemcontent = explode("。",$itemcontents);
+      $itemcontent = explode("br",$itemcontents);
 
       $spotjson = file_get_contents("json/spot.json");
       $spotjson = mb_convert_encoding($spotjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
@@ -120,7 +120,7 @@
       $randspot = rand(0,$cntspots);
       $spottitle = $spots[$randspot]["TITLE"];
       $spotcontents = $spots[$randspot]["CONTENT"];
-      $spotcontent = explode("。",$spotcontents);
+      $spotcontent = explode("br",$spotcontents);
       $spotmap = false;
 
       $foodjson = file_get_contents("json/food.json");
@@ -131,7 +131,7 @@
       $randfood = rand(0,$cntfoods);
       $foodtitle = $foods[$randfood]["TITLE"];
       $foodcontents = $foods[$randfood]["CONTENT"];
-      $foodcontent = explode("。",$foodcontents);
+      $foodcontent = explode("br",$foodcontents);
 
       $randall = rand(0,2);
       if ($randall == 0) {
@@ -139,20 +139,20 @@
         $randitem = rand(0,$cntitems);
         $bottomtitle = $items[$randitem]["TITLE"];
         $itemcontents = $items[$randitem]["CONTENT"];
-        $bottomcontent = explode("。",$itemcontents);
+        $bottomcontent = explode("br",$itemcontents);
       } else if ($randall == 1) {
         $bottomh = 'ラッキースポット';
         $randspot = rand(0,$cntspots);
         $bottomtitle = $spots[$randspot]["TITLE"];
         $spotcontents = $spots[$randspot]["CONTENT"];
-        $bottomcontent = explode("。",$spotcontents);
+        $bottomcontent = explode("br",$spotcontents);
         $spotmap = $spots[$randspot]["MAP"];
       } else {
         $bottomh = 'ラッキーフード';
         $randfood = rand(0,$cntfoods);
         $bottomtitle = $foods[$randfood]["TITLE"];
         $foodcontents = $foods[$randfood]["CONTENT"];
-        $bottomcontent = explode("。",$foodcontents);
+        $bottomcontent = explode("br",$foodcontents);
       }
       ?>
       <div id="kekkabox01">
