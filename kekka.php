@@ -91,7 +91,7 @@
       // $items  = get_item_data();
       // $spots  = get_spot_data();
       // $foods  = get_food_data();
-      $luckjson = file_get_contents("luck.json");
+      $luckjson = file_get_contents("json/luck.json");
       $luckjson = mb_convert_encoding($luckjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
       $luckjson = trim($luckjson);
       $lucks = json_decode($luckjson,true);
@@ -102,7 +102,7 @@
       $luckcontents = $lucks[$randluck]["CONTENT"];
       $luckcontent = explode("。",$luckcontents);
 
-      $itemjson = file_get_contents("item.json");
+      $itemjson = file_get_contents("json/item.json");
       $itemjson = mb_convert_encoding($itemjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
       $itemjson = trim($itemjson);
       $items = json_decode($itemjson,true);
@@ -112,7 +112,7 @@
       $itemcontents = $items[$randitem]["CONTENT"];
       $itemcontent = explode("。",$itemcontents);
 
-      $spotjson = file_get_contents("spot.json");
+      $spotjson = file_get_contents("json/spot.json");
       $spotjson = mb_convert_encoding($spotjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
       $spotjson = trim($spotjson);
       $spots = json_decode($spotjson,true);
@@ -122,7 +122,7 @@
       $spotcontents = $spots[$randspot]["CONTENT"];
       $spotcontent = explode("。",$spotcontents);
 
-      $foodjson = file_get_contents("food.json");
+      $foodjson = file_get_contents("json/food.json");
       $foodjson = mb_convert_encoding($foodjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
       $foodjson = trim($foodjson);
       $foods = json_decode($foodjson,true);

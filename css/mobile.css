@@ -1320,11 +1320,11 @@ footer #footerwrapper #footerimg02 {
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonleft {
   left: 2.5vw;
-  display: none;
+  /* display: none; */
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonright {
   right: 2.5vw;
-  display: none;
+  /* display: none; */
 }
 #omikujiwrapper #omikujicontent>a {
   font-size: 16px;
