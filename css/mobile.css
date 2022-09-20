@@ -1320,9 +1320,11 @@ footer #footerwrapper #footerimg02 {
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonleft {
   left: 2.5vw;
+  display: none;
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonright {
   right: 2.5vw;
+  display: none;
 }
 #omikujiwrapper #omikujicontent>a {
   font-size: 16px;
@@ -1462,6 +1464,9 @@ footer #footerwrapper #footerimg02 {
   line-height: 50px;
   color: #c30d23;
   font-weight: 900;
+}
+#kekkawrapper #kekkacontent #kekkabox03 a:hover {
+  opacity: 0.8;
 }
 /* #kekkawrapper #kekkacontent #kekkabox03 + a {
   margin: 30px 0;
