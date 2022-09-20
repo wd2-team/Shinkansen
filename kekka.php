@@ -121,6 +121,7 @@
       $spottitle = $spots[$randspot]["TITLE"];
       $spotcontents = $spots[$randspot]["CONTENT"];
       $spotcontent = explode("。",$spotcontents);
+      $spotmap = false;
 
       $foodjson = file_get_contents("json/food.json");
       $foodjson = mb_convert_encoding($foodjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
@@ -145,6 +146,7 @@
         $bottomtitle = $spots[$randspot]["TITLE"];
         $spotcontents = $spots[$randspot]["CONTENT"];
         $bottomcontent = explode("。",$spotcontents);
+        $spotmap = $spots[$randspot]["MAP"];
       } else {
         $bottomh = 'ラッキーフード';
         $randfood = rand(0,$cntfoods);
@@ -181,7 +183,11 @@
               echo '<br>';
             } ?>
           </p>
-          <img src="images/mappin.png">
+          <?php
+          if ($spotmap) {
+            echo '<a href="' . $spotmap . '"><img src="images/mappin.png"></a>';
+          }
+          ?>
         </div>
       </div>
       <div id="kekkabox03" class="omikujifont">

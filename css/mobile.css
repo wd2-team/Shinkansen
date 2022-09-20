@@ -1313,7 +1313,7 @@ footer #footerwrapper #footerimg02 {
   background-image: url('../images/omikuji_mobile_top_push_off.svg');
 }
 #omikujiwrapper #omikujicontent p a:hover {
-  background-image: url('../images/omikuji_mobile_top_push_off.svg');
+  background-image: url('../images/omikuji_mobile_top_push_on.svg');
 }
 #omikujiwrapper #omikujicontent p a:active {
   background-image: url('../images/omikuji_mobile_top_push_on.svg');
