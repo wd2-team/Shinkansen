@@ -77,13 +77,16 @@ $(function(){
   }
   setInterval(showSoonomikuji, 1800);
 
-  // setTimeout(function(){
-  //   $("#kekkacontent").css("display", "block");
-  //   $("#kekkacontent").stop().animate({opacity:'1'},1000);
-  // },1500);
+  setTimeout(function() {
+    $('#animewrapper').fadeOut();
+    }, 5000);
+  setTimeout(function(){
+    $("#kekkawrapper").css("display", "block");
+    $("#kekkawrapper").css("height", "auto");
+    $("#kekkawrapper").css("overflow", "scroll");
+    $("#kekkawrapper").stop().animate({opacity:'1'},1000);
+  },6000);
 });
-
-// $('input:checked').parents('#wrapper').setAttribute('pointer-events', 'none');
 
 const mySwiper = new Swiper('.swiper', {
   loop: true,
@@ -110,24 +113,14 @@ function ScrollAnime() {
     }
     beforePos = scroll;
 }
-// 画面をスクロールをしたら動かしたい場合の記述
 $(window).scroll(function () {
-  ScrollAnime();//スクロール途中でヘッダーが消え、上にスクロールすると復活する関数を呼ぶ
+  ScrollAnime();
 });
-// ページが読み込まれたらすぐに動かす
-// $(window).on('load', function () {
-//   ScrollAnime();
-// });
 
-
-
-
-//リンク先のidまでスムーススクロール
-//※ページ内リンクを行わない場合は不必要なので削除してください
-    var headerH = $("#header").outerHeight(true);//headerの高さを取得    
-    $('#g-navi li a').click(function () {
+var headerH = $("#header").outerHeight(true);
+$('#g-navi li a').click(function () {
   var elmHash = $(this).attr('href'); 
-  var pos = $(elmHash).offset().top-headerH;//header分の高さを引いた高さまでスクロール
+  var pos = $(elmHash).offset().top-headerH;
   $('body,html').animate({scrollTop: pos}, 1000);
   return false;
 });

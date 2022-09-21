@@ -55,42 +55,6 @@
   <div id="kekkaback">
     <div id="kekkacontent">
       <?php
-      // function get_luck_data() {
-      //   $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=IFb5O_hshyKz-lwgO-9PXyIB-vr6qv58ZXm7oE4DBsQpSL8VQLqjpBnF1MyT9rLjj0FkfRAhRomEIXpFWwj2-9O4e2zoBU6cm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnPjA4vZP3kadAuJuzpzL5koPUII50xE12s06RXRup_1s2P2olDgsFnQCfDGcbcVYl0tUWAzVnsI5cSoiKtjBZBtY_lYMCeX2Q9z9Jw9Md8uu&lib=MGCGSwU88mgjR4EiuwwnVWK_uYdcHmPPI';
-      //   if ( file_get_contents( $url ) ) {
-      //     $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
-      //     $json_decode = json_decode($data, true);
-      //     return $json_decode;
-      //   }
-      // }
-      // function get_item_data() {
-      //   $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=5ISYrODQUHB60gPs-ZkMWNgUEe-r6MygDcTdoNtlT92q-jSH3JaiVR9XrGZ_sMnb4tnEggmJ-z5d2ml3Nl7vuEcGyAm49CNXm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAUP0sBXi52xIy_p6v-6Lz4pj5WAk1clfHKWY_g6Usl8B3I9LSX7b9wbimy255tdC47ZUUuF93hWMwwv3CkrwcS7KsGIIxohiw&lib=MURsQyvxp9xRfkImfm-2mbhy_24_rZK5a';
-      //   if ( file_get_contents( $url ) ) {
-      //     $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
-      //     $json_decode = json_decode($data, true);
-      //     return $json_decode;
-      //   }
-      // }
-      // function get_spot_data() {
-      //   $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=cDVjNLGlSB51MLhFkDr1N38k-1rToEJP400Vd-WR8MOD9WEp_8gTEJSKaQET1h3nNu8BMNDD315d2ml3Nl7vuKXZzMK4L4R1m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnGrd7XCOjJun8jMlrgZtXTEN5zJblhTiqjkYYVAok-k5cfhfMQLJ_aonOidiBM2f90Es2jQ7FfD6RXV4URG5OlcRBhJtVIztNA&lib=MRM0HZ0153TD_AdZUnIivUxy_24_rZK5a';
-      //   if ( file_get_contents( $url ) ) {
-      //     $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
-      //     $json_decode = json_decode($data, true);
-      //     return $json_decode;
-      //   }
-      // }
-      // function get_food_data() {
-      //   $url = 'https://script.googleusercontent.com/macros/echo?user_content_key=8M8cDXXeyVP4Ev8AOmT8RxxflHoutkTnir7BbxXwmRSEwqugmkC8Y3uNVpHwpBKypPcX9WcgaytU9pBUDUNktPGuySMm_Wh-m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMsOL5C9BpDRY-M5mpxKexHDmfg0sH4SCHEn1jSmdH6i7YzXD3W0EuowoYmGzIeMlUghh3CC7hlAyedGI1bBBFuroEXrdCm8Pw&lib=MHT1O2dQR523fwwczY4y04By_24_rZK5a';
-      //   if ( file_get_contents( $url ) ) {
-      //     $data = mb_convert_encoding( file_get_contents( $url ), 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN' );
-      //     $json_decode = json_decode($data, true);
-      //     return $json_decode;
-      //   }
-      // }
-      // $lucks  = get_luck_data();
-      // $items  = get_item_data();
-      // $spots  = get_spot_data();
-      // $foods  = get_food_data();
       $luckjson = file_get_contents("json/luck.json");
       $luckjson = mb_convert_encoding($luckjson, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
       $luckjson = trim($luckjson);
@@ -98,7 +62,8 @@
 
       $cntlucks = count($lucks) - 1;
       $randluck = rand(0,$cntlucks);
-      $lucktitle = $lucks[$randluck]["TITLE"];
+      $lucktitles = $lucks[$randluck]["TITLE"];
+      $lucktitle = explode("br",$lucktitles);
       $luckcontents = $lucks[$randluck]["CONTENT"];
       $luckcontent = explode("br",$luckcontents);
 
@@ -163,7 +128,10 @@
             <img id="kekkabox01-01unagimigi" src="images/unagi_migi.svg">
           </div>
           <div id="kekkabox01-01content" class="omikujifont">
-            <?php echo $lucktitle; ?>
+            <?php foreach ($lucktitle as $luckti){
+              echo $luckti;
+              echo '<br>';
+            } ?>
           </div>
         </div>
         <div id="kekkabox01-02" class="omikujifont">
@@ -205,6 +173,36 @@
     </div>
   </div>
 </div>
+<div id="animewrapper">
+  <div id="animetopwrapper">
+    <div id="animetopimages">
+      <div id="animetopleft">
+        <img class="delay-time07 fadeUp" src="images/tsunagari_moji-08.svg">
+        <img class="delay-time08 fadeUp" src="images/tsunagari_moji-09.svg">
+        <img class="delay-time09 fadeUp" src="images/tsunagari_moji-10.svg">
+        <img class="delay-time10 fadeUp" src="images/tsunagari_moji-11.svg">
+        <img class="delay-time11 fadeUp" src="images/tsunagari_moji-12.svg">
+        <img class="delay-time12 fadeUp" src="images/tsunagari_moji-13.svg">
+        <img class="delay-time13 fadeUp" src="images/tsunagari_moji-14.svg">
+        <img class="delay-time14 fadeUp" src="images/tsunagari_moji-15.svg">
+        <img class="delay-time15 fadeUp" src="images/tsunagari_moji-16.svg">
+        <img class="delay-time16 fadeUp" src="images/tsunagari_moji-17.svg">
+      </div>
+      <div id="animetopright">
+        <img class="fadeUp" src="images/tsunagari_moji-01.svg">
+        <img class="delay-time01 fadeUp" src="images/tsunagari_moji-02.svg">
+        <img class="delay-time02 fadeUp" src="images/tsunagari_moji-03.svg">
+        <img class="delay-time03 fadeUp" src="images/tsunagari_moji-04.svg">
+        <img class="delay-time04 fadeUp" src="images/tsunagari_moji-05.svg">
+        <img class="delay-time05 fadeUp" src="images/tsunagari_moji-06.svg">
+        <img class="delay-time06 fadeUp" src="images/tsunagari_moji-07.svg">
+      </div>
+    </div>
+    <div id="animetopbottom">
+      <img class="slideUp" src="images/shinkansen_kamome_moji.svg">
+    </div>
+  </div><!-- #animetopwrapper -->
+</div><!-- #animewrapper -->
 <div id="sprecommendedwrapper">
   <div id="sprecommendedcontent">
       <img src="images/kaitsu-gannen.svg">
