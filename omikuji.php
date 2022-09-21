@@ -53,7 +53,7 @@
   <div id="omikujicontent">
    	<img src="images/kaitsu-gannen.svg">
   	<p>
-      <img src="images/omikuji_mobile_machi_01.svg">
+      <img src="images/omikuji_mobile_top.svg">
       <a id="omikujibuttonleft" href="kekka.php"></a>
       <a id="omikujibuttonright" href="kekka.php"></a>
     </p>

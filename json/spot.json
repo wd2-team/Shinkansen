@@ -3,154 +3,144 @@
 		"ID": 1,
 		"TITLE": "諫早の眼鏡橋",
 		"CONTENT": "どんなに強い流れにも屈しない眼鏡橋は永久不滅の象徴。元々は今の場所から500m川下の本明川に架かっていたよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/zeA9B6ufeiRK8YXT7"
 	},
 	{
 		"ID": 2,
 		"TITLE": "ハートのイチョウ",
 		"CONTENT": "飯盛ふれあい会館にはハートの形をした銀杏の木があり、秋には黄色のハートが見れるよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/tizZXCGv2ETxgUuZ8"
 	},
 	{
 		"ID": 3,
 		"TITLE": "諫早公園の大クス",
 		"CONTENT": "かつて諫早城があった諫早公園の頂上にあり、いつもまちを見守ってくれています。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/tzyvz76t1bzBHcqm9"
 	},
 	{
 		"ID": 4,
 		"TITLE": "小長井のオガタマノキ",
 		"CONTENT": "樹齢1000年以上と言われる日本一大きなオガタマノキ 。神様を招く縁起の良い木だよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/zPjrZRVsXwwZCzBZ8"
 	},
 	{
 		"ID": 5,
 		"TITLE": "女夫木(めおとぎ)の大スギ",
 		"CONTENT": "夫婦木(めおとぎ)の地名の由来にもなった巨大な杉の木。夫婦仲、恋人仲が良くなるかも。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/wi7NoKzA1B9pJr5d6"
 	},
 	{
 		"ID": 6,
 		"TITLE": "たらみ図書館",
 		"CONTENT": "大村湾に面している海をテーマにした図書館。近くの海にはスナメリという小型のイルカが住んでいるよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/2E32JTZfRyiUnjcK9"
 	},
 	{
 		"ID": 7,
 		"TITLE": "森山図書館",
 		"CONTENT": "森山の美しい自然に囲まれた純和風図書館は、日本最大規模の木造図書館なんだ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/JGwNQB4qcJ3tJSke9"
 	},
 	{
 		"ID": 8,
 		"TITLE": "五家原岳",
 		"CONTENT": "諫早市と大村市の市境になっている諫早最高峰の山。山頂にある展望所には登山でも車でも行けるんだ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/ACardeqpZgBQQaWbA"
 	},
 	{
 		"ID": 9,
 		"TITLE": "白木峰高原",
 		"CONTENT": "五家原岳の中腹に広がる白木峰高原は、諫早屈しの絶景スポット。秋は一面コスモスの絨毯が広がるよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/6DJEfyYkcrwADPuYA"
 	},
 	{
 		"ID": 10,
 		"TITLE": "結の浜",
 		"CONTENT": "飯盛町にあるビーチは、ウミガメが産卵に訪れたことがあるくらい綺麗な砂浜が広がっているよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/3ipTr7sL6QTMSwkL8"
 	},
 	{
 		"ID": 11,
 		"TITLE": "有喜UKIビーチ",
 		"CONTENT": "マリンスポーツや釣りを楽しめる、のどかな漁村にあるビーチ。晴れた日には島原半島が綺麗に見えるよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/PbJcBeMpC9vZKpKRA"
 	},
 	{
 		"ID": 12,
 		"TITLE": "諫早カラーマンホール",
 		"CONTENT": "アエル商店街の中には、色がついたカラーマンホールがあるよ。探してみてね。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/3ChHsFpdFKLkx5Tk7"
 	},
 	{
 		"ID": 13,
 		"TITLE": "ヴィヴィくんマンホール",
 		"CONTENT": "諫早駅からトランスコスモススタジアムへ続くVファーレンロード内にヴィヴィ君のマンホールがあるよ。探してみてね。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/pTx6ajtLieWpFdE69"
 	},
 	{
 		"ID": 14,
 		"TITLE": "スターバックス諫早駅店",
 		"CONTENT": "新幹線ホームの真上に位置するお店の窓からは、新幹線かもめを見ることが出来るよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/rVCgsH3vwonSXtEw7"
 	},
 	{
 		"ID": 15,
 		"TITLE": "スターバックス諫早多良見店",
 		"CONTENT": "店内には佐世保出身のアーティスト 溝上強さんの作品が飾られているよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/nZGu6f9dztxEnL3h9"
 	},
 	{
 		"ID": 16,
 		"TITLE": "がめんとさん",
 		"CONTENT": "諫早公園の頂上、諫早城本丸跡にある亀の塔(がめんとさん)。諫早城にはお城を守った亀の伝説が残っているよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/tzyvz76t1bzBHcqm9"
 	},
 	{
 		"ID": 17,
 		"TITLE": "高城神社の花手水",
 		"CONTENT": "諫早家初代 龍造寺家晴公を祀った神社の手水舎には花が浮かべられていて綺麗だよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/KS89AMRksKXxk4PYA"
 	},
 	{
 		"ID": 18,
 		"TITLE": "諫早神社",
 		"CONTENT": "平安時代創建、九州の守り神をおまつりする神社。美しい御朱印を拝受しよう。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/hn1xeDth1FsjS9YE9"
 	},
 	{
 		"ID": 19,
 		"TITLE": "御館山神社",
 		"CONTENT": "平安時代末期に築かれた、商売の神様をおまつりする神社。普賢岳から昇る日の出が見れます。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/HrinMem8iRwC83ny7"
 	},
 	{
 		"ID": 20,
 		"TITLE": "金泉寺",
 		"CONTENT": "弘法大師 空海が西暦808年に創建したとされるお寺。多くの修験者が訪れたパワースポット。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/92NLiYu1sWSzW2a18"
 	},
 	{
 		"ID": 21,
 		"TITLE": "天祐寺",
-		"CONTENT": "諫早家の菩提寺だった天祐寺。秋はイチョウの名所として多くの方が訪れます。",
-		"CATEGORY": "spot",
+		"CONTENT": "諫早家の菩提寺だった天祐寺。秋はイチョウの名所として多くの方が訪れるよ。",
 		"MAP": "https://goo.gl/maps/U5jg1S2zChY81XTd6"
 	},
 	{
 		"ID": 22,
 		"TITLE": "安勝寺",
 		"CONTENT": "その昔、大名やシーボルトも泊まった由緒あるお寺。時計がない時代から昭和19年まで周辺住民に時刻を知らせた｢時鐘｣があるよ。",
-		"CATEGORY": "spot",
 		"MAP": "https://goo.gl/maps/9xk37Jxgg3kmXUpn7"
+	},
+	{
+		"ID": 23,
+		"TITLE": "フルーツバス停",
+		"CONTENT": "5種類のフルーツの形をした可愛いバス停。「シンデレラ」に登場する「カボチャの馬車」をモチーフにしたと言われているよ。",
+		"MAP": "https://goo.gl/maps/vdb8vnDhihQrCrrZ7"
+	},
+	{
+		"ID": 24,
+		"TITLE": "諫早中央干拓",
+		"CONTENT": "諫早中央干拓は越冬で鹿児島に向かう鶴の経由地になっているんだ。マナヅルとナベヅルを見ることが出来るよ。",
+		"MAP": "https://goo.gl/maps/PCSScdeE9wyxq2Zr5"
 	}
 ]
