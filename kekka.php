@@ -185,7 +185,7 @@
           </p>
           <?php
           if ($spotmap) {
-            echo '<a href="' . $spotmap . '"><img src="images/mappin.png"></a>';
+            echo '<a href="' . $spotmap . '"><img src="images/spot.svg"></a>';
           }
           ?>
         </div>
