@@ -66,7 +66,7 @@
 	<div id="guide">
 		<label for="modal-trigger03" class="guidelabel"><p><span>無料シャトルバス</span><br><span>のご案内</span></p></label>
 		<label for="modal-trigger01" class="guidelabel"><p>西九州新幹線かもめ</p></label>
-		<a href="#" class="guidelabel"><div><span>諫早市限定</span><p><span id="soonomikuji" class="omikujifont">まもなく</span></p><span>開通祈願</span></div></a>
+		<a href="omikuji.php" class="guidelabel"><div><span>諫早市限定</span><p><span class="omikujifont">おみくじ</span></p><span>開通祈願</span></div></a>
 		<label for="modal-trigger02" class="guidelabel"><p><span>開通元年イベント</span><br><span>のご案内</span></p></label>
 	</div>
 	<div id="c19" class="loop_wrap">

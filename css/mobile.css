@@ -912,9 +912,9 @@ header {
   border-top: 3px solid #c30d23;
   border-bottom: 3px solid #c30d23;
 }
-#guide a.guidelabel {
+/* #guide a.guidelabel {
   pointer-events: none;
-}
+} */
 #guide label.guidelabel:nth-child(odd),
 #guide a.guidelabel:nth-child(odd) {
   background-color: #ffffff;
@@ -1320,13 +1320,9 @@ footer #footerwrapper #footerimg02 {
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonleft {
   left: 2.5vw;
-  /* display: none; */
-  pointer-events: none;
 }
 #omikujiwrapper #omikujicontent p a#omikujibuttonright {
   right: 2.5vw;
-  /* display: none; */
-  pointer-events: none;
 }
 #omikujiwrapper #omikujicontent>a {
   font-size: 16px;

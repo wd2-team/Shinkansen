@@ -62,20 +62,20 @@ $(function(){
      bodyFixedOff();
    });
 
-  const soonomikuji = document.getElementById('soonomikuji');
-  const soontexts = [
-    'おみくじ',
-    'まもなく'
-  ];
-  let i = 0;
-  function showSoonomikuji() {
-    if (i == 2) {
-      i = 0;
-    }
-    soonomikuji.textContent = soontexts[i];
-    i++;
-  }
-  setInterval(showSoonomikuji, 1800);
+  // const soonomikuji = document.getElementById('soonomikuji');
+  // const soontexts = [
+  //   'おみくじ',
+  //   'まもなく'
+  // ];
+  // let i = 0;
+  // function showSoonomikuji() {
+  //   if (i == 2) {
+  //     i = 0;
+  //   }
+  //   soonomikuji.textContent = soontexts[i];
+  //   i++;
+  // }
+  // setInterval(showSoonomikuji, 1800);
 
   setTimeout(function() {
     $('#animewrapper').fadeOut();
