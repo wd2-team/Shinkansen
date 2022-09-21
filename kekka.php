@@ -73,7 +73,8 @@
       $items = json_decode($itemjson,true);
       $cntitems = count($items) - 1;
       $randitem = rand(0,$cntitems);
-      $itemtitle = $items[$randitem]["TITLE"];
+      $itemtitles = $items[$randitem]["TITLE"];
+      $itemtitle = explode("br",$itemtitles);
       $itemcontents = $items[$randitem]["CONTENT"];
       $itemcontent = explode("br",$itemcontents);
 
@@ -83,7 +84,8 @@
       $spots = json_decode($spotjson,true);
       $cntspots = count($spots) - 1;
       $randspot = rand(0,$cntspots);
-      $spottitle = $spots[$randspot]["TITLE"];
+      $spottitles = $spots[$randspot]["TITLE"];
+      $spottitle = explode("br",$spottitles);
       $spotcontents = $spots[$randspot]["CONTENT"];
       $spotcontent = explode("br",$spotcontents);
       $spotmap = false;
@@ -94,7 +96,8 @@
       $foods = json_decode($foodjson,true);
       $cntfoods = count($foods) - 1;
       $randfood = rand(0,$cntfoods);
-      $foodtitle = $foods[$randfood]["TITLE"];
+      $foodtitles = $foods[$randfood]["TITLE"];
+      $foodtitle = explode("br",$foodtitles);
       $foodcontents = $foods[$randfood]["CONTENT"];
       $foodcontent = explode("br",$foodcontents);
 
@@ -102,20 +105,23 @@
       if ($randall == 0) {
         $bottomh = 'ラッキーアイテム';
         $randitem = rand(0,$cntitems);
-        $bottomtitle = $items[$randitem]["TITLE"];
+        $bottomtitles = $items[$randitem]["TITLE"];
+        $bottomtitle = explode("br",$itemtitles);
         $itemcontents = $items[$randitem]["CONTENT"];
         $bottomcontent = explode("br",$itemcontents);
       } else if ($randall == 1) {
         $bottomh = 'ラッキースポット';
         $randspot = rand(0,$cntspots);
-        $bottomtitle = $spots[$randspot]["TITLE"];
+        $bottomtitles = $spots[$randspot]["TITLE"];
+        $bottomtitle = explode("br",$spottitles);
         $spotcontents = $spots[$randspot]["CONTENT"];
         $bottomcontent = explode("br",$spotcontents);
         $spotmap = $spots[$randspot]["MAP"];
       } else {
         $bottomh = 'ラッキーフード';
         $randfood = rand(0,$cntfoods);
-        $bottomtitle = $foods[$randfood]["TITLE"];
+        $bottomtitles = $foods[$randfood]["TITLE"];
+        $bottomtitle = explode("br",$foodtitles);
         $foodcontents = $foods[$randfood]["CONTENT"];
         $bottomcontent = explode("br",$foodcontents);
       }
@@ -144,7 +150,12 @@
       <div id="kekkabox02">
         <div id="kekkabox02-01" class="omikujifont"><?php echo $bottomh; ?></div>
         <div id="kekkabox02-02" class="omikujifont">
-          <p><?php echo $bottomtitle; ?></p>
+          <p>
+            <?php foreach ($bottomtitle as $bottomti){
+              echo $bottomti;
+              echo '<br>';
+            } ?>
+          </p>
           <p>
             <?php foreach ($bottomcontent as $bottomcon){
               echo $bottomcon;
