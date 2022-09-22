@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="content-language" content="ja">
-	<meta name="description" content="西九州新幹線の開業を記念した、諫早市開通元年イベント特設サイトです。つながりましておめでとうございます。シャトルバスやイベントのご案内、諫早市限定おみくじもあります。">
+	<meta name="description" content="西九州新幹線の開業を記念した、諫早市開通元年イベント特設サイトです。つながりましておめでとうございます。">
 	<meta property="og:title" content="西九州新幹線開通元年">
-	<meta property="og:description" content="西九州新幹線の開業を記念した、諫早市開通元年イベント特設サイトです。つながりましておめでとうございます。シャトルバスやイベントのご案内、諫早市限定おみくじもあります。">
+	<meta property="og:description" content="西九州新幹線の開業を記念した、諫早市開通元年イベント特設サイトです。つながりましておめでとうございます。">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://kaitsu-gannen-isahaya.com/main">
 	<meta property="og:image" content="images/ogp.png">
@@ -89,7 +89,9 @@
 	<div id="movie">
 		<div id="iframeoverlay">
 			<!-- <iframe width="560" height="315" src="#" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-			<!-- <iframe src="#"frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+
+			<!-- <iframe src="https://player.vimeo.com/video/752477899?h=b03d99aa6a&color=fe0303&title=0&byline=0&portrait=0"frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+
 		</div>
 	</div>
 	<div id="brochure">
