@@ -34,7 +34,7 @@
   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
   <?php $Path = "./"; include(dirname(__FILE__).'/functions.php'); ?>
   <?php if( is_mobile()) : ?>
-  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css?20220923">
   <?php elseif( is_tablet()) : ?>
   <link rel="stylesheet" type="text/css" href="css/tablet.css">
   <?php else: ?>

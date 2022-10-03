@@ -1077,7 +1077,7 @@ header {
   /* outline: 2px solid #c30d23 !important;
   outline-offset: -1px; */
   pointer-events: none;
-  background-image: url('../images/movie_junbichu.svg');
+  /* background-image: url('../images/movie_junbichu.svg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1249,9 +1249,6 @@ footer #footerwrapper ul li a {
   font-size: 13px;
   display: inline-block;
   margin: 10px;
-}
-footer #footerwrapper ul li:first-child a {
-  pointer-events: none;
 }
 footer #footerwrapper ul li label {
   color: #c30d23;
